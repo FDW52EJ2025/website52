@@ -48,7 +48,10 @@ ul li {
 .container > .artista {
     border: 2px solid #6dafe6;
 }
-
+.artista:hover {
+    background-color: #ffffff; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
 
 body {
     background-color: #f8f1e7;
@@ -73,4 +76,13 @@ body {
 h2 + div {
     border-top: 2px solid #d4a373;
     padding-top: 15px;
+}
+
+#titulo:hover {
+    color: #ff5733;
+}
+
+#titulo::before {
+    content: "🎨 ";
+    color: #6a5acd;
 }
