@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
 }
 
 p {
@@ -140,3 +141,28 @@ nav a {
     background-color: #ff4f88;
 }
 
+ /* pseudo clases */
+h1:hover {
+    outline: 1px solid purple;
+    padding: 4px;
+    font-size: medium;
+    background-color: rgb(123, 29, 177);
+}  */
+
+/* pseudo elementos */
+.parrafo {
+    padding: 10px; 
+    display: block;
+}
+
+.parrafo::first-line {
+    text-decoration: underline; 
+    font-weight: bold; 
+    color: rgb(6, 204, 121); 
+}
+
+/* Selector hermano general */
+.pie-de-mi-pagina ~ div {
+    background-color: blueviolet;
+    color: #0f2027;
+}
