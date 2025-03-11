@@ -40,3 +40,143 @@
             font-style: italic;
             color: #ff0;
         }
+        
+        header {
+          background-color: #28a745; 
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        header h1 {
+          margin-bottom: 10px;
+          font-size: 2.5rem;
+        }
+        
+          
+          /* Selectores de clase y pseudo-clases */
+          header nav {
+            display: inline-block;
+            margin: 0 5px;
+          }
+          
+          header nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            transition: background-color 0.3s;
+          }
+          
+          /* Pseudo-clase :hover */
+          header nav a:hover {
+            background-color: #218838; 
+            border-radius: 4px;
+          }
+          
+          /* Pseudo-clase :active */
+          header nav a:active {
+            background-color: #1e7e34;
+          }
+          
+          /* Pseudo-clase :focus */
+          header nav a:focus {
+            outline: 2px solid #fff;
+          }
+          
+          main {
+            background-color: #fff;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          }
+          
+          main h2 {
+            color: #28a745;
+            text-align: center;
+            margin-bottom: 15px;
+          }
+          
+          main ol {
+            margin-left: 20px;
+            font-size: 1.1rem;
+          }
+          
+          /* Pseudo-clase :first-child */
+          main ol li:first-child {
+            font-weight: bold;
+            color: red;
+          }
+          
+          /* Pseudo-clase :last-child */
+          main ol li:last-child {
+            font-style: italic;
+          }
+          
+          /* Pseudo-clase :nth-child(odd) */
+          main ol li:nth-child(odd) {
+            background-color: #e9f5e9;
+          }
+          
+          /* Pseudo-clase :nth-child(even) */
+          main ol li:nth-child(even) {
+            background-color: #d4edda;
+          }
+          
+          aside {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px;
+          }
+          
+          aside h3 {
+            width: 100%;
+            text-align: center;
+            color: #28a745;
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+          }
+          
+          aside img {
+            width: 300px;      
+            height: 200px;     
+            object-fit: cover; 
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+          }
+          
+          /* Pseudo-clase :hover en imagen */
+          aside img:hover {
+            transform: scale(1.05);
+          }
+          
+          /* Pseudo-clase :active en imagen */
+          aside img:active {
+            border-color: #28a745;
+          }
+          
+          /* Pseudo-elemento ::before */
+          main h2::before {
+            content: "🎬 ";
+          }
+          
+          /* Pseudo-elemento ::after */
+          main h2::after {
+            content: " 🎥";
+          }
+          
+          /* Pseudo-elemento ::first-letter */
+          header h1::first-letter {
+            font-size: 3rem;
+            color: yellow;
+          }
+          
+          /* Pseudo-elemento ::marker */
+          main ol li::marker {
+            color: #28a745;
+          }
