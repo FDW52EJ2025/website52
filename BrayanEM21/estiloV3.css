@@ -102,7 +102,7 @@ img:hover {
 }
 
 #favorito p:last-child::after {
-    content: " \ud83d\udcaa \u00a1Sigue entrenando!";
+    content: " 💪 ¡Sigue entrenando!";
     font-weight: bold;
     color: #ffcc00;
 }
