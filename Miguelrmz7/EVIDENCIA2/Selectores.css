@@ -17,3 +17,40 @@ header+h2 {
 .Hijos p{
     color: green;
 }
+
+section:first-child {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+article:last-child {
+    border-bottom: 2px solid black;
+}
+
+ul li:nth-child(odd) {
+    background-color: pink;
+}
+
+
+ul li:nth-child(even) {
+    background-color: yellowgreen;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+article h2:first-of-type {
+    color: #007bff;
+}
+
+p::first-letter {
+    font-size: 2em;
+    color: #ff6347;
+    font-weight: bold;
+}
+
+table tr:nth-last-child(2) {
+    background-color: #f2f2f2;
+    font-style: italic;
+}
