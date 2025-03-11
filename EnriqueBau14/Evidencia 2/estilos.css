@@ -1,42 +1,162 @@
-.contenedor {
-    border: 1px solid black;
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f9f3f0; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff7f50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cajas {
+    border: 2px solid #ff7f50; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff5f0; 
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.cajas h3 {
+    color: #ff7f50; 
+    font-size: 1.4em;
+    margin-top: 0;
+}
+
+.Imagenes-Selectores {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd; 
+}
+
+br {
+    margin-bottom: 20px; 
+}
+
+main h2 {
+    color: #ff7f50; 
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ff7f50; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.cajas + .cajas {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .cajas {
+        padding: 15px;
+    }
+}
+
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+footer address {
+    margin-bottom: 15px;
+}
+
+footer address p {
+    margin: 5px 0;
+}
+
+footer address a {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 5px 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #f4f4f4;
     border-radius: 5px;
-    padding-left: 10px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-#s-universal * {
-    color: pink;
+footer address a:hover {
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-#s-clase .grande {
-    font-size: 30px;
+footer form {
+    margin-top: 20px;
 }
 
-#s-id #div1 {
-    color: green;
+footer form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#s-tipo p {
-    border-radius: 2px rgb(212, 89, 7);
+footer form label {
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
-#s-tipo-clase p.info {
-    border: 1px solid gold;
-    box-shadow: 5 px 5 px 5px gold;
+footer form input[type="number"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
-#s-lista div, h3 {
-    text-transform: uppercase;
+footer form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-#s-descendientes article*{
-    border-bottom: 2px dotted blueviolet;
-}
-
-#s-hijos article > p{
-    background-color:  green;
-}
-
-#s-hermano-ady article h2+p {
-    color: aqua;
+footer form input[type="submit"]:hover {
+    background-color: #333;
+    color: #f4f4f4;
 }
