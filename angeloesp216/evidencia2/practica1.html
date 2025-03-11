@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Selectores en CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        img {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Práctica 1</h1>
+        
+        <div class="section">
+            <h2>Selector Universal (*)</h2>
+            <p>Este selector aplica estilos a todos los elementos de la página.</p>
+            <img src="imagenes/Selector universal CSS.png" alt="Código CSS del selector universal">
+            <img src="imagenes/Vista general.png" alt="Vista en la web del selector universal">
+        </div>
+        
+        <div class="section">
+            <h2>Selector de Etiqueta (Elemento)</h2>
+            <p>Se aplica a todas las etiquetas de un tipo específico (ej. `body`, `p`, `h1`).</p>
+            <img src="imagenes/Selector elemento.png" alt="Código CSS del selector de etiqueta">
+            <img src="imagenes/Vista general.png" alt="Vista en la web del selector de etiqueta">
+        </div>
+        
+        <div class="section">
+            <h2>Selector de Clase (.clase)</h2>
+            <p>Se usa para seleccionar elementos con una clase específica.</p>
+            <img src="imagenes/Selector clase.png" alt="Código CSS del selector de clase">
+            <img src="imagenes/Vista general.png" alt="Vista en la web del selector de clase">
+        </div>
+        
+        <div class="section">
+            <h2>Selector de ID (#id)</h2>
+            <p>Aplica estilos a un solo elemento con un ID único.</p>
+            <img src="imagenes/Selector ID.png" alt="Código CSS del selector de ID">
+            <img src="imagenes/Resultado_ID.png" alt="Vista en la web del selector de ID">
+        </div>
+        
+        <div class="section">
+            <h2>Selector de Descendencia (padre hijo)</h2>
+            <p>Selecciona elementos dentro de otro elemento específico.</p>
+            <img src="imagenes/Selector descendientes.png" alt="Código CSS del selector de descendencia">
+            <img src="imagenes/Resultado_descendientes.png" alt="Vista en la web del selector de descendencia">
+        </div>
+        
+        <div class="section">
+            <h2>Pseudoelementos y Pseudoclases</h2>
+            <p>Ejemplos como `p::first-letter` o `a:hover`.</p>
+            <img src="imagenes/Selector pseudo-elemento.png" alt="Código CSS del pseudoselector">
+            <img src="imagenes/Resultado_pseudo-elemento.png" alt="Vista en la web del pseudoselector">
+        </div>
+    </div>
+</body>
+</html>
