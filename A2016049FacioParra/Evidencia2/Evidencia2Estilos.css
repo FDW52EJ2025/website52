@@ -43,7 +43,7 @@ nav a {
 /* Selector de clase */
 #s-clase-tipo-2 {
     font-size: 26px;
-    margin: 20px auto;
+    margin: 20px auto; 
     padding: 15px;
     border: 2px solid rgb(122, 35, 35);
     border-radius: 10px;
@@ -124,7 +124,7 @@ nav a {
     padding: 4px ;
     background-color: #ff4f88;
 }
-
+    
 /* Selector de hijos directos*/
 .contenedor > article {
     border: 2px solid red;
@@ -139,4 +139,39 @@ nav a {
     padding: 4px ;
     background-color: #ff4f88;
 }
+/*Practica 2?*/
+/* selector adyacente*/
+.color{
+    color: red;
+}
+.color + p {
+    border: 2px solid orange;
+}
+ /*selector por hermano general*/
+h2 ~ audio {
+    border: 2px solid green;
+}
 
+/* pseudo clase hover */
+a:hover {
+    color: blue;
+}
+/* pseudo clase active */
+a:active {
+    color: green;
+}
+/* pseudo clase visited */
+a:visited {
+    color: gray;
+}
+/* Esto agrega un icono de música después del título */
+h1::after {
+    content: " 🎶"; 
+    font-size: 30px;
+}
+
+/* Estilo para el contenido antes de los párrafos con la clase .color */
+h1::before {
+    content: "📀 ";  
+    font-size: 20px;
+}

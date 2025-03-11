@@ -40,4 +40,51 @@ input {
     color: palevioletred;
 } 
 
-  
+header p {
+    color: green;
+}
+
+article > p {
+    color:coral;
+}
+
+h2.serie ~ p {
+    color: blueviolet;
+} 
+
+header p::first-line {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header p::first-letter {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Pagina peliculas */
+#ul li:first-child {
+    color: brown;
+    font-weight: bold;
+}
+
+#ul li:last-child {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Pagina pintar */
+ul li:nth-child(3) {
+    color:blue;
+}
+
+ul li:nth-child(odd) {
+    color:purple;
+}
+
+ul li:nth-child(even) {
+    color:coral;
+}
+
