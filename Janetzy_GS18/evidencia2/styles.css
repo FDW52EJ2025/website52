@@ -46,24 +46,11 @@
 }
 
 /*Selector por tipo*/
-
 nav {
     background: radial-gradient(circle at center, #1a1a2e, #16213e, #0f3460);
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: monospace;
-    background-color: transparent;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 address {
