@@ -28,23 +28,24 @@
     filter: blur(80px);
     border-radius: 50%;
 }
-.nebulosa:nth-child(1) { top: 100px; left: 50px; }
-.nebulosa:nth-child(2) { top: 300px; left: 400px; }
-.nebulosa:nth-child(3) { top: 700px; left: 500px; }
+.nebulosa:nth-child(1) { 
+    top: 100px; left: 50px; 
+}
+.nebulosa:nth-child(2) {
+    top: 300px; left: 400px; 
+}
+.nebulosa:nth-child(3) { 
+    top: 700px; left: 500px; 
+}
 
 /*Selector por id*/
 #s-id {
     text-transform: uppercase;
     color: rgba(0, 255, 255, 0.651);
-
     font-size: 20px
 }
 
 /*Selector por tipo*/
-h1, nav{
-    margin:0;
-    padding:0;
-}
 
 nav {
     background: radial-gradient(circle at center, #1a1a2e, #16213e, #0f3460);
@@ -89,17 +90,30 @@ input {
     background: transparent;
 }
 
-/*Selector p or tipo clase especifica*/
+/*Selector por tipo clase especifica - Compuesto*/
 p.s-tipo-clase {
     text-align: center;
 }
 
 /*Selector por lista*/
+h1, nav{
+    margin:0;
+    padding:0;
+}
+
 #s-lista dt, #s-lista dd {
-    color:rgba(85, 49, 184, 0.747);
+    color:rgba(147, 47, 194, 0.747);
 }
 
 /*Selector por descendientes*/
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: transparent;
+}
+
 address *{
     color: white;
     font-style:normal;
@@ -120,5 +134,21 @@ section header+p {
     border: white 1px solid;
 }
 
+/*Selector por atributo*/
+a[href^="https://"] {
+    color:white;
+    text-decoration: none;
+}
+
+/*Pseudo clases*/
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*Pseudo elementos*/
+main::selection {
+    background-color: rgb(145, 230, 230);
+    color: black;
+}
 
 
