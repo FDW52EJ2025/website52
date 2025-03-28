@@ -83,3 +83,40 @@ h1.importante {
 div.header ~ div {
     color:brown;
 }
+
+h2 {
+    color:blue !important;
+}
+
+.caja {
+    background-color: aqua;
+}
+
+section {
+    color:aquamarine;
+    padding: 1rem;
+    margin: 1rem;
+    border: 5px solid green;
+}
+
+.contentbox {
+    background-color:yellow;
+}
+
+section {
+    background-color: brown;
+    padding: 10px;
+    height: 50px;
+    width:1000px;
+    border: 5px solid yellowgreen;
+
+}
+
+p {
+    background-color: blue;
+    padding:10px;
+    height:50px;
+    width:10000px;
+    border:5px solid yellow;
+    box-sizing: border-box;
+}
