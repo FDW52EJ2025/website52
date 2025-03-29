@@ -71,7 +71,7 @@ a[href$=".html"] {
     color:red;
 }
 
-.borde th, borde td{
+.borde th, .borde td{
     border: 1px ridge orange;
     text-align: center;
 }
@@ -92,31 +92,103 @@ h2 {
     background-color: aqua;
 }
 
-section {
-    color:aquamarine;
-    padding: 1rem;
-    margin: 1rem;
-    border: 5px solid green;
-}
 
 .contentbox {
     background-color:yellow;
 }
 
-section {
-    background-color: brown;
-    padding: 10px;
-    height: 50px;
-    width:1000px;
-    border: 5px solid yellowgreen;
-
-}
 
 p {
     background-color: blue;
     padding:10px;
     height:50px;
-    width:10000px;
+    width:1400px;
     border:5px solid yellow;
     box-sizing: border-box;
 }
+
+a {
+    background-color: aqua;
+}
+
+.inline-block
+{
+    display: inline-block;
+    width:150px;
+    height:25px;
+    background-color: yellowgreen;
+}
+
+.em {
+    font-size: 3em;
+    background-color: aqua;
+}
+
+.importante {
+    font-size: 2rem;
+    background-color: aqua;
+    width:30vw;
+    height: 10vh;
+}
+
+.porcentaje {
+    background-color: aqua;
+    font-size: 300%;
+    width:400px
+}
+
+.color1 {
+    background-color: yellowgreen;
+}
+
+.color2 {
+    background-color: #7DDA58;
+}
+
+.color3 {
+    background-color: rgba(77, 55, 93, 0.5);
+}
+
+.color4 {
+    background-color: hsl(45, 90%, 50%);
+}
+
+.color5 {
+    background-color: hsla(45, 90%, 50%, 0.3);
+}
+
+.overflow {
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+}
+
+.float {
+    float:left;
+
+}
+
+.clearfix::after{
+    clear:both;
+    content:"";
+    display:table;
+}
+
+nav ul {
+    background-color: red;
+}
+
+nav ul li {
+    float:left;
+    width: 25%;
+}
+
+.flex {
+    display:flex;
+    background-color: aqua;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+}
+
