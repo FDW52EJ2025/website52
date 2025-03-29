@@ -1,35 +1,36 @@
-/* selector adyacente*/
+/*
 .color{
     color: red;
 }
 .color + p {
     border: 2px solid orange;
 }
- /*selector por hermano general*/
+
 h2 ~ audio {
     border: 2px solid green;
 }
 
-/* pseudo clase hover */
+
 a:hover {
     color: blue;
 }
-/* pseudo clase active */
+
 a:active {
     color: green;
 }
-/* pseudo clase visited */
+
 a:visited {
     color: gray;
 }
-/* Esto agrega un icono de música después del título */
+
 h1::after {
     content: " 🎶"; 
     font-size: 30px;
 }
 
-/* Estilo para el contenido antes de los párrafos con la clase .color */
+
 h1::before {
     content: "📀 ";  
     font-size: 20px;
 }
+*/

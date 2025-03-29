@@ -1,4 +1,4 @@
-/*Selector de clase*/
+/*
 .color1{
     background-color: gray;
 }
@@ -9,7 +9,7 @@
     border-collapse: collapse;
     width: 550px;
 }
-/*Selector de lista*/
+
 .borde th,.borde td{
     border: 1px ridge black;
     text-align: center;
@@ -76,24 +76,24 @@
     text-align: center;
 }
 
-/*selector de tipo */
+
 p{
     color: blue;
 }
-/*selector de tag en articular */
+
 p.part{
     color: green;
 }
-/*selector de id */
+
 #color-rojo{
     color: red;
 }
 
-/*selector por atributo */
+
 a[href$=".html"]{
     color:gold;
 }
-/*selector descendiente */
+
 div a{
     color: green;
 }
@@ -101,3 +101,6 @@ div a{
 div > p{
     background-color: green;
 }
+*/
+/* css practica 3 */
+
