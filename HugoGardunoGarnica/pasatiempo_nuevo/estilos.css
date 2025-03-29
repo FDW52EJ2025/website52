@@ -1,4 +1,4 @@
-/*
+
 .color1{
     background-color: gray;
 }
@@ -77,9 +77,6 @@
 }
 
 
-p{
-    color: blue;
-}
 
 p.part{
     color: green;
@@ -137,4 +134,26 @@ div > p{
     margin-right: 40px;
     padding: 5px;
     flex-flow: row wrap;
+}
+
+#s3 p{
+    margin-left: 40px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 2;
+    display: flex;
+    overflow: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-right: 600px;
+    justify-content: center;
+    height: 400px;
+}
+
+#s3 img{
+    float: right;
+    height:400px;
+    width: 500px;
+    margin-right: 50px;
+    margin-top: -420px;
 }
