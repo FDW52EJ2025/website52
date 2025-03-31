@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Comidas Favoritas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .destacado {
+            background-color: #ffcc00;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        #principal {
+            border: 2px solid #003366;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #003366;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #003366;
+            color: white;
+        }
+
+        h2 + p {
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Selector de hermano general: Aplica a todos los <p> que siguen a un <h2> */
+        h2 ~ p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Pseudo-clase: Cambia el color de los enlaces cuando se les pasa el mouse */
+        a:hover {
+            color: #ff6600;
+        }
+
+        /* Pseudo-elemento: Añade un símbolo de estrella antes de cada elemento de la lista */
+        ul li::before {
+            content: "★";
+            color: #ffcc00;
+            margin-right: 10px;
+        }
+
+        /* Pseudo-elemento: Añade un borde decorativo después de cada artículo */
+        article::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #003366;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis Comidas Favoritas</h1>
+        <nav>
+            <a href="index.html">Regresar a Principal</a>
+        </nav>
+    </header>
+    <main id="principal">
+        <article>
+            <h2>Hamburguesa</h2>
+            <p class="destacado">La hamburguesa es mi comida favorita.</p>
+            <img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                 alt="Hamburguesa" 
+                 style="width: 500px; height: auto;">
+            <p><strong>Descripción:</strong> La hamburguesa es un sandwich hecho con carne molida, usualmente de res, servida en un pan redondo y acompañada de diversos ingredientes como lechuga, tomate, queso y salsas.</p>
+            <p><strong>Lugares favoritos:</strong></p>
+            <ul>
+                <li>McDonald's</li>
+                <li>Burger King</li>
+            </ul>
+            <p><strong>¿Por qué me gusta?:</strong> Me encanta la combinación de sabores y la variedad de ingredientes que se pueden agregar.</p>
+        </article>
+        <article>
+            <h2>Pollo KFC</h2>
+            <p class="destacado">El pollo KFC es mi segunda comida favorita.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/KFC_chicken.jpg/640px-KFC_chicken.jpg" alt="Pollo KFC">
+            <p><strong>Descripción:</strong> El pollo KFC es conocido por su receta secreta de 11 hierbas y especias, que le da un sabor único y delicioso.</p>
+            <p><strong>Lugares favoritos:</strong> KFC.</p>
+            <p><strong>¿Por qué me gusta?:</strong> Me gusta el sabor crujiente y jugoso del pollo, además de las variedades de salsas que ofrecen.</p>
+        </article>
+        <article>
+            <h2>Lasaña</h2>
+            <p class="destacado">La lasaña es mi tercera comida favorita.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lasagna_bolognese.jpg/640

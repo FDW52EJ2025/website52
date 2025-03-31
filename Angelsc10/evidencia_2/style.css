@@ -92,3 +92,43 @@ h1.musica {
 #s-hermano-ad article h2+p {
     color: #af2c42;
 }
+
+#s1 article.segundaPractica ~ article {
+    border: 2px dotted blue;
+}
+
+.titulo:hover {
+    background-color: gold;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#s1 > article:nth-child(5) {
+    background-color: black;
+    color: white;
+}
+#s1 > article:first-child {
+    background-color: chocolate;
+}
+
+#s1 > article:last-child {
+    background-color: pink;
+}
+
+
+#s1 ul li:nth-child(odd) {
+    background-color: gray;    
+}
+
+#s1 ul li:nth-child(even) {
+    background-color: rgb(242, 146, 146);
+}
+
+#s1 p::first-line {
+    background-color: yellow;
+}
+
+#s1 p::first-letter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}

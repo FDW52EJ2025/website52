@@ -1,0 +1,9 @@
+input {
+    border: 2px dotted green;
+    border-radius: 5px;
+}
+
+.lana {
+    text-align: centers;
+}
+

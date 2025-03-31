@@ -1,10 +1,10 @@
 .titulo:hover {
-    background-color: cornsilk;
+    background-color: lavenderblush;
     border: 1px solid darkgrey;
     border-radius: 5px;
 }
 
-.subrayado {
+#s-peli .subrayado {
     text-decoration: underline;
     color: honeydew;
 }
@@ -13,4 +13,51 @@
     background-color: lightblue;
     border: 1px solid darkgrey;
     border-radius: 5px;
+}
+
+#grande .baile {
+    font-size: 25px;
+}
+
+#texto p::first-line {
+    background-color: blanchedalmond;
+}
+
+#color{
+    color: lightslategrey;
+}
+
+#enca {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px; 
+    font-weight: bold; 
+    color: orchid; 
+}
+
+#tipo-bal h1 {
+    text-align: center;
+}
+
+#s-series label {
+    color:steelblue;
+}
+
+#grande .series {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+
+#s-ari h2 ~ p {
+    color: crimson;
+}
+
+#s-ari p::first-letter {
+    font-size: 2em;
+    color: crimson;
+    font-weight: bold;
 }

@@ -52,9 +52,45 @@ p.texto-importante {
 
 
 /*Selector de descendientes e hijos directos*/
-section > p {
+
+
+.pseudo-elementos > p:nth-child(3) {
     color: goldenrod;
+    font-weight: bold;
 }
+
+.pseudo-elementos > p:first-child {
+    color: palevioletred;
+    font-weight: bold;
+
+}
+
+.pseudo-elementos > p:last-child {
+    color: green;
+    font-weight: bold;
+
+}
+
+#s-section ul li:nth-child(odd){
+    background-color: royalblue;
+}
+
+#s-section ul li:nth-child(even){
+    background-color: rosybrown;
+}
+
+
+.firstline-firstletter::first-line{
+    background-color: yellow;
+}
+
+.firstline-firstletter::first-letter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
+
+
 
 .primer-pelicula + li {
     background-color: green;
@@ -107,3 +143,5 @@ h1.letras-subrayadas {
     width: 100%;
     bottom: 0;
 }
+
+

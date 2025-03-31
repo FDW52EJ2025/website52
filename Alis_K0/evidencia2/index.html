@@ -1,84 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evidencias Grupo 52</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-        h1 {
-            color: #d37e9f;
-            margin-bottom: 10px;
-        }
-        h2 {
-            color: #773f54;
-            margin-bottom: 10px;
-        }
-        .evidencia {
-            background: white;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            width: 80%;
-            max-width: 600px;
-            margin-bottom: 15px;
-        }
-        a {
-            display: block;
-            color: #007BFF;
-            text-decoration: none;
-            margin: 5px 0;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidencia 2 Grupo 52</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    h1 {
+      color: #d37e9f;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #773f54;
+      margin-bottom: 10px;
+    }
+    .evidencia {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 900px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .evidencia img {
+      width: 100%;
+      object-fit: contain;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    /* Imágenes que contienen "EV2" en el src se muestran más pequeñas */
+    .evidencia img[src*="EV2"] {
+      max-height: 300px;
+    }
+    /* Imágenes que no contienen "EV2" en el src se muestran más grandes */
+    .evidencia img:not([src*="EV2"]) {
+      max-height: 700px;
+    }
+    a {
+      display: block;
+      color: #007BFF;
+      text-decoration: none;
+      margin: 5px 0;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h1>Evidencia 2</h1>
-    
-    <div class="evidencia">
-        <h2>Selectores</h2>
-    </div>
+  <h1>Evidencia 2</h1>
+  
+  <div class="evidencia">
+    <h2>Selectores</h2>
+  </div>
 
-    <div class="evidencia">
-        <h2>Práctica 1</h2>
-        <p>Selectores Basicos</p>
-        <a href="https://github.com/Alis-K0" target="_blank">Link Cuenta de Github Creada</a>
-    </div>
+  <div class="evidencia">
+    <h2>Selectores Básicos</h2>
+    <img src="img/EV2_SBasico1.png" alt="Selector básico">
+    <img src="img/SUniversalClase.png" alt="Selector universal de clase">
+    <img src="img/EV2_SBasico2.png" alt="Selector básico">
+    <img src="img/STipo.png" alt="Selector de tipo">
+    <img src="img/EV2_SBasico3.png" alt="Selector básico">
+    <img src="img/SID.png" alt="Selector por ID">
+    <img src="img/EV2_SBasico4.png" alt="Selector básico">
+    <img src="img/SUniversalClase.png" alt="Selector universal de clase">
+  </div>
 
-    <div class="evidencia">
-        <h2>Práctica 2</h2>
-        <p>Selectores por Atributo</p>
-        <a href="https://github.com/Alis-K0/DemoPP" target="_blank">Link Repositorio</a>
-    </div>
+  <div class="evidencia">
+    <h2>Selectores por Atributo</h2>
+    <img src="img/EV2_SAtributo1.png" alt="Selector por atributo">
+    <img src="img/SAtributo1.png" alt="Selector por atributo 1">
+    <img src="img/SAtributo2.png" alt="Selector por atributo 2">
+  </div>
 
-    <div class="evidencia">
-        <h2>Práctica 3</h2>
-        <p>Combinadores CSS</p>
-        <a href="https://github.com/Alis-K0/DemoPP/commits/main/?since=2025-02-05&until=2025-02-07" target="_blank">Link Commits</a>
-    </div>
+  <div class="evidencia">
+    <h2>Combinadores CSS</h2>
+    <img src="img/EV2_SCombinadores1.png" alt="Combinadores CSS">
+    <img src="img/SDescendiente.png" alt="Selector descendente">
+    <img src="img/EV2_SCombinadores2.png" alt="Combinadores CSS">
+    <img src="img/SHAdyacente.png" alt="Selector adyacente">
+    <img src="img/EV2_SCombinadores3.png" alt="Combinadores CSS">
+    <img src="img/SCombinadores.png" alt="Selector de combinadores">
+  </div>
 
-    <div class="evidencia">
-        <h2>Práctica 4</h2>
-        <p>Pseudo-Clases</p>
-        <a href="https://github.com/FDW52EJ2025/website52/commits/main/?author=Alis-K0&since=2025-02-10&until=2025-02-12" target="_blank">Link Commits</a>
-    </div>
+  <div class="evidencia">
+    <h2>Pseudo-Clases</h2>
+    <img src="img/EV2_SPseClase1.png" alt="Pseudo-Clase">
+    <img src="img/PseClase1.png" alt="Pseudo-Clase 1">
+    <img src="img/EV2_SPseClase2.png" alt="Pseudo-Clase">
+    <img src="img/PseClase2.png" alt="Pseudo-Clase 2">
+  </div>
 
-    <div class="evidencia">
-        <h2>Práctica 5</h2>
-        <p>Pseudo-Elementos</p>
-        <a href="https://github.com/FDW52EJ2025/website52/commits/main/?author=Alis-K0&since=2025-02-12&until=2025-02-14" target="_blank">Link Commits</a>
-    </div>
+  <div class="evidencia">
+    <h2>Pseudo-Elementos</h2>
+    <img src="img/EV2_SPseElemen1.png" alt="Pseudo-Elemento">
+    <img src="img/PseElemen1.png" alt="Pseudo-Elemento 1">
+    <img src="img/PseElemen2.png" alt="Pseudo-Elemento 2">
+  </div>
 </body>
 </html>
