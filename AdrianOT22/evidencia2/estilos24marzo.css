@@ -1,0 +1,104 @@
+#principal {
+    color: aqua;
+}
+
+#principal h2.subtitulo {
+    color: aqua
+}
+
+.parrafo {
+    color:blue;
+}
+
+p{
+    color:brown !important;
+}
+
+#s1 p{
+    /*border: 5px solid coral;*/
+    border-top: 5px solid coral;
+    border-bottom: 8px groove gray;
+    border-left: 5px dotted blue;
+    border-right: 5px double red;
+
+    /*20 todos los lados*/
+    padding: 20px;
+
+    /* 20 arriba/abajo y 10 izq y der*/
+    padding: 20px 10px;
+
+    /* 20 arriba, 80 abajo y 50 izq y der*/
+    padding: 20px 50px 80px;
+
+    /*Se siguen las manecillas del reloj*/
+    /*10 arriba, 20 der, 30 abajo y 40 izq */
+    padding: 10px 20px 30px 40px;
+
+
+        /*20 todos los lados*/
+    padding: 20px;
+
+    /* 20 arriba/abajo y 10 izq y der*/
+    padding: 20px 10px;
+
+    /* 20 arriba, 80 abajo y 50 izq y der*/
+    padding: 20px 50px 80px;
+
+    /*Se siguen las manecillas del reloj*/
+    /*10 arriba, 20 der, 30 abajo y 40 izq */
+    padding: 10px 20px 30px 40px;
+
+    /*---------------------------------------------------*/
+
+    /*20 todos los lados*/
+    margin: 20px;
+
+    /* 20 arriba/abajo y 10 izq y der*/
+    margin: 20px 10px;
+
+    /* 20 arriba, 80 abajo y 50 izq y der*/
+    margin: 20px 50px 80px;
+
+    /*Se siguen las manecillas del reloj*/
+    /*10 arriba, 20 der, 30 abajo y 40 izq */
+    margin: 10px 20px 30px 40px;
+}
+
+#s2 .a1{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#s2 .a2{
+    box-sizing: border-box;
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#s2 span{
+    display:inline-block;
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+}
+
+/*Se cambia el valor de em a 10*/
+#s2{
+    font-size: 10px;
+}
+
+/*Por default vale 16px un em*/
+#s2 strong{
+    font-size: 2em;
+}
+
+#s2 strong.importante{
+    font-size: 2rem;
+}
+
