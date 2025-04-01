@@ -68,7 +68,7 @@ footer {
 form {
     padding: 10px;
 }
-
+/*Selector por tipo*/
 input {
     width: 100%;
     margin: 5px;
@@ -87,7 +87,7 @@ h1, nav{
     margin:0;
     padding:0;
 }
-
+/*Selector por lista*/
 #s-lista dt, #s-lista dd {
     color:rgba(147, 47, 194, 0.747);
 }
@@ -128,7 +128,7 @@ a[href^="https://"] {
 }
 
 /*Pseudo clases*/
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -137,5 +137,3 @@ main::selection {
     background-color: rgb(145, 230, 230);
     color: black;
 }
-
-
