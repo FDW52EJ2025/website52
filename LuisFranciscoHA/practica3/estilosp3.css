@@ -1,0 +1,28 @@
+#s1 h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #8B0000; 
+    padding: 20px;
+    margin-left: 270px;
+    margin-right: 270px;
+    border-radius: 35px;
+    font-family: Arial;
+}
+
+.class_foo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-top: 2px solid #8B0000; 
+}
