@@ -1,0 +1,12 @@
+#s1 h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f7e359;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 15px;
+    font-family: Arial;
+}
