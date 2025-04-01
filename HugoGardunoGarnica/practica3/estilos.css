@@ -1,28 +1,68 @@
-#s1 h1{
-    color: white;
-    font-size: 50px;
+#s1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
     text-align: center;
-    margin-top: 20px;
-    background-color: #f7e359;
-    padding: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
+    max-width: 90%;
+    margin: 20px auto;
+    margin-top: -25px;
     border-radius: 15px;
-    font-family: Arial;
 }
 
-.clase_fo {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #5a5c90;
+#s1 h1{
+    overflow-wrap:break-word ;
     color: white;
-    font-size: 30px;
-    text-align: center;
+    font-size: 50px;
+    background-color: #f7e359;
     font-family: Arial;
-    padding: 10px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-top: 2px solid #3f3f73; 
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    justify-content: center;
+}
+
+
+#s2 a:hover{
+    color:#3f3f73;
+}
+
+#s2 a{
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+#s2 nav{
+    margin-top: -40px;
+    background-color: #5a5c90;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+    flex-wrap:wrap;
+    border: 1px solid white;
+}
+
+#s3 p{
+    justify-content: space-evenly;
+    text-align: justify;
+    display: flex;
+    border-radius: 15px;
+    flex-wrap:wrap;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 500px;
+    height: auto;
+    margin-left:50px;
+}
+
+#s4 img{
+    width: 350px;
+    margin-left:700px ;
+    margin-top: -210px;
+    border-radius: 15px;
 }
