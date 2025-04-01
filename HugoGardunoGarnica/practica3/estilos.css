@@ -1,68 +1,25 @@
-#s1 {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+body{
+    background-color:#100d36 ;
+    color: white;
     align-items: center;
-    text-align: center;
-    max-width: 90%;
-    margin: 20px auto;
-    margin-top: -25px;
-    border-radius: 15px;
+    justify-content: space-between;
 }
 
-#s1 h1{
-    overflow-wrap:break-word ;
-    color: white;
-    font-size: 50px;
-    background-color: #f7e359;
-    font-family: Arial;
-    padding: 20px;
-    border-radius: 15px;
-    border: 1px solid white;
-    justify-content: center;
-}
-
-
-#s2 a:hover{
-    color:#3f3f73;
-}
-
-#s2 a{
-    color: white;
-    font-family: Arial;
-    font-size: 25px;
-}
-
-#s2 nav{
-    margin-top: -40px;
-    background-color: #5a5c90;
-    justify-content: space-evenly;
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
-    padding: 5px;
-    border-radius: 15px;
-    flex-wrap:wrap;
-    border: 1px solid white;
-}
-
-#s3 p{
-    justify-content: space-evenly;
-    text-align: justify;
-    display: flex;
-    border-radius: 15px;
-    flex-wrap:wrap;
-    color: white;
-    font-size: 25px;
-    border-radius: 15px;
-    width: 500px;
+.caja{
+    width: 250px;
     height: auto;
-    margin-left:50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 2px;
+    text-align: center;
+    background-color: #3b3768;
 }
 
-#s4 img{
-    width: 350px;
-    margin-left:700px ;
-    margin-top: -210px;
-    border-radius: 15px;
+.contenedor_grid{
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: repeat(auto-fit,300px);
+    gap: 15px;
+    padding: 10px;
+    justify-content: center;
 }
