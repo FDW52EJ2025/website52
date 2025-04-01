@@ -10,3 +10,19 @@
     border-radius: 15px;
     font-family: Arial;
 }
+
+.clase_fo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5a5c90;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-top: 2px solid #3f3f73; 
+}
