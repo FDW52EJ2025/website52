@@ -1,0 +1,139 @@
+/* Selector de tipo (de ev2 pract 1 y 2?) */
+
+/*Esto lo voy a usar para pagina videojuegos la tabla */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+}
+
+/*Este lo voy a dejar nada mas para el index pasatiempos 2 o final para el header, creo que esta pegado a el nav(cambiar?)*/
+header {
+    background-color: #8B0000; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Selector de descendientes 
+Aplica estilos a todos los enlaces (<a>) que están dentro de <nav>*/
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/*Efecto de sombra al pasar el miaus cover*/
+nav a:hover {
+    background-color: #ff4d4d; 
+    color: black;
+}
+
+
+/* Página comida corregir el orden para emparejar bien las páginas, están quedando diferentes por ponerle otras cosas 
+y desordenadas, luego se me olvida */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+/* Selectores de clase */
+.pagina-comida header {
+    background-color: #ff5733;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.pagina-comida .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.pagina-comida .comida {
+    margin-bottom: 20px;
+}
+
+.pagina-comida img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.pagina-comida footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Selector de tipo */
+pre {
+    text-align: left;  
+    display: block;    
+    margin: 0;         
+}
+
+/* Selector de clase de id */
+#main-header {
+    background-color: #123513;
+    color: white;
+    padding: 15px;
+}
+
+/* Selector de atributos */
+a[href^="https"] {
+    color: green;
+}
+
+a[target="_blank"] {
+    color: red;
+}
+
+/* Selector universal */
+* {
+    box-sizing: border-box;
+}
+
+/* Selector de pseudo-clase */
+input[type="text"]:focus {
+    border-color: blue;
+}
+
+/* Selector de pseudo-elemento */
+p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+
+
+/*PRACTICA 3 Y CORRECCIONES*/
