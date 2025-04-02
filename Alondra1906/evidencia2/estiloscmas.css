@@ -1,0 +1,92 @@
+body {
+    background-color: #2D2D2D;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(imgcmas/fondocmas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+header div {
+    background-color: rgba(29, 29, 29, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+header h1 {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+
+.lenguajes {
+    width: 50px;
+    height: auto;
+}
+
+main {
+    background-color:  #282C34;
+    padding: 60px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+main h1 {
+    text-align: center;
+    color: #008CBA;
+}
+
+main h2 {
+    color: #66A2D7;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    background-color: #282C34;
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 122, 204, 0.8); /* Sombra azul */
+    background-color: #2D2D2D; /* Gris oscuro */
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+th {
+    background-color: #007ACC; /* Azul C++ */
+    color: white;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #444; /* Gris más claro */
+}
+
+tr:hover {
+    background-color: #008CBA; /* Azul brillante al pasar el mouse */
+    color: black;
+}
+
+#s2 img {
+    display: block; 
+    margin: 0 auto;  
+}
