@@ -77,6 +77,9 @@
 }
 
 
+p{
+    color: blue;
+}
 
 p.part{
     color: green;
@@ -110,6 +113,7 @@ div > p{
     padding: 5px;
     margin-left: 40px;
     margin-right: 40px;
+    flex-grow:initial;
 }
 
 #s2 a{

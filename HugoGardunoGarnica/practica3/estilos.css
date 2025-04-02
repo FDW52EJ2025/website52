@@ -1,0 +1,25 @@
+body{
+    background-color:#100d36 ;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caja{
+    width: 250px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 2px;
+    text-align: center;
+    background-color: #3b3768;
+}
+
+.contenedor_grid{
+    display: grid;
+    border: 1px solid red;
+    grid-template-columns: repeat(auto-fit,300px);
+    gap: 15px;
+    padding: 10px;
+    justify-content: center;
+}
