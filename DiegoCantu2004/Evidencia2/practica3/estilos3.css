@@ -65,3 +65,94 @@
     border-radius: 20px;
 }
 
+
+.contenedores{
+    justify-content: center;
+    display: grid;
+    max-width: 1000px;
+    padding: 15px;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.python{
+    background-color:rgb(218, 255, 205);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+body{
+    background-color:#1b0ce9 ;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+}
+
+.titulo{
+    font-size: 100px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img{
+    width: 400px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:crimson
+}
+
+nav{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.C{
+    background-color:rgb(218, 255, 205);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px
+}
+
+.java{
+    background-color:rgb(218, 255, 205);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px
+}
+
+.c{
+    background-color:rgb(218, 255, 205);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px
+}
+
+.cc{
+    background-color:rgb(218, 255, 205);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px
+}
+
+.script{
+    background-color:rgb(218, 255, 205);
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px
+}
