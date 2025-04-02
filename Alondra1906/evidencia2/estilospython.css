@@ -12,7 +12,7 @@ header {
 }
 
 header div {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(29, 29, 29, 0.7);
     padding: 10px;
     border-radius: 10px;
     color: white;
@@ -45,4 +45,48 @@ main h1 {
 
 main h2 {
     color: #FFD43B;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    background-color: #282C34;
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(59, 111, 255, 0.8); 
+    background-color: #3776AB; 
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+th {
+    background-color: #FFD43B; 
+    color: #282C34; 
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #1E4D7B; 
+}
+
+tr:hover {
+    background-color: #66CC66;
+    color: black;
+}
+
+#s2 img {
+    display: block; 
+    margin: 0 auto;  
 }
