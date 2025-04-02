@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(imgpython/fondopython.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+header h1 {
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0 0 20px;
+}
+
+.lenguajes {
+    width: 50px;
+    height: auto;
+}
+
+main {
+    background-color:  #282C34;
+    padding: 60px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+main h1 {
+    text-align: center;
+    color: #3776AB;
+}
+
+main h2 {
+    color: #FFD43B;
+}
