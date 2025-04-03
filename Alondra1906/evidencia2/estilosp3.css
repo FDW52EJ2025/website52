@@ -32,7 +32,7 @@ header h1 {
 }
 
 aside a {
-    color: #3DDC84;
+    color: #FFD700;
     text-decoration: none;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -42,7 +42,7 @@ aside a {
 
 aside {
     background-color: #3E3B6D;
-    color: #3DDC84;
+    color: #FFD700;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -56,11 +56,32 @@ aside img {
     height: auto;
 }
 
-.barnav a:hover {
-    background-color: rgba(7, 81, 116, 0.966);
+.barnav div {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 15px;
 }
-.barnav img:hover {
-    background-color: rgba(7, 81, 116, 0.966);
+
+.barnav img {
+    width: 40px; 
+    height: 40px;
+    object-fit: contain;
+}
+
+.barnav a {
+    font-size: 18px;
+}
+
+.barnav a:hover {
+    background-color: #0277BD;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.barnav div:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
 }
 
 main {
