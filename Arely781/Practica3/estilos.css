@@ -1,0 +1,115 @@
+/* css index */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    background-color: rgb(50, 155, 173);
+    color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+.menu{
+    list-style: none;
+    background-color: #BDDDE4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: column nowrap;
+    width: 200px;
+    
+}
+.menu li:hover ul{
+    display: block;
+}
+
+
+.centrar {
+    text-align: center;
+}
+
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+.color1 {
+    background-color: #48A6A7;
+}
+.color2 {
+    background-color: #48A6A7;;
+}
+.color3 {
+    background-color: #48A6A7;;
+}
+.color4 {
+    background-color: #48A6A7;;
+}
+.color5 {
+    background-color: #48A6A7;;
+}
+.color6 {
+    background-color: #48A6A7;;
+}
+
+main {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+
+.p {
+    grid-area: p;
+}
+
+.cplus{
+    grid-area: cp;
+}
+.j{
+    grid-area: j;
+} 
+.c{
+    grid-area: c;
+}
+.cgato{
+    grid-area: cg;
+} 
+.js{
+    grid-area: js;
+}
+
+section{
+    display: grid;
+    grid-template-areas: "p cp j"
+                         "c cg js";
+}
+
+
+.parrafo{
+    text-align: center;
+    background-color: #48A6A7;
+    color: white;
+}
+
+
+
+
+
+
