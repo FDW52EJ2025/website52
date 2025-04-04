@@ -1,0 +1,46 @@
+.barra-busqueda {
+width: 100%;
+background-color: gray;
+padding: 10px 20px;
+border-radius: 30px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.barra-busqueda ul {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+
+.barra-busqueda li h1 {
+background-color: white;
+color: gray;
+padding: 10px 20px;
+border-radius: 25px;
+font-size: 16px;
+cursor: pointer;
+transition: 0.3s;
+border: 1px solid black;
+}
+
+.barra-busqueda li h1:hover {
+background-color: gold;
+}
+.centrar{
+display: flex;
+justify-content: center; 
+align-items: center;            
+}
+img{
+height: 100px;
+display: flex;
+justify-content: center; 
+align-items: center;
+}
