@@ -6,7 +6,7 @@ body{
 }
 
 h1 {
-    background-color: rgb(50, 155, 173);
+    background-color: rgb(103, 212, 255);
     color: white;
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 .menu{
     list-style: none;
-    background-color: #BDDDE4;
+    background-color: #c2e7ff;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -50,22 +50,28 @@ h1 {
 
 
 .color1 {
-    background-color: #48A6A7;
+    background-color: #f3f056;
+    text-align: center;
 }
 .color2 {
-    background-color: #48A6A7;;
+    background-color: #4588ec;
+    text-align: center;
 }
 .color3 {
-    background-color: #48A6A7;;
+    background-color: #ff4b4b;
+    text-align: center;
 }
 .color4 {
-    background-color: #48A6A7;;
+    background-color: #8769f3;
+    text-align: center;
 }
 .color5 {
-    background-color: #48A6A7;;
+    background-color: hsl(286, 77%, 54%);
+    text-align: center;
 }
 .color6 {
-    background-color: #48A6A7;;
+    background-color: #f7fa34;;
+    text-align: center;
 }
 
 main {
@@ -77,10 +83,12 @@ main {
 
 .p {
     grid-area: p;
+    
 }
 
 .cplus{
     grid-area: cp;
+   
 }
 .j{
     grid-area: j;
