@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+#d1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#d1 h1 {
+    font-size: 50px;
+    color: #222;
+    text-align: center;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Navegación */
+#d2 nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#d2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+#d2 a:hover {
+    color: #ff8a00;
+}
+
+/* Texto */
+#d3 p {
+    max-width: 800px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Imágenes */
+#d4 img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Contenedores */
+.contenedores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Tarjetas */
+.python, .C, .java, .c, .cc, .script {
+    background: white;
+    border-left: 5px solid #ff8a00;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Enlaces */
+a {
+    color: #ff8a00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e52e71;
+}
