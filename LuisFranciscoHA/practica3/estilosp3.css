@@ -1,8 +1,12 @@
-body{
-    background-color:#0d0116 ;
+body {
+    background-color: #0d0116;
     color: white;
     align-items: center;
     justify-content: space-between;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .caja {
@@ -10,13 +14,12 @@ body{
     height: 320px;
     border: 1px solid white;
     border-radius: 15px;
-    padding: 15px;  /* Aumenta el padding para dar más espacio interno */
+    padding: 15px;  
     text-align: center;
     background-color: #1c083b;
     font-family: Arial;
     font-size: 20px;
 }
-
 
 .contengd {
     display: grid;
@@ -28,28 +31,19 @@ body{
     margin: auto;
 }
 
-.header1{
+.header1 {
     font-size: 50px;
     font-family: Arial;
     text-align: center;
     background-color: #8B0000;
-    font-family: Arial;
     color: white;
     padding: 10px;
 }
 
-img{
+img {
     width: 150px;
     height: auto;
 }
-
-
-/*Efecto de sombra al pasar el miaus cover*/
-nav a:hover {
-    background-color: #ff4d4d; 
-    color: black;
-}
-
 
 nav a {
     background-color: #c42e01;
@@ -62,5 +56,11 @@ nav a {
     border-radius: 7px;
     transition: all 0.3s ease;
     border: 2px solid transparent;
-    margin: 5px;  /* Separa los botones entre sí y del borde */
+    margin: 5px; 
 }
+
+nav a:hover {
+    background-color: #ff4d4d;
+    color: black;
+}
+

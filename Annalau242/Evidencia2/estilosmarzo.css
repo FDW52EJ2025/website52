@@ -1,0 +1,31 @@
+#s1 article.primeraPractica {
+    border: 2px dotted blue;
+}
+
+#titulo:hover ¨{
+    background-color: gold;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+#s1 article:nth-child(){
+    background-color: black;
+    color: white;
+}
+
+#s1 article:first-child{
+    background-color: chocolate;
+}
+
+#s1 > article:last-child{
+    background-color: pink;
+}
+
+#s1 ul li:nth-child(odd){
+    background-color: gray;
+}
+
+#s1 ul li:nth-child(even){
+    background-color: rgb(242,146, 146);
+}
+
