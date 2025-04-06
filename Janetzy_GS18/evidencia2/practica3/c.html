@@ -6,50 +6,65 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Lenguaje de programación C</h1>
+    <h1>Lenguajes de programación</h1>
 
-    <h2>¿Qué es C?</h2>
-    <p>El lenguaje C es un lenguaje de programación de propósito general, estructurado y compilado, creado a principios de los años 70 por Dennis Ritchie en los laboratorios Bell. Es uno de los lenguajes más influyentes de la historia, y muchas tecnologías modernas, sistemas operativos y lenguajes (como C++, C#, Java) están basados o inspirados en él.</p>
+    <section>
+        <h2>¿Qué es C?</h2>
+        <p>El lenguaje C es un lenguaje de programación de propósito general, estructurado y compilado, creado a principios de los años 70 por Dennis Ritchie en los laboratorios Bell. Es uno de los lenguajes más influyentes de la historia, y muchas tecnologías modernas, sistemas operativos y lenguajes (como C++, C#, Java) están basados o inspirados en él.</p>
+    </section>
 
-    <h2>Características principales</h2>
-    <ul>
-        <li><strong>Lenguaje de bajo nivel:</strong> Permite trabajar directamente con memoria y hardware.</li>
-        <li><strong>Compilado:</strong> El código fuente se transforma en código máquina antes de ejecutarse.</li>
-        <li><strong>Eficiente:</strong> Altamente veloz y con gran control sobre el rendimiento del sistema.</li>
-        <li><strong>Portabilidad:</strong> Los programas en C pueden compilarse en distintos sistemas con mínimas modificaciones.</li>
-    </ul>
+    <section>
+        <h2>Características principales</h2>
+        <ul>
+            <li><strong>Lenguaje de bajo nivel:</strong> Permite trabajar directamente con memoria y hardware.</li>
+            <li><strong>Compilado:</strong> El código fuente se transforma en código máquina antes de ejecutarse.</li>
+            <li><strong>Eficiente:</strong> Altamente veloz y con gran control sobre el rendimiento del sistema.</li>
+            <li><strong>Portabilidad:</strong> Los programas en C pueden compilarse en distintos sistemas con mínimas modificaciones.</li>
+        </ul>
+    </section>
 
-    <h2>Tipos de datos comunes</h2>
-    <ul>
-        <li><code>int</code>: enteros (ej. <code>10</code>)</li>
-        <li><code>float</code>: números decimales simples (ej. <code>3.14f</code>)</li>
-        <li><code>double</code>: números decimales de doble precisión</li>
-        <li><code>char</code>: caracteres (ej. <code>'a'</code>)</li>
-    </ul>
+    <section>
+        <h2>Tipos de datos comunes</h2>
+        <table border="1">
+            <tr><th>Tipo</th><th>Descripción</th></tr>
+            <tr><td><strong>int</strong></td><td>Números enteros</td></tr>
+            <tr><td><strong>float</strong></td><td>Números decimales de precisión simple</td></tr>
+            <tr><td><strong>double</strong></td><td>Números decimales de doble precisión</td></tr>
+            <tr><td><strong>char</strong></td><td>Carácter individual</td></tr>
+            <tr><td><strong>bool</strong></td><td>Booleanos (desde C99 con <code>&lt;stdbool.h&gt;</code>)</td></tr>
+            <tr><td><strong>void</strong></td><td>Sin valor (uso en funciones)</td></tr>
+        </table>
+    </section>
 
-    <h2>Ventajas</h2>
-    <ul>
-        <li>Alto rendimiento y velocidad de ejecución.</li>
-        <li>Permite un control preciso del sistema y de la memoria.</li>
-        <li>Base para muchos otros lenguajes modernos.</li>
-        <li>Ideal para desarrollar sistemas operativos, controladores y software embebido.</li>
-    </ul>
+    <section>
+        <h2>Ventajas</h2>
+        <ul>
+            <li>Alto rendimiento y velocidad de ejecución.</li>
+            <li>Permite un control preciso del sistema y de la memoria.</li>
+            <li>Base para muchos otros lenguajes modernos.</li>
+            <li>Ideal para desarrollar sistemas operativos, controladores y software embebido.</li>
+        </ul>
+    </section>
 
-    <h2>Desventajas</h2>
-    <ul>
-        <li>No tiene manejo automático de memoria (como Python o Java).</li>
-        <li>No posee características modernas como programación orientada a objetos.</li>
-        <li>La sintaxis puede ser más compleja para principiantes.</li>
-    </ul>
+    <section>
+        <h2>Desventajas</h2>
+        <ul>
+            <li>No tiene manejo automático de memoria (como Python o Java).</li>
+            <li>No posee características modernas como programación orientada a objetos.</li>
+            <li>La sintaxis puede ser más compleja para principiantes.</li>
+        </ul>
+    </section>
 
-    <h2>Ejemplo: Hola Mundo en C</h2>
-    <pre><code>#include &lt;stdio.h&gt;
-
-int main() {
-    printf("Hola, mundo\n");
-    return 0;
-}</code></pre>
-    <p>Este código imprime <strong>Hola, mundo</strong>. <code>#include &lt;stdio.h&gt;</code> importa la biblioteca estándar de entrada/salida. <code>printf()</code> muestra el texto, y <code>return 0;</code> indica que el programa terminó correctamente.</p>
+    <section>
+        <h2>Ejemplo: Hola Mundo en C</h2>
+        <pre><code>#include &lt;stdio.h&gt;
+        
+        int main() {
+        printf("Hola, mundo\n");
+        return 0;
+        }</code></pre>
+        <p>Este código imprime <strong>Hola, mundo</strong>. <code>#include &lt;stdio.h&gt;</code> importa la biblioteca estándar de entrada/salida. <code>printf()</code> muestra el texto, y <code>return 0;</code> indica que el programa terminó correctamente.</p>
+    </section>
 
 </body>
 </html>
