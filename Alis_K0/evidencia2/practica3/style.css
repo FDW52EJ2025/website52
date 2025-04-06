@@ -76,6 +76,21 @@ body {
     height: 30px;
 }
 
+.inicio {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-left: 18px;  
+}
+
+.inicio:visited {
+    color: white; 
+}
+
+.inicio:hover {
+    color: #DCD7C9; 
+}
+
 .container .header,
 .container .footer {
     grid-column: 1/6;
@@ -102,26 +117,106 @@ body {
     grid-column: span 2;
     background: #A27B5C;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.sidebar h3 {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.sidebar div {
+    width: 100%;
+    background-color: #A27B5C;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 
 .container .sidebar img {
-    width: 100%;
-    margin-top: 5px;
+    height: auto;
+    margin: 0;
+}
+
+.btn-vermas {
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: #2C3930;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-vermas:hover {
+    background-color: #516e5a;
+    cursor: pointer;
 }
 
 .container > .related-post {
-    background: #3F4F44;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease;
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    padding: 10px;
+    background: #3F4F44; 
+}
+
+.container > .related-post2 {
+    grid-column: span 5;
+    text-align: left; 
+    display: flex; 
+    justify-content: left; 
+    align-items: center; 
+    height: auto; 
+    padding: 10px;
+    background: #3F4F44; 
 }
 
 .container > .related-post:hover {
     cursor: pointer;
     background: #516e5a;
+}
+
+.related-post a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container > .related-post2 {
+    grid-column: span 5;
+    text-align: left; 
+    display: block;  
+    padding: 10px;
+    background: #3F4F44;
+}
+
+.related-post2 p {
+    margin-bottom: 10px;
+}
+
+.related-post2 p:first-child {
+    margin-top: 0; 
+}
+
+.related-post2 p:last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px; 
+    background: #2E3B32; 
+    color: white; 
 }
