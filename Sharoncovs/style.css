@@ -28,9 +28,14 @@ h2 {
 }
 
 a {
-    color: #5f4b3a;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 15px;
+    background-color: #f5eae0;
+    color: #725d50;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 a:hover {

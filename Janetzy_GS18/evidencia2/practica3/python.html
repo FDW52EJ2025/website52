@@ -3,65 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Python</title>
+    <link rel="stylesheet" href="stylesp3.css">
 </head>
 <body>
-    <h1>Lenguajes de programación</h1>
+    <header class="header">
+        <h1>Lenguajes de Programación</h1>
+        <nav class="nav">
+            <a href="lenguaje.html" class="inicio">Inicio</a>
+            <a href="c.html">C</a>
+            <a href="csharp.html">C#</a>
+            <a href="cpp.html">C++</a>
+            <a href="java.html">Java</a>
+            <a href="javascript.html">JavaScript</a> 
+        </nav>
+    </header>
 
-    <section>
-        <h2>¿Qué es Python?</h2>
-        <p>Python es un lenguaje de programación interpretado, de alto nivel y con una sintaxis clara y sencilla. Es uno de los lenguajes más populares en el mundo y se utiliza en una amplia variedad de áreas como desarrollo web, ciencia de datos, inteligencia artificial, automatización, educación y más.</p>
-    </section>
+    <main>
+        <section class="section">
+            <h2>¿Qué es Python?</h2>
+            <p>Python es un lenguaje de programación interpretado, de alto nivel y con una sintaxis clara y sencilla. Es uno de los lenguajes más populares en el mundo y se utiliza en una amplia variedad de áreas como desarrollo web, ciencia de datos, inteligencia artificial, automatización, educación y más.</p>
+        </section>
 
-    <section>
-        <h2>Características principales</h2>
-        <ul>
-            <li><strong>Sintaxis sencilla:</strong> Muy legible y parecida al lenguaje natural.</li>
-            <li><strong>Multiparadigma:</strong> Permite programación orientada a objetos, estructurada y funcional.</li>
-            <li><strong>Tipado dinámico:</strong> No es necesario declarar el tipo de dato al crear una variable.</li>
-            <li><strong>Gran comunidad y soporte:</strong> Existe una enorme cantidad de documentación, foros y bibliotecas disponibles.</li>
-        </ul>
-    </section>
+        <section class="img">
+            <img width="300" height="300" src="imgp3/pythonlogo.png" alt="">
+        </section>
 
-    <section>
-        <h2>Tipos de datos comunes</h2>
-        <table border="1">
-            <tr><th>Tipo</th><th>Descripción</th></tr>
-            <tr><td><strong>int</strong></td><td>Números enteros</td></tr>
-            <tr><td><strong>float</strong></td><td>Números decimales</td></tr>
-            <tr><td><strong>str</strong></td><td>Cadenas de texto</td></tr>
-            <tr><td><strong>bool</strong></td><td>Booleanos (True/False)</td></tr>
-            <tr><td><strong>list</strong></td><td>Listas</td></tr>
-            <tr><td><strong>tuple</strong></td><td>Tuplas</td></tr>
-            <tr><td><strong>dict</strong></td><td>Diccionarios</td></tr>
-            <tr><td><strong>set</strong></td><td>Conjuntos</td></tr>
-        </table>
-    </section>
+        <section class="section">
+            <h2>Características principales</h2>
+            <ul>
+                <li><strong>Sintaxis sencilla:</strong> Muy legible y parecida al lenguaje natural.</li>
+                <li><strong>Multiparadigma:</strong> Permite programación orientada a objetos, estructurada y funcional.</li>
+                <li><strong>Tipado dinámico:</strong> No es necesario declarar el tipo de dato al crear una variable.</li>
+                <li><strong>Gran comunidad y soporte:</strong> Existe una enorme cantidad de documentación, foros y bibliotecas disponibles.</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Ventajas</h2>
-        <ul>
-            <li>Muy fácil de aprender, ideal para principiantes.</li>
-            <li>Compatible con múltiples plataformas (Windows, Mac, Linux).</li>
-            <li>Gran cantidad de librerías para múltiples propósitos (como NumPy, Pandas, TensorFlow).</li>
-            <li>Altamente legible y mantenible.</li>
-        </ul>
-    </section>
+        <section class="section">
+            <h2>Tipos de datos comunes</h2>
+            <table border="1">
+                <tr><th>Tipo</th><th>Descripción</th></tr>
+                <tr><td><strong>int</strong></td><td>Números enteros</td></tr>
+                <tr><td><strong>float</strong></td><td>Números decimales</td></tr>
+                <tr><td><strong>str</strong></td><td>Cadenas de texto</td></tr>
+                <tr><td><strong>bool</strong></td><td>Booleanos (True/False)</td></tr>
+                <tr><td><strong>list</strong></td><td>Listas</td></tr>
+                <tr><td><strong>tuple</strong></td><td>Tuplas</td></tr>
+                <tr><td><strong>dict</strong></td><td>Diccionarios</td></tr>
+                <tr><td><strong>set</strong></td><td>Conjuntos</td></tr>
+            </table>
+        </section>
 
-    <section>
-        <h2>Desventajas</h2>
-        <ul>
-            <li>No es el más rápido comparado con lenguajes compilados como C++.</li>
-            <li>No es tan eficiente para el desarrollo móvil.</li>
-            <li>Puede consumir más memoria que otros lenguajes de bajo nivel.</li>
-        </ul>
-    </section>
+        <section class="section">
+            <h2>Ventajas</h2>
+            <ul>
+                <li>Muy fácil de aprender, ideal para principiantes.</li>
+                <li>Compatible con múltiples plataformas (Windows, Mac, Linux).</li>
+                <li>Gran cantidad de librerías para múltiples propósitos (como NumPy, Pandas, TensorFlow).</li>
+                <li>Altamente legible y mantenible.</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Ejemplo: Hola Mundo en Python</h2>
-        <pre><code>print("Hola, mundo")</code></pre>
-        <p>Este código imprime el texto <strong>Hola, mundo</strong> en la consola. La función <code>print()</code> se utiliza para mostrar información al usuario.</p>
-    </section>
+        <section class="section">
+            <h2>Desventajas</h2>
+            <ul>
+                <li>No es el más rápido comparado con lenguajes compilados como C++.</li>
+                <li>No es tan eficiente para el desarrollo móvil.</li>
+                <li>Puede consumir más memoria que otros lenguajes de bajo nivel.</li>
+            </ul>
+        </section>
 
+        <section class="section">
+            <h2>Ejemplo: Hola Mundo en Python</h2>
+            <pre><code>print("Hola, mundo")</code></pre>
+            <p>Este código imprime el texto <strong>Hola, mundo</strong> en la consola. La función <code>print()</code> se utiliza para mostrar información al usuario.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h4>Desarrollo Web</h4>
+        <p>Sitio web desarrollado por: Janetzy-GS18.</p>
+        <p><small><small>Este sitio web fue creado por fines educativos</small></small></p>
+    </footer>
 </body>
 </html>

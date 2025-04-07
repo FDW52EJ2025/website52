@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>C++</title>
+</head>
+<body>
+    <header>
+        <h1>C++</h1>
+        <nav>
+            <a href="index.html">
+                <span>Home</span>
+                <img src="Recursos/index.png" alt="Home">
+            </a>
+            <a href="python.html">
+                <span>python</span>
+                <img src="Recursos/python.jpeg" alt="python">
+            </a>
+            <a href="c_plus_plus.html">
+                <span>C++</span>
+                <img src="Recursos/cplusplus.jpg" alt="C++">
+            </a>
+            <a href="java.html">
+                <span>Java</span>
+                <img src="Recursos/java.webp" alt="Java">
+            </a>
+            <a href="c.html">
+                <span>C</span>
+                <img src="Recursos/c.avif" alt="C">
+            </a>
+            <a href="c_sharp.html">
+                <span>C#</span>
+                <img src="Recursos/c_sharp.jpg" alt="C#">
+            </a>
+            <a href="javascript.html">
+                <span>Javascript</span>
+                <img src="Recursos/js.webp" alt="Javascript">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>¿Qué es C++?</h2>
+            <p>Creado por Bjarne Stroustrup en la década de 1980, C++ surgió para superar las limitaciones de C. Es un lenguaje compilado y estáticamente tipado que permite detectar errores antes de la ejecución y optimizar el rendimiento del software. Gracias a su soporte para programación orientada a objetos y genérica, C++ facilita la construcción de programas complejos, escalables y reutilizables, combinando la abstracción de alto nivel con el control de bajo nivel.</p>
+        </section>
+        <section>
+            <h2>Características Principales de C++</h2>
+            <ul>
+                <li>
+                    <strong>Alto Rendimiento y Eficiencia:</strong>
+                    Su naturaleza compilada permite generar código máquina altamente optimizado, lo que es fundamental para aplicaciones que requieren procesamiento intensivo. Esto lo hace ideal para proyectos que demandan una rápida ejecución, como videojuegos y sistemas operativos.
+                </li>
+                <li>
+                    <strong>Multiparadigma y Flexibilidad:</strong>
+                    C++ admite la programación estructurada, orientada a objetos y genérica, lo que permite a los desarrolladores elegir el enfoque más adecuado para cada problema. Esta versatilidad facilita la creación de código modular, adaptable y fácil de mantener.
+                </li>
+                <li>
+                    <strong>Control Detallado de Recursos:</strong>
+                    El manejo manual de memoria mediante punteros y referencias proporciona un control preciso sobre la asignación y liberación de recursos del sistema. Esto es esencial para aplicaciones de bajo nivel y entornos embebidos donde cada byte y ciclo de CPU cuenta.
+                </li>
+                <li>
+                    <strong>Portabilidad y Amplia Biblioteca (STL):</strong>
+                    C++ es multiplataforma, lo que permite que el mismo código se compile y ejecute en diversos sistemas operativos. Además, la Standard Template Library (STL) proporciona una amplia gama de contenedores y algoritmos que facilitan el desarrollo de soluciones robustas y eficientes.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Tipos de Datos en C++</h2>
+            <dl>
+                <dt><strong>int:</strong></dt>
+                <dd>Utilizado para almacenar números enteros, esenciales en operaciones matemáticas y para contar elementos.</dd>
+                <dt><strong>float y double:</strong></dt>
+                <dd>Empleados para representar números en punto flotante; <code>double</code> ofrece mayor precisión, ideal para cálculos científicos y financieros.</dd>
+                <dt><strong>char:</strong></dt>
+                <dd>Destinado a almacenar caracteres individuales, fundamental para el manejo de cadenas y datos de texto.</dd>
+                <dt><strong>bool:</strong></dt>
+                <dd>Utilizado para valores lógicos (<code>true</code> o <code>false</code>), facilitando el control de flujo mediante condiciones.</dd>
+                <dt><strong>std::string:</strong></dt>
+                <dd>Parte de la biblioteca estándar, se usa para manipular secuencias de caracteres de manera sencilla y eficiente.</dd>
+                <dt><strong>void:</strong></dt>
+                <dd>Indica la ausencia de valor, comúnmente usado en funciones que no retornan datos.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Ventajas y Desventajas de C++</h2>
+            <article>
+                <h3>Ventajas</h3>
+                <ul>
+                    <li>
+                        <strong>Alto rendimiento:</strong>
+                        Gracias a su compilación a código máquina, C++ ofrece una ejecución extremadamente rápida, lo que es vital para aplicaciones exigentes y en tiempo real.
+                    </li>
+                    <li>
+                        <strong>Control total del hardware:</strong>
+                        Permite gestionar manualmente la memoria y otros recursos del sistema, ofreciendo a los desarrolladores la capacidad de optimizar al máximo el rendimiento.
+                    </li>
+                    <li>
+                        <strong>Flexibilidad en el estilo de programación:</strong>
+                        Su soporte para múltiples paradigmas permite adaptar el enfoque a las necesidades específicas del proyecto, desde la programación estructurada hasta la orientada a objetos y genérica.
+                    </li>
+                    <li>
+                        <strong>Portabilidad:</strong>
+                        El código en C++ puede compilarse en diversas plataformas sin grandes modificaciones, facilitando la distribución y el mantenimiento.
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h3>Desventajas</h3>
+                <ul>
+                    <li>
+                        <strong>Curva de aprendizaje elevada:</strong>
+                        La complejidad inherente al lenguaje, especialmente en el manejo de memoria y punteros, puede hacer que los nuevos programadores se enfrenten a una curva de aprendizaje pronunciada.
+                    </li>
+                    <li>
+                        <strong>Mayor riesgo de errores:</strong>
+                        El manejo manual de memoria puede derivar en errores difíciles de detectar, como fugas de memoria o punteros colgantes.
+                    </li>
+                    <li>
+                        <strong>Tiempo de compilación:</strong>
+                        En proyectos de gran escala, los tiempos de compilación pueden ser significativos, lo que ralentiza el proceso de desarrollo.
+                    </li>
+                    <li>
+                        <strong>Menor productividad en tareas simples:</strong>
+                        Para aplicaciones menos exigentes, la complejidad de C++ puede resultar en una mayor inversión de tiempo comparado con lenguajes de más alto nivel.
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <h2>Ejemplo "Hola Mundo" en C++</h2>
+            <pre>
+    #include &lt;iostream&gt;
+    
+    int main() {
+        std::cout << "Hola Mundo" << std::endl;
+        return 0;
+    }
+            </pre>
+        </section>
+        <section>
+            <h2>Conclusión</h2>
+            <p>C++ es un lenguaje de programación potente y versátil que combina la eficiencia de la programación de bajo nivel con la capacidad de abstracción propia de los lenguajes modernos. Su capacidad para generar código altamente optimizado lo hace indispensable en aplicaciones que requieren un rendimiento extremo, como videojuegos, sistemas operativos y aplicaciones en tiempo real. Aunque su complejidad y la necesidad de gestionar manualmente la memoria pueden presentar una curva de aprendizaje pronunciada, las ventajas de tener un control total sobre el hardware y la portabilidad entre plataformas lo convierten en una herramienta esencial para desarrolladores que buscan construir soluciones robustas y escalables. En resumen, dominar C++ no solo abre la puerta a proyectos críticos y de alto rendimiento, sino que también sienta las bases para comprender otros lenguajes de programación modernos.</p>
+        </section>        
+    </main>    
+    <aside>
+        <h3>Enlaces relacionados</h3>
+        <a href="https://www.python.org" target="_blank">Descargar python</a>
+        <a href="https://visualstudio.microsoft.com/es/vs/features/cplusplus/" target="_blank">Descargar componentes de C y C++</a>
+        <a href="https://code.visualstudio.com/?wt.mc_id=vscom_downloads" target="_blank">Descargar Visual Studio Code</a>
+        <a href="https://visualstudio.microsoft.com/es/vs/" target="_blank">Descargar Visual Studio</a>
+        <a href="https://www.java.com/es/download/" target="_blank">Descargar Java</a>
+        <a href="https://www.w3schools.com" target="_blank">Sitio w3schools</a>
+        <a href="https://docs.python.org/es/3.13/library/index.html" target="_blank">Biblioteca estándar de Python</a>
+        <a href="https://docs.oracle.com/es-ww/iaas/jms/doc/java-libraries.html" target="_blank">Bibliotecas de Java</a>
+        <a href="https://www.tiobe.com/tiobe-index/" target="_blank">Sitio TIOBE Top 20 lenguajes de programación más populares</a>
+    </aside>
+    <footer>
+        <address>
+            <p>Sitio Web desarrollado por: Adrián Ontiveros Tello</p>
+            <table>
+                <tr>
+                    <td>Redes Sociales:</td>
+                    <td><a href="https://www.facebook.com/share/18NDQNcNUu/" target="_blank">Facebook</a></td>
+                </tr>
+                <tr>
+                    <td>Contacto:</td>
+                    <td><a href="tel:8135813265">Teléfono</a></td>
+                    <td><a href="mailto:adrianot2004@outlook.com">Correo</a></td>
+                </tr>
+            </table>
+            <p><small>&copy; Este sitio web no almacena información personal de los visitantes. Todos los nombres, marcas y logotipos mencionados pertenecen a sus respectivos propietarios. El contenido reflejado en esta página es solo una opinión personal y no representa a ninguna empresa o entidad oficial.</small></p>
+
+        </address>
+    </footer>
+</body>
+</html>
