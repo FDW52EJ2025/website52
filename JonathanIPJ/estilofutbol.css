@@ -3,7 +3,7 @@ blockquote {
 }
 
 #Titulosecundario{
-    color: yellow;
+    color: red;
     text-align: center;
 }
 
@@ -25,3 +25,54 @@ header ~ h4 {
     margin: 10px 0;
     border-radius: 5px;
   }
+
+  h4 + blockquote {
+    background-color: lightgray;
+    padding: 10px;
+    border-left: 4px solid black;
+}
+
+
+h1:active{
+    background-color: #3e8e41;
+}
+
+/* Pseudo-elemento ::first-letter para los títulos */
+h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter {
+    font-size: 1.5em;
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* Pseudo-elemento ::first-line para los blockquotes */
+blockquote::first-line {
+    font-weight: bold;
+    color: #1d3557;
+}
+
+/* Pseudo-elemento ::before para los títulos de equipos */
+h3#Titulosecundario::before, h4#Titulosegundo::before {
+    content: "⚽ ";
+    color: #2a9d8f;
+}
+
+/* Pseudo-elemento ::after para los títulos de equipos */
+h3#Titulosecundario::after, h4#Titulosegundo::after {
+    content: " ⚽";
+    color: #2a9d8f;
+}
+
+/* Pseudo-elemento ::before para las imágenes */
+img::before {
+    content: "➤ ";
+    color: #e9c46a;
+}
+
+/* Pseudo-elemento ::after para el footer */
+footer address p::after {
+    content: " © 2024";
+    font-size: 0.8em;
+    color: #457b9d;
+}
+
+

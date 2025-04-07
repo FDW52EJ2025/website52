@@ -1,0 +1,459 @@
+/* index */
+.titulo {
+    color: #bf70ea;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.menu {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+.menu a {
+    border: 1px solid #9e2876;
+    color: #a95ea7;
+}
+
+.menu a:hover {
+    background-color: #ea87bf;
+    color: rgb(222, 54, 163);
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 15px;
+    padding: 40px;
+    align-items: center;
+}
+
+.lado-izquierdo,
+.lado-derecho {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+.texto-central {
+    text-align:justify;
+    padding: 15 15px;
+}
+
+
+section img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+/* python */
+
+
+.tit {
+    color: #90477b;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+.python {
+    display: grid;
+    grid-template-areas: 
+        "caracteristicasP tiposP"
+        "ventajasP desventajasP";
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; 
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.caracteristicasP, .tiposP, .ventajasP, .desventajasP {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+
+.caracteristicasP {
+    background-color: #e6a9d8;
+    grid-area: caracteristicasP;
+}
+
+.tiposP {
+    background-color: #e4a5e9;
+    grid-area: tiposP;
+}
+
+.ventajasP {
+    background-color: #f1a7e4;
+    grid-area: ventajasP;
+}
+
+.desventajasP {
+    background-color: #f6abf0;
+    grid-area: desventajasP;
+}
+
+
+.caracteristicasP:hover, .tiposP:hover, .ventajasP:hover, .desventajasP:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.p{
+    text-align: center;
+    box-shadow: #ea87bf 1px 0px 10px;
+    color: #9e2876;
+}
+
+.holamundoP {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.holamundoP p {
+    font-size: 1.2rem;
+    color: #9e2876;
+    margin: 0;
+}
+
+
+/* c++ */
+
+.titC{
+    color: #90477b;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 55px;
+
+}
+
+.cmas {
+    display: grid;
+    grid-template-areas: 
+        "caracteristicasC tiposC"
+        "ventajasC desventajasC";
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; 
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.caracteristicasC, .tiposC, .ventajasC, .desventajasC {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+
+.caracteristicasC {
+    background-color: #e6a9d8;
+    grid-area: caracteristicasC;
+}
+
+.tiposC {
+    background-color: #e4a5e9;
+    grid-area: tiposC;
+}
+
+.ventajasC {
+    background-color: #f1a7e4;
+    grid-area: ventajasC;
+}
+
+.desventajasC {
+    background-color: #f6abf0;
+    grid-area: desventajasC;
+}
+
+
+.caracteristicasC:hover, .tiposC:hover, .ventajasC:hover, .desventajasC:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* java */
+
+.titJ{
+    color: #90477b;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 55px;
+
+}
+
+.java {
+    display: grid;
+    grid-template-areas: 
+        "caracteristicasJ tiposJ"
+        "ventajasJ desventajasJ";
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; 
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.caracteristicasJ, .tiposJ, .ventajasJ, .desventajasJ {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+
+.caracteristicasJ {
+    background-color: #e6a9d8;
+    grid-area: caracteristicasJ;
+}
+
+.tiposJ {
+    background-color: #e4a5e9;
+    grid-area: tiposJ;
+}
+
+.ventajasJ {
+    background-color: #f1a7e4;
+    grid-area: ventajasJ;
+}
+
+.desventajasJ {
+    background-color: #f6abf0;
+    grid-area: desventajasJ;
+}
+
+
+.caracteristicasJ:hover, .tiposJ:hover, .ventajasJ:hover, .desventajasJ:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.p{
+    text-align: center;
+    box-shadow: #ea87bf 1px 0px 10px;
+    color: #9e2876;
+}
+
+.holamundoJ {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.holamundoJ pre {
+    font-size: 1.2rem;
+    color: #9e2876;
+    margin: 0;
+}
+
+
+ /* C */
+
+.titC {
+    color: #90477b;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 55px;
+ }
+
+.c {
+    display: grid;
+    grid-template-areas: 
+        "caracteristicasC tiposC"
+        "ventajasC desventajasC";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px; 
+    padding: 30px;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.caracteristicasC, .tiposC, .ventajasC, .desventajasC {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.caracteristicasC {
+    background-color: #e6a9d8;
+    grid-area: caracteristicasC;
+}
+.tiposC {
+    background-color: #e4a5e9;
+    grid-area: tiposC;
+}
+.ventajasC {
+    background-color: #f1a7e4;
+    grid-area: ventajasC;
+}
+.desventajasC {
+    background-color: #f6abf0;
+    grid-area: desventajasC;
+}
+.caracteristicasC:hover, .tiposC:hover, .ventajasC:hover, .desventajasC:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    font-size: 1.5rem;
+    color: #6a1b9a;
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+.p{
+    text-align: center;
+    box-shadow: #ea87bf 1px 0px 10px;
+    color: #9e2876;
+}
+.holamundoC {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 30px;
+    padding: 15px;
+}
+.holamundoC pre {
+    font-size: 1.2rem;
+    color: #9e2876;
+    margin: 0;
+}
+
+
+/* C  */
+
+.titCG {
+    font-size: 45px;
+    color: #90477b;
+    text-align: center;
+}
+
+.holamundoCG {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.holamundoCG pre {
+    font-size: medium;
+    color: #9e2876;
+
+}
+
+/* JAVASCRIPT */
+
+.holamundoJS {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.holamundoJS pre {
+    font-size:x-large;
+    color: #9e2876;
+
+}
+
+
+
+
+

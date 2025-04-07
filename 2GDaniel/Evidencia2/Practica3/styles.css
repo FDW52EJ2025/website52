@@ -114,3 +114,11 @@ section{
     border-radius: 20px;
     box-shadow: 10px 10px 0px 0px rgb(224, 224, 224);
 } 
+
+#principalEvidencias{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: rgb(34, 62, 43);
+    text-decoration: none;
+}
