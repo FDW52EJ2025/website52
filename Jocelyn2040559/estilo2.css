@@ -1,0 +1,11 @@
+body{
+    background-image: url(Imagen1.png);
+}
+
+h1 {
+    background-color: pink; 
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; 
+}

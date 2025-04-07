@@ -18,3 +18,9 @@ li[data-genero="regional-mexicano"] {
   h1.Importante{
     background-color: blueviolet;
   } 
+
+  ol li p {
+    color: darkblue;
+    font-weight: bold;
+  }
+  

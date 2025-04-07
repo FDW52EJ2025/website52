@@ -1,0 +1,122 @@
+.caja{
+    background-color: #030307;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja:hover{
+    display: flex;
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(255, 215, 0, 0.5);
+    align-items: center;
+}
+
+.caja img {
+    width: 100px;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+
+.caja nav {
+    margin-top: 10px;
+}
+
+.caja nav a {
+    display: flex;
+    padding: 8px 12px;
+    background-color: #ffd700;
+    color: #0a0a23;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.caja nav a:hover {
+    background-color: #ffcc00;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: #000000;
+    display: flex;
+    margin: 5px;
+}
+
+
+.contenedor_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.encabezado {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffd700;
+    box-shadow: rgba(255, 215, 0, 0.5);
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #090909;
+    color: #ffd700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    font-size: 1rem;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    color: white;
+}
+
+
+pre {
+    background-color: #222;
+    color: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 20px;
+    background: #000000;
+    color: #ffd700;
+    box-shadow: rgba(255, 215, 0, 0.5);
+}
