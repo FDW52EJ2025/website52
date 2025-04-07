@@ -1,0 +1,70 @@
+/*HEADER, BARRA DE NAVEGACION CON SUS ELEMENTOS Y LINKS*/
+/*Este lo voy a dejar nada mas para el index pasatiempos 2 o final para el header, creo que esta pegado a el nav
+(se cambio y ahora es tipo clase)*/
+.main_header {
+    background-color: #8B0000;
+    font-family: Arial;
+    color: white;
+    padding: 10px;
+}
+
+.main_header img {
+    float: left;
+    width: 550px; 
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.main_header h1 {
+    margin-top: 25px;
+    text-align: center; 
+}
+
+
+
+/* Estilo del nav ahora es tipo id*/
+#s1 nav {
+    background-color: black;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 20px;
+    margin-left: 55px;
+    padding: 5px;
+    width: 90%;
+}
+
+
+/* Selector de descendientes 
+Aplica estilos a todos los enlaces (<a>) que están dentro de <nav>*/
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/*Efecto de sombra al pasar el miaus cover*/
+nav a:hover {
+    background-color: #ff4d4d; 
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+
+/*PRACTICA 3 Y CORRECCIONES*/

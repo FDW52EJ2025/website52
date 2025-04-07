@@ -1,0 +1,40 @@
+#s1 p{
+    /*border: 5px solid coral; */
+    border-top: 5px solid coral;
+    border-bottom: 8px groove grey;
+    border-left: 5px dotted blue;
+    border-right: 5px;
+}
+
+#s2 .a1{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#s2 .a2{
+    box-sizing: border-box;
+    background-color:  bisque;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#s2 span {
+    background-color: cadetblue;
+}
+
+#s2 {
+    font-size: 10px;
+}
+
+#s2 strong{
+    font-size: 2em;
+}
+
+#s2 strong.importante {
+    font-size: 2rem;
+}

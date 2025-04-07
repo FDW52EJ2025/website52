@@ -12,6 +12,12 @@ body {
     padding: 0;
 }
 
+header {
+    font-size: 24px;
+    background-color: #007BFF;
+    text_
+}
+
 /* Estilo para la imagen */
 img {
     width: 200px;
