@@ -1,0 +1,139 @@
+/*Selector universal */
+* {
+    font-family: sans-serif;
+}
+
+/*Selector por clase */
+.estetica{
+    background: radial-gradient(circle at center, #1a1a2e, #16213e, #0f3460);
+    font-family: monospace; 
+    color: white;
+    text-align: center;
+}
+
+.cuadro {
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    background: radial-gradient(circle at center, #1a1a2e, #16213e, #0f3460);
+}
+
+.nebulosa {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background: rgba(173, 20, 87, 0.5);
+    filter: blur(80px);
+    border-radius: 50%;
+}
+.nebulosa:nth-child(1) { 
+    top: 100px; left: 50px; 
+}
+.nebulosa:nth-child(2) {
+    top: 300px; left: 400px; 
+}
+.nebulosa:nth-child(3) { 
+    top: 700px; left: 500px; 
+}
+
+/*Selector por id*/
+#s-id {
+    text-transform: uppercase;
+    color: rgba(0, 255, 255, 0.651);
+    font-size: 20px
+}
+
+/*Selector por tipo*/
+nav {
+    background: radial-gradient(circle at center, #1a1a2e, #16213e, #0f3460);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+address {
+    padding: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    margin:20px;
+}
+
+form {
+    padding: 10px;
+}
+/*Selector por tipo*/
+input {
+    width: 100%;
+    margin: 5px;
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+
+/*Selector por tipo clase especifica - Compuesto*/
+p.s-tipo-clase {
+    text-align: center;
+}
+
+/*Selector por lista*/
+h1, nav{
+    margin:0;
+    padding:0;
+}
+/*Selector por lista*/
+#s-lista dt, #s-lista dd {
+    color:rgba(147, 47, 194, 0.747);
+}
+
+/*Selector por descendientes*/
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: transparent;
+}
+
+address *{
+    color: white;
+    font-style:normal;
+    font-size: 14px;
+    font-family: monospace;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*Selector por hijos directos*/
+dl>dt {
+    font-style:italic;
+}
+
+/*Selector hermano adyascente*/
+section header+p {
+    font-size: 12px;
+    border: white 1px solid;
+}
+
+/*Selector por atributo*/
+a[href^="https://"] {
+    color:white;
+    text-decoration: none;
+}
+
+/*Pseudo clases*/
+a:hover {
+    text-decoration: underline;
+}
+
+/*Pseudo elementos*/
+main::selection {
+    background-color: rgb(145, 230, 230);
+    color: black;
+}

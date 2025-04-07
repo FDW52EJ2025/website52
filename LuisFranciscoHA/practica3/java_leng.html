@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java </title>
+    <link rel="stylesheet" href="estilos_no_revolver.css"> 
+
+</head>
+<body>
+    <header class="main_header">
+        <!--  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAk25QhOobzEDVjMYsLz9ygGtG43lUa6XoNw&s" 
+             alt="Deberia de aparecer un logo de facpya">-->
+             <h1>Lenguaje Java</h1>
+    
+    <section id="s1">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="c_plus2_leng.html">Leng C++</a>
+            <a href="python_leng.html">Python</a>
+            <a href="c_leng.html">Leng C</a>
+             <a href="csharp_leng.html">Leng C#</a>
+             <a href="javascript_leng.html">Javascript</a>
+
+
+        </nav>
+    </section>
+</header>
+<div class="contenedor">
+    <section class="caja">
+        <h2>¿Cuáles son las características de Java?</h2>
+        <ol>
+          <li><strong>Orientado a objetos:</strong> Utiliza un paradigma que ayuda a manejar la complejidad del software.</li>
+          <li><strong>Portable:</strong> Permite ejecutar el mismo programa en diferentes sistemas operativos.</li>
+          <li><strong>Seguro:</strong> Cuenta con un modelo de seguridad que protege los sistemas contra amenazas y vulnerabilidades.</li>
+          <li><strong>Robusto:</strong> Mantiene la integridad de los datos y previene errores.</li>
+          <li><strong>Multitarea:</strong> Permite realizar varias tareas al mismo tiempo.</li>
+          <li><strong>Distribuido:</strong> Permite trabajar en red y ejecutar código en sistemas remotos.</li>
+          <li><strong>Dinámico:</strong> Se adapta a las necesidades del usuario.</li>
+          <li><strong>Escalable:</strong> Se puede adaptar a las necesidades de crecimiento de la aplicación.</li>
+          <li><strong>Compatible con bibliotecas:</strong> Cuenta con bibliotecas estándar para funciones comunes.</li>
+        </ol>
+        
+          
+    </section>
+    <section class="caja">
+        <h2>Tipos de datos</h2>
+        <p>
+            <h3><strong>Tipos de datos primitivos:</strong></h3>
+            <ol>
+              <li><strong>byte:</strong> Ocupa 8 bits y su rango de valores es de -128 a 127.</li>
+              <li><strong>short:</strong> Ocupa 16 bits.</li>
+              <li><strong>int:</strong> Ocupa 32 bits.</li>
+              <li><strong>long:</strong> Ocupa 64 bits.</li>
+              <li><strong>float:</strong> Ocupa 32 bits.</li>
+              <li><strong>double:</strong> Ocupa 64 bits.</li>
+              <li><strong>boolean:</strong> Sus valores son true o false.</li>
+              <li><strong>char:</strong> Ocupa 16 bits.</li>
+            </ol>
+            
+            <h3><strong>Tipos de datos de referencia:</strong></h3>
+            <p>Los datos de referencia son tipos de datos más complejos que hacen referencia a objetos almacenados en memoria. No almacenan directamente el valor, sino una referencia a la ubicación en memoria donde se encuentra el objeto.</p>
+            
+            <h3><strong>Otros tipos de datos de Java:</strong></h3>
+            <ul>
+              <li><strong>java.lang.String</strong></li>
+              <li><strong>java.util.Date</strong></li>
+              <li><strong>java.util.Calendar</strong></li>
+              <li><strong>java.sql.Date</strong></li>
+              <li><strong>java.sql.Time</strong></li>
+              <li><strong>java.sql.Timestamp</strong></li>
+              <li><strong>java.math.BigInteger</strong></li>
+              <li><strong>java.math.BigDecimal</strong></li>
+            </ul>
+            
+        </p>
+    </section>
+
+    <section class="caja">
+        <h2>Ventajas y desventajas</h2>
+        <p>
+            <h3><strong>Ventajas:</strong></h3>
+            <ol>
+              <li><strong>Portabilidad:</strong> "Write Once, Run Anywhere" gracias a la JVM.</li>
+              <li><strong>Orientación a Objetos:</strong> Fomenta la modularidad y reutilización de código.</li>
+              <li><strong>Gran Comunidad y Ecosistema:</strong> Amplio soporte de bibliotecas, herramientas y frameworks.</li>
+              <li><strong>Gestión Automática de Memoria:</strong> Recolector de basura para la gestión de memoria.</li>
+              <li><strong>Seguridad:</strong> Características integradas para proteger contra código malicioso.</li>
+              <li><strong>Soporte Multihilo:</strong> Habilidad para manejar procesos concurrentes eficientemente.</li>
+              <li><strong>Compatibilidad hacia Atrás:</strong> Código antiguo sigue funcionando en versiones nuevas de Java.</li>
+            </ol>
+            
+            <h3><strong>Desventajas:</strong></h3>
+            <ol>
+              <li><strong>Rendimiento Inferior:</strong> Comparado con lenguajes compilados como C++.</li>
+              <li><strong>Uso de Memoria Alto:</strong> Requiere más recursos de memoria debido a la JVM.</li>
+              <li><strong>Compilación Lenta:</strong> Puede ser más lenta debido a la conversión a bytecode.</li>
+              <li><strong>Curva de Aprendizaje:</strong> Conceptos complejos como clases, objetos y referencias.</li>
+              <li><strong>Exceso de Verbosidad:</strong> Se necesitan más líneas de código para realizar tareas simples.</li>
+              <li><strong>Dependencia de la JVM:</strong> Necesitas tener la JVM instalada para ejecutar programas.</li>
+              <li><strong>No adecuado para aplicaciones de bajo nivel:</strong> No ideal para tareas que requieren control detallado de hardware.</li>
+            </ol>
+            
+        </p>
+    </section>
+    
+    <section class="caja">
+        <h2>Impresion de hola mundo</h2>
+        <figure>
+            <img src="img3/java_cod.png" alt="">
+        </figure>
+        <pre>
+            <code>
+                public class HolaMundo {
+                    public static void main(String[] args) {
+                        System.out.println("Hola Mundo");
+                    }
+                }
+                            </code>
+        </pre>
+    </section>
+</div>
+
+</body>
+</html>

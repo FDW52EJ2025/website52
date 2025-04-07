@@ -1,0 +1,167 @@
+.main_header {
+    background-color: #8B0000;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.main_header h1 {
+    margin-top: 2px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+#s1 nav {
+    background-color: black;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 55px;
+    padding: 5px;
+    width: 90%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ff4d4d;
+    color: black;
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); 
+}
+
+body {
+    background-color: #0d0116;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* CONTENIDO ABAJO DE HEADER (CAMBIAR?) */
+.contenedor {
+    justify-content: center;
+    display: grid;
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 50px;
+    margin-top: 20px;
+}
+.caja {
+    background: linear-gradient(135deg, #6a4c8c, #3b3768);
+    border-radius: 20px; 
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.caja:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+}
+
+.caja h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.caja ul, .caja ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.caja li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.caja li::before {
+    content: "•";
+    color: #ff6f61; 
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.caja img {
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin: 20px auto 0; /* Centra la imagen horizontalmente */
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    object-fit: contain; /* Ajusta la imagen sin deformarla */
+}
+
+.caja a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.caja a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.caja {
+    border: 2px solid #ff6f61;
+}
+
+.caja p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.caja ol li {
+    margin-bottom: 12px;
+    padding-left: 15px;
+}
+
+.caja h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 90%;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: goldenrod;
+}
+
+
+/*El contenedor principal utiliza grid para distribuir las secciones asi flexible (?). 
+Las cajas dentro del contenedor tienen un flex para organizar mejor lo de adentro. */

@@ -1,0 +1,30 @@
+#contenedor {
+    display: flex;
+    flex-direction: column; /* Coloca las imágenes una debajo de otra */
+    align-items: center; /* Centra las imágenes en la columna */
+    gap: 30px; /* Aumenta el espacio entre cada imagen */
+    padding: 20px;
+}
+
+/* Estilo para cada imagen con su pie de imagen */
+#contenedor figure {
+    width: 80%; /* Hace que las imágenes sean más grandes */
+    max-width: 800px; /* Tamaño máximo para que no sean exageradas */
+    text-align: center;
+}
+
+/* Estilo de las imágenes */
+#contenedor img {
+    width: 100%; /* Se ajusta al tamaño del figure */
+    height: auto; /* Mantiene las proporciones originales */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+#contenedor figcaption {
+    font-weight: bold; /* Negritas en el pie de imagen */
+    font-size: 18px; /* Aumenta el tamaño del texto */
+    color: #444; /* Color oscuro para mejor visibilidad */
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    text-align: center; /* Centra el texto */
+}
+

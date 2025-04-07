@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugerencias</title>
+    <link rel="stylesheet" href="style_pasatiempos.css">
+</head>
+<body>
+    <header id="encabezado-principal">
+        <h1>Formulario de Sugerencias</h1>
+        <nav>
+            <a href="pagina-ver2.html">Pasatiempos</a>
+            <a href="sobre-mi.html">Sobre mí</a>
+            <a href="canciones-fav.html">Canciones favoritas</a>
+            <a href="formulario.html">Sugerencias</a>
+            <a href="index.html">Volver</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contenido">
+            <article class="tarjetas">
+                <h2 class="encabezado-tarjetas">Deja tu sugerencia para mi pagina</h2>
+                <form>
+                    <br><br>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <br><br>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="Apellidos" id="apellidos">
+                    <br><br>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="Edad" id="edad">
+                    <br><br>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email">
+                    <br><br>
+                    <label for="genero">Género:</label>
+                    <select id="genero" name="genero">
+                        <option value="male">Masculino</option>
+                        <option value="female">Femenino</option>
+                        <option value="other">Otro</option>
+                    </select>
+                    <br><br>
+                    <label for="sugerencia">Tu sugerencia:</label>
+                    <textarea id="sugerencia" name="sugerencia" required></textarea>
+                    <br><br>
+                    <label for="color_cta">Sugerencia de color para la pagina</label>
+                    <input type="color" name="Color_cta" id="color_cta">
+                    <br><br>
+                    <button type="reset">Resetear</button>
+                    <input type="submit" value="Enviar">
+                    <br><br>
+                </form>
+            </article>
+        </section>
+    </main>
+    <aside>
+        <img src="https://alancaa.github.io/demoFundamentos/img/patita2.png" alt="Decoración">
+    </aside>
+    <footer>
+        <article>
+            <a href="#encabezado-principal">Volver al inicio</a>
+            <a href="mailto:ajosue450@gmail.com">ajosue450@gmail.com</a>
+        </article>
+        <p>Página creada por Alan</p>
+    </footer>
+</body>
+</html>

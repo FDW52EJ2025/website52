@@ -1,0 +1,90 @@
+input {
+    border: 2px dotted black;
+    border-radius: 10px;
+} 
+.color-page{
+    background-color: pink;
+}
+
+#s-universal * {
+    color: purple;
+}
+
+#s-clase .cambio {
+    font-size: 20px;
+    color: coral;
+}
+
+#s-id #division {
+    color: purple;
+}
+
+#s-tipo p {
+    border: 2px solid blue;
+}
+
+#s-tipo-clase p.resaltar {
+    border: 1px solid pink;
+    box-shadow: 5px 5px 5px plum;
+}
+
+#s-lista div, #s-lista h3 {
+    text-transform: uppercase; 
+} 
+
+#s-descendiente ol li:first-child {
+    border-bottom: 2px dotted blueviolet;
+}
+
+#s-hermano-ad ul p+li {
+    color: palevioletred;
+} 
+
+header p {
+    color: green;
+}
+
+article > p {
+    color:coral;
+}
+
+h2.serie ~ p {
+    color: blueviolet;
+} 
+
+header p::first-line {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header p::first-letter {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Pagina peliculas */
+#ul li:first-child {
+    color: brown;
+    font-weight: bold;
+}
+
+#ul li:last-child {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Pagina pintar */
+ul li:nth-child(3) {
+    color:blue;
+}
+
+ul li:nth-child(odd) {
+    color:purple;
+}
+
+ul li:nth-child(even) {
+    color:coral;
+}
+

@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gustos de series y pelicuas</title>
     <style>
-        .titulos {
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
             background-color: rgb(84, 75, 75);
             text-align: center;
             border-radius: 10px;
             color: azure;
-            font-family: 'Times New Roman', Times, serif;
             font-weight: bold;
+            margin-bottom: 0px;
         }
         .subtitulos{
             text-align: center;
             color: rgb(46, 126, 126);
-            font-family: 'Times New Roman', Times, serif;
             font-weight: bold;
         }
         body{
@@ -24,9 +26,7 @@
         }
         footer{
             text-align: center;
-            position:fixed;
-            bottom: 0;
-            width: 100%;
+            position:relative;
         }
         .enlaces{
             display: flex;
@@ -35,28 +35,130 @@
             background-color: rgb(126, 108, 136);
             border-radius: 10px;
             color: rgb(78, 117, 117);
-            font-family: 'Times New Roman', Times, serif;
             font-weight: bold;
             text-decoration: underline;
         }
         .txtcentrado{
             text-align: center;
         }
+        #introduccion{
+            text-align: center;
+            font-style: italic;
+        }
+        #introduccion::first-letter{
+            font-size: xx-large;
+            color: brown;
+        }
+        p.series{
+            background-color: rgb(184, 169, 148);
+            border-radius: 5px;
+            text-align: center;
+        }
+        a[href]:hover {
+            color: rgb(51, 29, 81);
+            background-color: rgb(71, 168, 168);
+        }
+        .division{
+            display: flex;
+            align-items: center;
+        }
+        .division p{
+            text-align: center;
+            margin-left: 20px;
+            margin-right: 30px;
+        }
+        li, img{
+            border: 4px solid rgb(67, 107, 113);
+            border-radius: 5px;
+        }
+        img{
+            height: auto;
+            max-width: 100%;
+        }
+        div p{
+            color: rgb(29, 63, 56);
+        }
+        p.peliculas{
+            background-color: rgb(163, 167, 144);
+            border-radius: 5px;
+            text-align: center;
+        }
+        section > p{
+            font-weight: bold;
+            font-size: x-large;
+            color: rgb(56, 78, 56);
+        }
+        section ~ h3 {
+            text-decoration: underline;
+            text-align: center;
+            color: rgb(56, 78, 56);
+            background-color: rgb(220, 221, 212);
+        }
+        p + h4{
+            text-align: center;
+            color: rgb(92, 22, 70);
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .ranking{
+            background-color: bisque;
+        }
+        p.ranking{
+            font-weight: bolder;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1 class="titulos" style="margin-bottom: 0;">Gustos de series y peliculas</h1>
+        <h1>Gustos de series y peliculas</h1>
         <h2 class="enlaces" style="margin-top: 0;"><a href="principal.html">Página de hobbies</a></h2>
     </header>
     <main>
-        <p class="txtcentrado"><strong>¡Bienvenido!</strong> Esta es una página donde comparto mis gustos sobre series y películas. Me encanta la ciencia ficción, la comedia y la acción, así que aquí encontrarás recomendaciones, opiniones y curiosidades sobre estos géneros. Ya sea una historia llena de explosiones y adrenalina, un futuro fascinante con tecnología avanzada o una comedia ligera para pasar el rato, siempre hay algo interesante que ver. Si compartes estos gustos, siéntete libre de explorar y comentar. ¡Disfrutemos juntos del mundo del cine y las series!</p>
+        <p id="introduccion"><strong>¡Bienvenido!</strong> Esta es una página donde comparto mis gustos sobre series y películas. Me encanta la ciencia ficción, la comedia y la acción, así que aquí encontrarás recomendaciones, opiniones y curiosidades sobre estos géneros. Ya sea una historia llena de explosiones y adrenalina, un futuro fascinante con tecnología avanzada o una comedia ligera para pasar el rato, siempre hay algo interesante que ver. Si compartes estos gustos, siéntete libre de explorar y comentar. ¡Disfrutemos juntos del mundo del cine y las series!</p>
         <!--Series-->
         <article>
             <header>
                 <h3 class="subtitulos">Series</h3>
             </header>
-            <p class="txtcentrado"></p>
+            <p class="series">A continuación hablaré de mi top 5 de series favoritas. <br>Como mencione antes me gusta la ciencia ficcion, la comedia y la acción, pero para este top usaré solo series de ciencia ficcion. El top no estará en un orden en especifico, solo serán mis series favoritas.</p>
+            <ul>
+                <li>Snowpiercer</li>
+                <div class="division">
+                    <figure>
+                        <img src="https://resizing.flixster.com/yQku8IuZuG8vxppX3Wobq2Q1UWc=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16954768_i_v13_ae.jpg" alt="Snowpiercer">
+                    </figure>
+                    <p>Esta serie se desarrolla en un futuro post-apocalíptico donde la Tierra ha quedado sumida en una nueva era glacial. Los últimos sobrevivientes de la humanidad viven a bordo de un tren en constante movimiento, llamado Snowpiercer, dividido por clases sociales y luchas de poder. La trama sigue a un grupo de personajes que luchan por la justicia social y la supervivencia.</p>
+                </div>
+                <li>The 100</li>
+                <div class="division">
+                    <figure>
+                        <img src="https://m.media-amazon.com/images/M/MV5BNDdmZGYwOWEtN2FkZC00Y2ExLWJkY2UtNzFlODVlNzc3MGIzXkEyXkFqcGc@._V1_.jpg" alt="The 100">
+                    </figure>
+                    <p>Ambientada en un futuro distópico donde la Tierra ha quedado inhabitable tras una guerra nuclear, un grupo de 100 jóvenes delincuentes es enviado de vuelta a la Tierra para ver si es segura nuevamente. A medida que exploran, descubren nuevas amenazas y conflictos, enfrentándose a decisiones difíciles sobre moralidad, supervivencia y el futuro de la humanidad.</p>
+                </div>
+                <li>Dark</li>
+                <div class="division">
+                    <figure>
+                        <img src="https://m.media-amazon.com/images/I/81oWDX24u+L._UF1000,1000_QL80_.jpg" alt="Dark">
+                    </figure>
+                    <p>En esta serie alemana, una pequeña ciudad esconde oscuros secretos relacionados con viajes en el tiempo. La desaparición de dos niños desata una serie de eventos que involucran a diferentes generaciones, revelando conexiones misteriosas y trastornos en el tiempo que afectan a varias familias y personas a lo largo de los años.</p>
+                </div>
+                <li>Evangelion</li>
+                <div class="division">
+                    <figure>
+                        <img src="https://es.web.img2.acsta.net/pictures/18/12/07/12/40/4530128.jpg" alt="Evangelion">
+                    </figure>
+                    <p>En un mundo post-apocalíptico, jóvenes pilotos controlan enormes robots llamados Evas para defender la Tierra de monstruosas criaturas conocidas como Ángeles. La serie explora temas de depresión, existencia y conflictos psicológicos a través de sus complejos personajes y su trama de ciencia ficción..</p>
+                </div>
+                <li>Arcane</li>
+                <div class="division">
+                    <figure>
+                        <img src="https://m.media-amazon.com/images/M/MV5BNWE5Y2JmZjUtZDlhZS00Njg3LWJlODUtMjhmMGFjYzZmNmU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Arcane">
+                    </figure>
+                    <p>Basada en el popular videojuego League of Legends, la serie explora la historia de dos hermanas, Vi y Jinx, en la ciudad de Piltover y su vecina subterránea Zaun. Mientras enfrentan diferencias ideológicas, la serie profundiza en el conflicto entre el orden y el caos, mostrando las tensiones entre clases sociales y el impacto de las decisiones tecnológicas.</p>
+                </div>
+            </ul>
         </article>
         <hr>
         <!--Peliculas-->
@@ -64,7 +166,55 @@
             <header>
                 <h3 class="subtitulos">Peliculas</h3>
             </header>
-            <p class="txtcentrado"></p>
+            <p class="peliculas">Ahora hablaré sobre mis peliculas favortias, en esta ocasión no serán solo de ciencia ficción, sino también de otros géneros.</p>
+            <section>
+                <p class="txtcentrado">Esta sección será para mis peliculas de ciencia ficción favoritas.</p>
+                <ul>
+                    <li>Interestelar</li>
+                    <div class="division">
+                        <figure>
+                            <img src="https://m.media-amazon.com/images/S/pv-target-images/79194981293eabf6620ece96eb5a9c1fffa04d3374ae12986e0748800b37b9cf.jpg" alt="Interestelar">
+                        </figure>
+                        <p>Esta película de ciencia ficción dirigida por Christopher Nolan sigue a un grupo de astronautas que viajan a través de un agujero de gusano en busca de un nuevo hogar para la humanidad, ya que la Tierra está al borde del colapso debido a la escasez de recursos y el cambio climático. A lo largo de su misión, enfrentan desafíos tanto científicos como emocionales, explorando temas de amor, sacrificio, el tiempo y la relatividad. La película mezcla la ciencia rigurosa con elementos de drama humano, creando una experiencia visualmente impresionante y filosóficamente profunda.</p>
+                    </div>
+                    <li>Odisea en el espacio</li>
+                    <div class="division">
+                        <figure>
+                            <img src="https://m.media-amazon.com/images/S/pv-target-images/2f53aaa420d576440ebfa1015752396279ade9801e6d09f83c4a9c21e9b7067b.jpg" alt="Odisea">
+                        </figure>
+                        <p>Es un hito del cine que explora la evolución de la humanidad, el contacto con inteligencia extraterrestre y el futuro de la tecnología. La historia comienza con un misterioso monolito que aparece en diferentes momentos de la prehistoria humana, influenciando el desarrollo de la civilización. Luego, en el futuro, una misión espacial hacia Júpiter se ve interrumpida por la presencia de una inteligencia artificial llamada HAL 9000, que comienza a actuar de manera peligrosa. La película es conocida por sus innovadores efectos visuales, su narrativa abierta a la interpretación y su exploración profunda de temas filosóficos y existenciales.</p>
+                    </div>
+                    <li>Gravedad</li>
+                    <div class="division">
+                        <figure>
+                            <img src="https://m.media-amazon.com/images/S/pv-target-images/3843a3fdff0e304aa9dd20db81dd852a89cf3172909d769ed0121722ee5b5b47.jpg" alt="Gravedad">
+                        </figure>
+                        <p>Dirigida por Alfonso Cuarón, Gravedad es un thriller de ciencia ficción que sigue a dos astronautas, interpretados por Sandra Bullock y George Clooney, que quedan varados en el espacio después de que su estación espacial es destruida. La película se centra en la lucha por la supervivencia de la Dra. Ryan Stone (Bullock), quien, después de perder la comunicación con la Tierra, debe encontrar una manera de regresar a casa mientras enfrenta los peligros del espacio exterior, como la falta de oxígeno y las constantes amenazas de escombros espaciales. Gravedad es conocida por sus impresionantes efectos visuales, su tensión constante y la exploración del aislamiento y la resiliencia humana.</p>
+                    </div>
+                </ul>
+            </section>
+            <section>
+                <p class="txtcentrado">Esta sección será para mis peliculas de romance favoritas.</p>
+                <ul>
+                    <li>Your name</li>
+                    <div class="division">
+                        <figure>
+                            <img src="https://static.wikia.nocookie.net/doblaje/images/3/3b/Your_Name.jpg/revision/latest/scale-to-width-down/1200?cb=20240213023736&path-prefix=es" alt="Your">
+                        </figure>
+                        <p>Película de anime japonesa sigue a dos adolescentes, Mitsuha y Taki, que, misteriosamente, intercambian cuerpos de manera temporal. A medida que intentan adaptarse a las vidas del otro, descubren que sus destinos están conectados de una manera más profunda y mágica de lo que imaginaban. La historia toca temas como el amor, el destino, la memoria y el paso del tiempo, mientras los personajes tratan de entender su conexión y evitar un desastre inminente. Your Name es conocida por su impresionante animación, su emotiva banda sonora y su intrincada narrativa, que combina romance y elementos sobrenaturales.</p>
+                    </div>
+                    <li>Orgullo y prejuicio</li>
+                    <div class="division">
+                        <figure>
+                            <img src="https://m.media-amazon.com/images/M/MV5BZjBlODgwZWEtODcxMi00OTY5LWEyOTItODE2MDBjZjU0ZDU3XkEyXkFqcGc@._V1_.jpg" alt="Orgullo">
+                        </figure>
+                        <p>Basada en la novela clásica de Jane Austen, Orgullo y prejuicio es una historia romántica que sigue a Elizabeth Bennet, una joven inteligente y fuerte, y su relación con el orgulloso, pero misterioso, Sr. Darcy. Ambientada en la Inglaterra del siglo XIX, la trama explora temas de clases sociales, malentendidos y prejuicios, mientras Elizabeth y Darcy enfrentan sus propios defectos y estereotipos. A lo largo de la historia, ambos personajes deben aprender a superar sus propios prejuicios y reconocer el amor verdadero. La novela ha sido adaptada en múltiples ocasiones para cine y televisión, y es famosa por sus agudas observaciones sobre la sociedad y sus complejos personajes.</p>
+                    </div>
+                </ul>
+            </section>
+            <h3>Breve ranking de las peliculas</h3>
+            <p class="ranking">En este apartado de la página mencionaré ahora si el ranking en que estas las peliculas, el primer lugar será mi favorita.</p>
+            <h4>Gracias por leer mi página web para series y peliculas. Espero haya sido de tu agrado.</h4>
         </article>
     </main>
     <aside>

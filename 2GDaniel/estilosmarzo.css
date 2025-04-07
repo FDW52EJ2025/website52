@@ -1,0 +1,70 @@
+#s1 article.primeraPractica ~ article{
+    border: 2px dotted grey;
+} /* ( (HERMANO GENERAL) ~ Este le pone el borde a todos los articulos que sean hermanos.  
+       (HERMANO ADYACENTE) + Este le pone el borde unicamente al que siga despues. */
+
+.titulo:hover{
+    background-color: gold;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+#s1 > article:nth-child(3){
+    background-color: black;
+    color: white;
+}
+
+#s1 > article:first-child{
+    background-color: chocolate;
+}
+
+#s1 > article:last-child{
+    background-color: blanchedalmond;
+}
+
+#s1 ul li:nth-child(odd){
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    padding: 3px;
+}
+
+#s1 ul li:nth-child(even){
+    background-color: grey;
+    color: white;
+    padding: 3px;
+}
+
+
+#s1 p::first-line{
+    background-color: yellow;
+} 
+
+#s1 p::first-letter{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+p[lang="es"], p[lang="en"] {
+    background-color: aquamarine;
+} /* Busca un atributo gracias a los corchetes */
+
+input[type="text"] {
+    background-color: black;
+    color: white;
+} /* Le pone el estilo a todas las cajas de tipo input y de tipo texto. */
+
+p[lang^="a"] {
+    color: blue;
+} /* Que el lenguaje empieze con la letra a  */
+
+p[lang$="a"] {
+    color: blue;
+} /* Que el lenguaje termine con la letra a  */
+
+p[lang*="a"] {
+    color: blue;
+} /* Que el lenguaje contenga la letra a  */
+
+blockquote[cite*="wikipedia"] {
+    color: red;
+} /* Todo lo que copie de Wikipedia */ 

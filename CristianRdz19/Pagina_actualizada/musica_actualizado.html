@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina actualizada pasatiempos</title>
+    <link rel="stylesheet" href="estilos_selectores.css">
 </head>
 <body>
     <header style="text-align: center;" >
         <h1 style="background-color: cadetblue; border: 40px;"><i>Musica</i></h1>
-        <h2><nav style="text-align: center; background-color: rgb(0, 0, 0); border: 40px;">
+        <h2><nav>
             <a href="index_actualizado.html ">Inicio</a>
             <a href="deportes_actualizado.html">Deportes</a>
             <a href="videojuegos_actualizado.html">Videojuegos</a>
@@ -17,22 +18,24 @@
             <a href="formulario.html">Formulario</a>
         </nav></h2>
     </header>
-    <main>
-        <article>
+    <main id="s-descendientes">
+        <article id="s-lista">
             <header>
                 <p style="text-align: center;">Uno de mis <em>pasatiempos</em> favoritos es escuchar musica, podria decirse que mi cantante favorito es Mike Towers y a continuacion hablare de el y mostrare 2 albumnes que mas me gustan.</p>
             </header>
 
-            <div style="text-align: center;">
-                <h1><p>MIKE TOWERS🎤</p></h1>
+            <div class="imagen-principal">
+                <h1 class="temaprincipal">MIKE TOWERS🎤</h1>
                 <p style="text-align: justify;">Michael Anthony Torres Monge (San Juan, <time datetime="1994-01-15">15 de enero de 1994</time>), conocido artísticamente como Myke Towers, es un cantante y compositor puertorriqueño de reguetón y trap latino. Fue nominado a un Grammy Latino, además de ser reconocido como el Nuevo Artista del Año por los Billboard Latin Music Awards en 2021. Hasta la fecha, Towers ha lanzado 8 álbumes de estudio y es codirigido por One World International y S10 Entertainment.</p>
+            </div>
+            <div>
                 <img src="https://images.sk-static.com/images/media/img/col4/20190120-085002-175904.jpg" width="300px" alt="Imagen del artista">
                 <figcaption>Mike Towers</figcaption>
-                <hr>
             </div>
-            <h1>Albumnes favoritos</h1>
+            <hr>
+            <h3>Albumnes favoritos</h3>
 
-            <h2 style="text-align: center;"><mark>LIKE MIKE</mark></h2>
+            <h2><mark>LIKE MIKE</mark></h2>
             <div style="text-align: center;">
                 <img src="https://i.discogs.com/_7KdDD1zN77Tyd7tdonGgWxm0XSC6V-lScUeTxabyvo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NjQ5/ODUwLTE3MDY2NjY4/NjQtNjA4OC5qcGVn.jpeg" width="300px" alt="foto del album LIKE MIKE del artista">
                 <figcaption>Portada oficial</figcaption>
@@ -46,7 +49,7 @@
 
             <hr>
 
-            <h2 style="text-align: center;"><mark>EASY MONEY BABY</mark></h2>
+            <h2><mark>EASY MONEY BABY</mark></h2>
             <div style="text-align: center;">
                 <img src="https://cdn-images.dzcdn.net/images/cover/d9813d681dc888bc53c70349ca9315ba/200x200.jpg" width="300px" alt="foto del album EASY MONEY BABY del artista">
                 <figcaption>Portada oficial</figcaption>
@@ -57,10 +60,6 @@
                 <li><a href="https://www.youtube.com/watch?v=ZLQb-8MlO8I" target="_blank">LVCC</a></li>
                 <li><a href="https://www.youtube.com/watch?v=5VOP0A491sg" target="_blank">GIRL</a></li>
             </ul>
-            
-            <footer>
-                <hr>
-            </footer>
         </article>
         
     </main>
@@ -72,5 +71,9 @@
             </ul>
         </small>
     </aside>
+    <footer class="pie">
+        <p>Sitio web desarrollado por: <br> <b>Cristian Omar Rodriguez Solis 2175529</b></p>
+        <p>Fundamentos de desarrollo WEB</p>
+    </footer>
 </body>
 </html>

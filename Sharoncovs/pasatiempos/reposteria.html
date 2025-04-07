@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #f5adf9;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    header {
+        text-align: center;
+        background-color: #ca6fdc;
+        padding: 20px;
+        width: 100%;
+    }
+
+    h1 {
+        color: black;
+        font-size: 2em;
+        margin: 0;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        padding: 20px;
+    }
+
+    article {
+        background: #f8ddfb;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 300px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    article:hover {
+        transform: scale(1.05);
+    }
+
+    article img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        margin: 10px 0 5px;
+        color: black;
+    }
+
+    p {
+        color: #333;
+        font-size: 0.9em;
+    }
+
+    footer {
+        background-color: #ca6fdc;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis postres Favoritos</h1>
+        <p>En mis tiempos libres me gusta hacer postres junto con mi hermana, no soy tanto de comer dulce pero si me gusta hacerlos</p>
+    </header>
+    <main>
+        <article>
+            <img width="300px" src="https://i.pinimg.com/474x/8b/76/ed/8b76ed6d0339d13ec8ffb637073dea7e.jpg" alt="Postre">
+            <h2> Pay de Limon</h2>
+            <p>El pay de limón es un postre refrescante y equilibrado, con una base de galleta y un relleno de crema de limón que aporta un toque cítrico y dulce a la vez.</p>
+        </article>
+        <article>
+            <img width="300px" src="https://i.pinimg.com/474x/66/c5/a7/66c5a72985064a2c61bc33169f6090d9.jpg" alt="Postre">
+            <h2>El Cheesecake es mi postre favorito</h2>
+            <p>El cheesecake es un postre cremoso y delicioso que combina una base crujiente de galleta con un relleno suave de queso crema. Puede servirse solo o con diferentes toppings como frutos rojos, caramelo o chocolate.</p>
+        </article>
+        <article>
+            <img width="300px" src="https://i.pinimg.com/474x/fd/24/5c/fd245c63fee73993fc7b8aba852aa7b9.jpg" alt="Postre">
+            <h2>Chocoflan</h2>
+            <p>El chocoflan, también conocido como "pastel imposible", es un postre delicioso que combina dos texturas y sabores irresistibles: un suave flan de caramelo y un esponjoso pastel de chocolate.</p>
+        </article>
+
+    </main>
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por: Sharon Covarrubias</p>
+            <p>Redes sociales: Sharoncovs</p>
+            <a href="https://www.instagram.com/sharon_covs?igsh=am9yY242MHU5ZHB5&utm_source=qr">Instagram</a>
+        </address>
+    </footer>
+</body>
+</html>

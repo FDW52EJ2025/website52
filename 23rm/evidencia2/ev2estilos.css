@@ -1,0 +1,50 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulos h1{
+    background-color: rgb(84, 75, 75);
+    text-align: center;
+    border-radius: 10px;
+    color: azure;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.titulos nav{
+    margin-top: 0px;
+    color: blueviolet;
+    background-color: rgb(126, 108, 136);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.subtitulos{
+    text-align: center;
+    color: rgb(47, 78, 78);
+    font-weight: bold;
+    background-color: rgb(153, 140, 124);
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+body{
+    background-color: beige;
+}
+footer{
+    text-align: center;
+    position:relative;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.bordeimg{
+    border: 5px solid rgb(113, 93, 67);
+    border-radius: 5px;
+}
+.division{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    align-items: start;
+}

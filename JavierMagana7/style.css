@@ -2,7 +2,82 @@
     background-color: silver; ; border-radius: 10px;
 }
 
-.estilo1 {
+#body body {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "nav nav"
+        "main main"
+        "footer footer";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+header {
+    grid-area: header;
+    border-radius: 10px;
+    border: 2px solid #030303;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+nav {
+    grid-area: nav;
+
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(52, 73, 94);
+    color: white;
+    border: 2px solid #030303;
+}
+
+#navP ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    gap: 0.6em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Quitar viñetas */
+}
+/* Estilo para cada elemento de lista */
+.nav {
+    background-color: #030303; /* Color de fondo individual */
+    text-align: center;
+    padding: 1em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.nav:hover {
+    background-color: #F7374F; /* Cambio de color al pasar el mouse */
+}
+/* Estilo para los enlaces */
+.nav a {
+    text-decoration: none; /* Quitar subrayado */
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+}
+
+.titulopaginaperso{
+    text-align: center;
+    background-color: rgb(52, 73, 94);
+    color:white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.estilo1 {  /* Selector de bordes de separaciòn */
     border-top-left-radius: 0.5em;
     border-top: 3px solid black;
     border-left: 3px solid black;
@@ -10,11 +85,14 @@
     margin-bottom: 2em;
 }
 
-.titulo1{   /* Selector universal */
+#s-clase .titulo1{   /* Selector por clase tipo 2*/
     text-align: center;
     background-color:crimson;
     color:white;
     border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .titulo2{
@@ -26,7 +104,10 @@
     border-left: 3px solid black;
     padding-left: 1em;
     margin-bottom: 2em;
+    font-size: 20px;
+    font-weight: bold;
 }
+
 
 .titulo3{
     text-align: center;
@@ -35,19 +116,91 @@
     border-radius: 5px;
 }
 
+.titulo4 {  /* Selector de titulos Series */
+    text-align: center;
+    background-color: crimson;
+    color:white;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.titulo5  { /* Selector de titulos Senderismo */
+    text-align: center;
+    background-color: silver;
+    color:black;
+    border-radius: 5px;
+    border-color: darkgray;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.titulo6 {  /* Selector de titulos Peliculas */
+    text-align: center;
+    background-color: gold;
+    color:black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.estilo2 {   /* Selector de estilo peliculas */
+    background-color: darkblue;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: darkgray;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
 /* Estilo de formulario */
 .bordes {
-    border: 3px dotted gray;
+    border: 3px dotted brown;
     border-radius: 5px;
     text-align: center;
 }
 
-#s-universal *{     /* Selector por clase */
-    color:crimson;
+/* Estilo de formulario */
+#s-formulario * {    /* Selector por clase */
+    background-color: rgb(153, 201, 183);
+    color:black;
     font-size: 20px;
 }
 
-#s-id {     /* Selector por id */
+
+* img {    /* Selector Universal */
+    width: 100%;
+    max-width: 700px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    align-items: center; 
+}
+
+
+#s-d-tipo p { /* Selector por tipo - etiqueta */
+    border: 3px dotted black;
+    text-align: center;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+}
+
+
+#s-id #th3 {   /* Selector por id */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: red; 
+    font-weight: bold;
+    font-style: italic; 
+    color: white;
+    border: white 2px solid;
+    border-radius: 5px;
+}
+
+#s-tipo-clase-especifica h2.clase1 {     /* Selector por tipo clase especifica*/
     font-family: Arial, sans-serif;
     font-size: 20px;
     background-color: yellow; 
@@ -56,33 +209,128 @@
     color: black; 
 }
 
-#s-tipo{    /* Selector por tipo */
+
+#s-lista blockquote, #s-lista figcaption {   /* Selector por lista  */ 
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    background-color: gold; 
+    font-weight: bold;
+    font-style: italic; 
+    color: blue; 
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+a[href*="instagram"] {  /* Selector por atributo */
+    background-color: rgb(52, 73, 94);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+#s-descendientes figure * {   /* Selector por descendientes */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: green;
+    border: black 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}	
+
+#s-hijos-directos li > blockquote {   /* Selector por hijos directos */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color:cornflowerblue;
+    border: black 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+#s-hijo-adyacente h2 + p {  /* Selector por hermano adyacente */
+    font-size: 28px;
+    background-color: darkorange;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+
+#s-cuadro-azul{    /* Selector de cuadro azul en f1 */
     border: 3px blue solid;
     text-align: center;
     border-radius: 2px;
 }
 
-#s-tipo-clase h3.style { /* Selector por tipo clase */
+
+
+section ~ p {   /* Selector por hermano general */
     font-family: Arial, sans-serif;
     font-weight: bold;
     border: 1px solid gold;
     box-shadow: 5px 5px 5px gold;
     text-align: center;
-}
+} 
 
-#s-lista li, #s-lista h3 {   /* Selector por lista (aqui me quede, intentaba meterlo en "series" */ 
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    background-color: yellow; 
-    font-weight: bold;
-    font-style: italic; 
-    color: blue; 
-}
 
-.centrar {
+.centrar { /* Mi selector para centrar */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* Estilo de mi practica1 ev2 */
+.titulosSelectoresEv2{
+    text-align: center;
+    background-color: rgb(186, 74, 0);
+    color:white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-left-radius: 0.7em;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+.estiloSelectoresEv2 {
+    background-color: rgb(52, 73, 94);
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    padding-left: 1em;
+    margin-bottom: 2em;
+    text-align: center; 
+}
+
+.selectoresTitulo{
+    text-align: center;
+    background-color:crimson;
+    color:white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Pseudo Clases */
+a:hover {
+    background-color: #F7374F;
+    color: white;
+}
+
+/* Pseudo Elementos */
+h2::first-letter{
+    font-size:45px;
+    color: black;
+    font-weight: bold;
 }
 

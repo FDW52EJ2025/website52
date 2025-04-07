@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    text-align: center;
+}
+h1 { 
+    background-color: #b9d8f1;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(to right,#9fc6e5, #ffffff, #9fc6e5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.artista {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(157, 201, 237, 0.2)  ;
+}
+img {
+    border-radius: 10px;
+}
+.descripcion {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 5px;
+}
+.cancion {
+    font-size: 16px;
+    margin-top: 10px;
+}
+a {
+    color: #6dafe6;
+}
+p.descripcion {
+    font-style: italic;
+}
+
+ul li {
+    list-style-type: square;
+}
+.container > .artista {
+    border: 2px solid #6dafe6;
+}
+.artista:hover {
+    background-color: #ffffff; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #f8f1e7;
+    font-family: Arial, sans-serif;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+#titulo {
+    color: #8b5e3b;
+    font-size: 2em;
+}
+
+#galeria img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 + div {
+    border-top: 2px solid #d4a373;
+    padding-top: 15px;
+}
+
+#titulo:hover {
+    color: #ff5733;
+}
+
+#titulo::before {
+    content: "🎨 ";
+    color: #6a5acd;
+}

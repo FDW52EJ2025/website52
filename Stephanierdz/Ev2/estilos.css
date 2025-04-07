@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header, #footer {
+    padding: 10px;
+    background-color: #e0e0e0;
+  }
+  
+  #contenido {
+    padding: 10px;
+  }
+  
+  section {
+    padding: 14px;
+    margin: 8px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+  }
+  
+  h2, h3 {
+    color: #555;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  #juegos {
+    background-color: #e0f7fa;  
+    border: 2px solid #4dd0e1;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  #chocolates {
+    background-color: #fff3e0;  
+    border: 2px solid #ffcc80;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+
+
+
+

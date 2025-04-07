@@ -1,0 +1,77 @@
+.titulo{
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#boton{
+    cursor: pointer;
+}
+
+#s-universal *{
+    color: pink;
+}
+
+.titulo:hover{
+    background-color:palevioletred;
+    border: bisque 2px solid;
+    border-radius: 5px;
+}
+
+#s-libros h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+#s-libros h2 ~ p{
+    color: blueviolet;
+}
+
+#s-libros p::first-letter{
+    font-size: 20px;
+    color: rgb(12, 0, 23);
+}
+
+#s-universal .web{
+    text-decoration-line: underline overline;
+}
+
+
+#L1 ul li:nth-child(odd):hover{
+    background-color: lightcoral;
+}
+
+#s-tipo p.info{
+    border: 1px solid rgb(253, 215, 0);
+    box-shadow: 5px 5px 5px gold;
+    background-color: rgb(248, 230, 130);
+}
+
+
+#s-hermano-ad article h2 + p {
+    color: aquamarine;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#s-hermano-ad p {
+    font-size: 16px;
+    color: #333;
+}
+
+
+#s-sali ul li:nth-child(odd){
+    background-color: lightcoral;
+}
+
+#s-sali #id-pa{
+    border: 2px dotted rgb(173, 131, 227);
+}
+
+
+button{
+    cursor: pointer;
+}
+

@@ -1,20 +1,86 @@
+/* Selector Universal */
 * {
-    margin:0;
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 /* Selector de tipo */
-span {
-    color: red;
+p {
+    color: #007bff;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* Lista */
-p, h1 {
-    color: red;
-}
+/* Selector Id */
 
-input {
-    color: blue;
-    border: 2px dotted green;
+#miElemento {
+    background-color: #ffeb3b;
+    color: #333;
+    font-size: 20px;
+    padding: 10px;
     border-radius: 5px;
+}
+
+/* Selector De Clase */
+
+.miClase{
+    background-color: #e0f7fa;
+    color: #00695c;
+    font-size: 18px;
+    padding: 15px;
+    border: 2px solid #004d40;
+    border-radius: 8px
+}
+
+/* Selector De Clase De Un Tag Particular */
+
+p.resaltado {
+    background-color: #ffe0b2;
+    color: #d84315;
+    font-size: 18px;
+    padding: 10px;
+    border-left: 5px solid #ff6f00;
+}
+
+/* Selector De Atributo */
+
+a[href*="facebook"] {
+    color: #ff6f00;
+    text-decoration: underline;
+}
+
+
+/* Selector De Lista */
+
+li {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* Selector Descendientes */
+
+.contenedor p {
+    color: blue;
+}
+
+/* Selector Descendientes Hijos Directos*/
+
+.contenedor > p {
+    color: red;
+}
+
+/* Selector Hermano General*/
+
+h2 ~ p {
+    color: green;
+}
+
+/* Selector Hermano Adyacente */
+
+h2 + p {
+    color: purple;
 }

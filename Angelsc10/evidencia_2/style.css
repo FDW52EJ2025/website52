@@ -1,0 +1,134 @@
+/* CSS index.html */
+h1 {
+    background-color: papayawhip;
+    display: inline;
+    color: blue;
+    border-style: dashed;
+    font-size: 25px
+}
+li {
+    text-decoration: underline;
+    font-size: 25px;
+    color: black;
+}
+div {
+    float: right;
+}
+nav {
+    font-size: 20px;
+}
+p.item {
+    font-size: 20px;
+}
+p.item1 {
+    font-size: 20pxpx;
+}
+
+/* CSS anime.html */
+h1.anime {
+    font-size: 25px;
+}
+
+/* videojuegos.html */
+h1.juegos {
+    font-size: 25px;
+}
+
+/* league_of_legends.html */
+h1.lol {
+    font-size: 25px;
+}
+
+/* futbol.html */
+h1.futbol {
+    font-size: 25px;
+}
+
+/* musica.html */
+h1.musica {
+    font-size: 25px;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#s-universal * {
+    color: #2c4caf;
+}
+
+#s-clase .opening {
+    font-size: 30px;
+}
+
+#s-id #lista-musica {
+    border: 2px blue solid;
+}
+
+#s-tipo .item {
+    text-transform: uppercase;
+}
+
+#s-tipo-clase .info {
+    font-size: 20px;
+}
+
+#s-lista p, #s-lista li {
+    text-transform: uppercase;
+}
+
+#s-descendiente article * {
+    border-bottom: 2px dotted blueviolet;
+}
+
+#s-hijos article > p {
+    background-color: black;
+    color: white;
+    display: inline;
+}
+
+#s-hermano-ad article h2+p {
+    color: #af2c42;
+}
+
+#s1 article.segundaPractica ~ article {
+    border: 2px dotted blue;
+}
+
+.titulo:hover {
+    background-color: gold;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#s1 > article:nth-child(5) {
+    background-color: black;
+    color: white;
+}
+#s1 > article:first-child {
+    background-color: chocolate;
+}
+
+#s1 > article:last-child {
+    background-color: pink;
+}
+
+
+#s1 ul li:nth-child(odd) {
+    background-color: gray;    
+}
+
+#s1 ul li:nth-child(even) {
+    background-color: rgb(242, 146, 146);
+}
+
+#s1 p::first-line {
+    background-color: yellow;
+}
+
+#s1 p::first-letter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}

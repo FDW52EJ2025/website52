@@ -3,30 +3,3 @@
     color: rgb(0, 0, 0);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
-body {
-    background: linear-gradient(to right, #a20dcf, #2C003E);
-    color: #E3DFF2;
-}
-
-h1 {
-    color: #A463F2;
-    border-radius: 5px;
-    text-align: center;
-}
-
-h2 {
-    color: #cfcbc6;
-}
-
-button {
-    background-color: #8226FF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  button:hover {
-    background-color: #5E239D;
-  }

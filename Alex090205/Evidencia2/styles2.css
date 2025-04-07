@@ -1,29 +1,31 @@
-
+/*Selector Universal*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/*Selector de tipo*/
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 
-#s-header {
+header {
     background: darkgoldenrod;
     color: white;
     padding: 20px;
 }
 
 
+/*Selectores por id*/
 #s-nav {
     background: goldenrod;
     padding: 10px;
 }
+
 
 #s-nav a {
     color: white;
@@ -33,12 +35,65 @@ body {
 }
 
 #s-nav a:hover {
+    color: yellow;
     text-decoration: underline;
 }
 
 
 #s-section {
     padding: 20px;
+}
+
+/*Selector de clase y en particular*/
+p.texto-importante {
+    color: blue;
+    font-weight: bold;
+}
+
+
+/*Selector de descendientes e hijos directos*/
+
+
+.pseudo-elementos > p:nth-child(3) {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.pseudo-elementos > p:first-child {
+    color: palevioletred;
+    font-weight: bold;
+
+}
+
+.pseudo-elementos > p:last-child {
+    color: green;
+    font-weight: bold;
+
+}
+
+#s-section ul li:nth-child(odd){
+    background-color: royalblue;
+}
+
+#s-section ul li:nth-child(even){
+    background-color: rosybrown;
+}
+
+
+.firstline-firstletter::first-line{
+    background-color: yellow;
+}
+
+.firstline-firstletter::first-letter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
+
+
+
+.primer-pelicula + li {
+    background-color: green;
 }
 
 
@@ -56,6 +111,31 @@ body {
 }
 
 
+
+
+/*Selector de atributo*/
+input[type="text"] {
+    border: 2px solid green;
+    padding: 5px;
+}
+
+ /*Selector de lista*/
+h3, p, a {
+    font-family: 'Arial', sans-serif;
+    color:black;
+}
+
+/*Selector compuesto*/
+h1.letras-subrayadas {
+    background-color: lightyellow;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
 #s-footer {
     background: darkgoldenrod;
     color: white;
@@ -63,3 +143,5 @@ body {
     width: 100%;
     bottom: 0;
 }
+
+

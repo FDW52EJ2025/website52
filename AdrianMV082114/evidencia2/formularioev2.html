@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos</title>
+  
+    <link rel="stylesheet" href="estilosev2.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de Datos</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+            <label for="pais">¿En qué país vives?</label>
+            <input type="text" id="pais" name="pais" required>
+
+            <label for="comida">¿Cuál es tu comida favorita?</label>
+            <input type="text" id="comida" name="comida" required>
+
+            <label for="estudios">¿En dónde estudias?</label>
+            <select id="estudios" name="estudios" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="FACPYA">FACPYA</option>
+                <option value="FIME">FIME</option>
+                <option value="FOD">FOD</option>
+                <option value="FM">FM</option>
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

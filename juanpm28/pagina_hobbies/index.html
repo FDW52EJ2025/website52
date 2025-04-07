@@ -9,48 +9,52 @@
 </head>
 
 <body>
-  <header>
+  <header class="header-principal">
     <h1>Mis Pasatiempos</h1>
   </header>
-  <nav>
+  <nav class="menu-navegacion">
     <a href="./musica.html">Música</a>
     <a href="./arte.html">Arte</a>
     <a href="./programacion.html">Programación</a>
   </nav>
-  <main>
-    <section id="musica">
+  <section id="descripcion" class="descripcion">
+    <p><strong>Soy Juan de Jesús Patricio Muñiz y actualmente curso el 5to semestre de la carrera de Tecnologías de
+        Información en la UANL. Tengo pasiones más que nada artísticas, además de tecnológicas.</strong></p>
+  </section>
+  <main class="contenido-principal">
+    <section id="musica" class="seccion-hobby">
       <h2>Música</h2>
-      <article>
+      <article class="articulo-hobby">
         <p>Me gusta crear música tipo lofi hip hop, escribir melodías, tocar piano y guitarra</p>
         <h1>Mi musica</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JGrKqqRRNLQ"
-          title="YouTube video player" frameborder="0"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JGrKqqRRNLQ" title="YouTube video player"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
         </iframe>
-        <ul>
+        <ul class="lista-hobbies">
           <li>Produzco musica relajante</li>
           <li>Aprendo nuevas canciones en el piano y guitarra</li>
           <li>Aprendo nuevas técnicas musicales</li>
         </ul>
       </article>
     </section>
-    <section id="arte">
+    <section id="arte" class="seccion-hobby">
       <h2>Arte</h2>
-      <article>
+      <article class="articulo-hobby">
         <p>Disfruto dibujar lo que tengo a mi alrededor</p>
-        <ul>
+        <ul class="lista-hobbies">
           <li>Estudio anatomía y poses</li>
           <li>Pruebo técnicas de diseño</li>
         </ul>
       </article>
     </section>
-    <section id="programacion">
+    <section id="programacion" class="seccion-hobby">
       <h2>Programación</h2>
-      <article>
+      <article class="articulo-hobby">
         <p>Me interesa el desarrollo web y la lógica de la programación. Actualmente estudio la inteligencia artificial.
         </p>
-        <ul>
+        <ul class="lista-hobbies">
           <li>Aprendo sobre ciencia de datos y machine learning</li>
           <li>Practico SQL</li>
           <li>Creo pequeños proyectos para pulir mis habilidades</li>
@@ -58,5 +62,23 @@
       </article>
     </section>
   </main>
+
+  <footer class="pie-pagina">
+    <p>Hecho por Juan de Jesús Patricio Muñiz</p>
+    <div class="redes-sociales">
+      <a href="https://wa.me/+528126435501" target="_blank" class="enlace-red">
+        <img src="https://static-00.iconduck.com/assets.00/whatsapp-icon-2038x2048-5zk5gj1j.png" alt="WhatsApp"
+          width="30">
+      </a>
+      <a href="https://open.spotify.com/artist/2eP33F4B2S0VL0ikoDNG6d" target="_blank" class="enlace-red">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png"
+          alt="Instagram" width="30">
+      </a>
+    </div>
+    <div class="evidencia-boton">
+      <a href="../evidencia2/index.html" class="boton-evidencia">Ver Evidencia de Selectores CSS</a>
+    </div>
+  </footer>
+</body>
 
 </html>

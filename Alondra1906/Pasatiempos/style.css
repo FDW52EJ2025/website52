@@ -89,6 +89,19 @@ button {
     border-radius: 5px;
 }
 
+a[href*="facebook"] {
+    background-color: blueviolet;
+}
+
+header, footer {
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+address p {
+    background-color: dimgray;
+}
+
 /* Pagina musica */
 .header1 {
     text-align: center;
@@ -108,6 +121,14 @@ button {
     text-align: center; 
 }
 
+* {
+    color: rgb(0, 0, 0);
+}
+
+ol > li {
+    background-color: rgb(178, 90, 230);
+}
+
 /* Pagina videojuegos */
 .header2 {
     text-align: center;
@@ -125,6 +146,24 @@ button {
     justify-content: center;
     gap: 20px;
     text-align: center; 
+}
+
+#texto {
+    color: chocolate;
+}
+
+p.link {
+    color: blue;
+}
+
+h1.principal {
+    color:darkgreen;
+}
+
+
+
+.primero + div {
+    background-color: rgb(87, 233, 131);
 }
 
 /* Pagina peliculas */

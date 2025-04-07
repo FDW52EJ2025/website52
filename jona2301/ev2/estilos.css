@@ -1,0 +1,50 @@
+header{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: black;
+}
+
+/* selector universal */
+*{
+    font-family: 'Courier New', monospace;
+    color: black;
+    background-color: skyblue;
+}
+
+/*selector de clase*/
+.contenedor{
+    color: black;
+    background-color: white;
+}
+
+/* selector de id */
+.contenedor tabla{
+    color: white;
+    background-color: black; 
+}
+
+/* selector de clase especifico */
+.titulo-deportes {
+    color: salmon; 
+    font-size: 25px; 
+    text-align: center; 
+}
+/* selector de tipo */
+p{
+    font-size: 14px;
+}
+/* selector de lista */
+ul{
+    background-color: white;
+}
+
+/* selector de descendientes */
+ol p{
+    color: black;
+    font-weight: bold;
+}
+
+/* hijos directos */
+header > h1 {
+    color: beige; 
+    font-size: 30px; 
+}

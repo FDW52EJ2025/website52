@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    margin-bottom: 20px; 
+}        
+
+body {
+    background: linear-gradient(to right, #0f2027, #11485a, #2c5364);
+    color: rgb(51, 5, 5);
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+nav a {
+    color: rgb(65, 27, 27);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.contenedor article p {
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid rgb(122, 35, 35);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    max-width: 800px;
+}
+
+/* Selector de clase */
+#s-clase-tipo-2 {
+    font-size: 26px;
+    margin: 20px auto; 
+    padding: 15px;
+    border: 2px solid rgb(122, 35, 35);
+    border-radius: 10px;
+    color: #f0f8ff;
+    background-color: yellowgreen;
+}
+
+/* Selector de ID */
+#s-id {
+    font-size: 26px;
+    margin: 15px auto;
+    padding: 12px;
+    border: 2px solid rgb(230, 8, 8);
+    border-radius: 10px;
+    color: #f0f8ff;
+    background-color: rgb(187, 50, 205);
+}
+
+/* Selector universal */
+#s-universal * {
+    background-color: #11485a;
+    margin: 0%;
+    color: rgb(209, 27, 97);
+}
+
+/* Selector de clase especifica */
+#s-tipo-clase-especifica {
+ text-align: left;
+    background-color: #ff4f88; 
+    color: #f0f8ff; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    font-weight: 300;
+}
+
+#s-tipo-clase-1 {
+    text-align: left;
+    background-color: #80052c; 
+    color: #f0f8ff; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    font-weight: 300;
+}
+
+/* Selector de tipo etiqueta */
+#s-tipo-etiqueta p, 
+#s-tipo-etiqueta div, 
+#s-tipo-etiqueta h3 {
+    text-align: left;
+    background-color: #ff4f88;
+    color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+/* Selector de lista */
+#s-musica li {
+    text-transform: uppercase;
+    font: medium;
+    color: aqua;
+    background-color: #2c5364;
+}
+
+/* Selector de descendientes */
+#s-musica-descendiente {
+    border-bottom: 2px dotted rgb(122, 11, 11);
+    border: 2px solid red;
+    font-size: medium;
+    padding: 4px ;
+    background-color: #ff4f88;
+}
+    
+/* Selector de hijos directos*/
+.contenedor > article {
+    border: 2px solid red;
+    font-size: medium;
+    padding: 4px ;
+    color: darkmagenta;
+}
+
+#s-descubrimientos {
+    border: 2px solid rgb(60, 255, 0);
+    font-size: medium;
+    padding: 4px ;
+    background-color: #ff4f88;
+}
+/*Practica 2?*/
+/* selector adyacente*/
+.color{
+    color: red;
+}
+.color + p {
+    border: 2px solid orange;
+}
+ /*selector por hermano general*/
+h2 ~ audio {
+    border: 2px solid green;
+}
+
+/* pseudo clase hover */
+a:hover {
+    color: blue;
+}
+/* pseudo clase active */
+a:active {
+    color: green;
+}
+/* pseudo clase visited */
+a:visited {
+    color: gray;
+}
+/* Esto agrega un icono de música después del título */
+h1::after {
+    content: " 🎶"; 
+    font-size: 30px;
+}
+
+/* Estilo para el contenido antes de los párrafos con la clase .color */
+h1::before {
+    content: "📀 ";  
+    font-size: 20px;
+}

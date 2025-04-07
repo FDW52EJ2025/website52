@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #fce8e6;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #f4c2c2;
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+article {
+    background: #ffe6e6;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+article:hover {
+    transform: scale(1.05);
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: 10px 0 5px;
+    color: black;
+}
+
+p {
+    color: #333;
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: #f4c2c2;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Libros Favoritos</h1>
+    </header>
+    <main>
+        <article>
+            <img width="100px" src="https://i.pinimg.com/474x/e6/3d/d6/e63dd6a0f048cf8fbfe61d9d4f23cb17.jpg" alt="Libro">
+            <h2> Antes de diciembre</h2>
+            <p>Es una novela romántica de Joana Marcus que sigue la historia de Jenna Brown, una joven que se muda a la universidad y conoce a Jack Ross, un chico con una personalidad completamente opuesta a la suya. </p>
+        </article>
+        <article>
+            <img width="300px" src="https://i.pinimg.com/474x/52/fd/f2/52fdf27cd153d1c9a0a4929aa8f1ec61.jpg" alt="Libro">
+            <h2> Los elementos de un beso</h2>
+            <p>Los elementos de un beso de Shula Li es una comedia romántica juvenil sobre Lexi, una estudiante universitaria enfocada en sus estudios, y Brice, con quien es emparejada por una misteriosa cuenta de Instagram llamada @nosoycupido. Para descubrir quién está detrás de la cuenta, ambos deciden fingir una relación, pero pronto los sentimientos reales complican el plan</p>
+        </article>
+
+    </main>
+    <footer>
+        <address>
+            <p>Sitio web desarrollado por: Sharon Covarrubias</p>
+            <p>Redes sociales: Sharoncovs</p>
+            <a href="https://www.instagram.com/sharon_covs?igsh=am9yY242MHU5ZHB5&utm_source=qr">Instagram</a>
+        </address>
+    </footer>
+</body>
+</html>

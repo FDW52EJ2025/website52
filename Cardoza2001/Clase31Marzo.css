@@ -1,0 +1,158 @@
+#s13{
+    display: flex;
+}
+
+#s13{
+    flex-basis: 200px;
+}
+
+#s12{
+    display: flex;
+}
+
+#s12.color1{
+    flex-grow: 3;
+
+}
+#s12.color4{
+    flex-grow: 1;
+
+}
+
+#s11.color1{
+    order: 4;
+
+}
+#s11.color2{
+    order: 3;
+
+}
+#s11.color3{
+    order: 2;
+
+}
+#s11.color4{
+    order: 1;
+
+}
+
+
+#s10{
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#s9{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-start;
+    align-content: center;
+}
+
+#s8{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+
+}
+
+
+#s7{
+    /* hacerlo flexible */
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+#s6 {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse: Lo pone del lado contrario */
+    /* flex-wrap: nowrap ; */
+    width: 200px;   
+
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+
+} 
+
+.color1{
+    background-color: aliceblue;
+}
+.color2{
+    background-color: antiquewhite;
+}
+
+.color3{
+    background-color: aqua;
+}
+.color4{
+    background-color: aquamarine;
+}
+.color5{
+    background-color: blanchedalmond;
+}
+
+
+#s4 {
+    background-color: greenyellow;
+}
+
+#s4 img{
+    float: right;
+}
+
+
+#s5 {
+    background-color: gray;
+    height: 300px;
+}
+
+#s5 article{
+    float: left;
+    width: 25%;
+
+}
+
+#s5 article:first-child {
+    background-color: chartreuse;
+}
+
+
+
+
+
+#s3 {
+    background-color: blueviolet ;
+    height: 100vh;
+    width: 50vh;
+}
+
+#s2, blockquote {
+    background-color: salmon;
+}
+
+#s2, div {
+    background-color: aquamarine;
+}
+
+#s2, h2 {
+    background-color: blue;
+}
+
+#s2, article{
+    background-color: gray;
+}
+
+#s3{
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}

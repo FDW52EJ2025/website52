@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina actualizada pasatiempos</title>
+    <link rel="stylesheet" href="estilos_selectores.css">
 </head>
 <body>
     <header style="text-align: center;" >
         <h1 style="background-color: cadetblue; border: 40px;"><i>Deportes</i></h1>
-        <h2><nav style="text-align: center; background-color: rgb(0, 0, 0); border: 40px;">
+        <h2><nav>
             <a href="index_actualizado.html">Inicio</a>
             <a href="deportes_actualizado.html">Deportes</a>
             <a href="videojuegos_actualizado.html">Videojuegos</a>
@@ -19,8 +20,8 @@
     </header>
     <main>
         <article>
-            <header>
-                <p>Uno de mis <em>pasatiempos</em> favoritos son los deportes, en especial el futbol, mi equipo favorito son los Rayados.</p>
+            <header id="s-id">
+                <p id="parrafo">Uno de mis <em>pasatiempos</em> favoritos son los deportes, en especial el futbol, mi equipo favorito son los Rayados.</p>
             </header>
 
             <div>
@@ -36,67 +37,69 @@
                 <figcaption><b>Logotipo del equipo Rayados</b></figcaption>
             </figure>
             </div>
-            <p><h3><mark>Top 3 de mis equipos favoritos</mark></h3></p>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Posicion</th>
-                        <th>Equipo</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Rayados</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Real Madrid</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Manchester city</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="2">Equipos favoritos🎮</td>
-                    </tr>
-                </tfoot>
-            </table>
-            
-                <p><h3><mark>Jugadores favoritos</mark></h3></p>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Posicion</th>
-                        <th>Jugador</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Sergio Canales</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Lucas Ocampos</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Sergio Ramos</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="2">Jugadores favoritos🎮</td>
-                    </tr>
-                </tfoot>
-            </table>
             <section>
+                <p><h3><mark>Top 3 de mis equipos favoritos</mark></h3></p>
+                <table border="1" id="s-universal">
+                    <thead>
+                        <tr>
+                            <th>Posicion</th>
+                            <th>Equipo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Rayados</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Real Madrid</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Manchester city</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Equipos favoritos🎮</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                
+                    <p><h3><mark>Jugadores favoritos</mark></h3></p>
+                <table border="1" id="s-universal">
+                    <thead>
+                        <tr>
+                            <th>Posicion</th>
+                            <th>Jugador</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Sergio Canales</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Lucas Ocampos</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sergio Ramos</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Jugadores favoritos🎮</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <section id="s-hermano-general">
                 <p>A continuacion un poco de informacion acerca de mis jugadores favoritos:</p>
                 <hr>
-                <dl>
+                <dl class="definicion">
                     <dt><h3><mark>Sergio Canales</mark></h3></dt>
                     <dd>En <time datetime="2023-07">julio de 2023</time>, se anunció oficialmente que Sergio Canales se uniría a Rayados del Monterrey, un club de la Liga MX en México, en un traspaso que ascendió a 10 millones de dólares más 5 en variables. <br>Su llegada al fútbol mexicano fue considerada una de las mejores contrataciones del mercado de verano en la Liga MX.
                         <ul>
@@ -157,17 +160,20 @@
                     </div>
                 </dl>
             </section>
-            <footer>
-                <hr>
-            </footer>
         </article>
         
     </main>
+    <hr>
     <aside>
         <small>
             <p>Sitio web del equipo para conocer mas sobre ellos:</p>
             <a href="https://www.rayados.com/es" target="_blank">Sitio del Club de Futbol Monterrey Rayados</a>
         </small>
     </aside>
+    <hr>
+    <footer class="pie">
+        <p>Sitio web desarrollado por: <br> <b>Cristian Omar Rodriguez Solis 2175529</b></p>
+        <p>Fundamentos de desarrollo WEB</p>
+    </footer>
 </body>
 </html>

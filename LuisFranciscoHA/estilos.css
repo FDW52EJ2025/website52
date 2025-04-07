@@ -1,6 +1,6 @@
-
 /* Estilos de eso de como menu de evidencias */
 body {
+    /* Selector de tipo (elemento) */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -8,18 +8,21 @@ body {
     color: #333;
 }
 
-h1, h2 {
+h1, h2, h3 {
+    /* Selector de grupo (elementos) */
     color: #333;
     margin: 0;
     padding: 10px 0;
 }
 
 h1 {
+    /* Selector de tipo (elemento) */
     text-align: center;
     font-size: 2rem;
 }
 
 .container {
+    /* Selector de clase */
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -29,10 +32,12 @@ h1 {
 }
 
 .header {
+    /* Selector de clase */
     text-align: center;
 }
 
 .back-link {
+    /* Selector de clase */
     text-decoration: none;
     color: #007BFF;
     font-size: 1rem;
@@ -41,14 +46,17 @@ h1 {
 }
 
 .back-link:hover {
+    /* Selector de pseudo-clase (hover) */
     color: #0056b3;
 }
 
 .menu {
+    /* Selector de clase */
     margin-top: 40px;
 }
 
 .nom_pract {
+    /* Selector de clase */
     background-color: #fffdfd; 
     padding: 20px;
     border-radius: 10px;
@@ -57,6 +65,15 @@ h1 {
 }
 
 .nom_pract h2 {
+    /* Selector de clase combinado con selector de tipo (elemento) */
+    color: #23272c;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.nom_pract h3, h4 {
+    /* Selector de clase combinado con selector de tipo (elemento) */
     color: #23272c;
     font-size: 1.4rem;
     text-align: center;
@@ -64,13 +81,13 @@ h1 {
 }
 
 ul {
+    /* Selector de tipo (elemento) */
     list-style-type: none;
     padding-left: 0;
 }
 
-
-
 ul li a {
+    /* Selector combinado (elemento + clase) */
     text-decoration: none;
     color: #e72d2d;
     font-size: 1rem;
@@ -80,6 +97,6 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #961309;
+    /* Selector combinado con pseudo-clase (hover) */
+    color: goldenrod;
 }
-

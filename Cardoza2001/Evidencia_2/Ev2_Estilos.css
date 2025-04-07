@@ -21,12 +21,12 @@
 }
 
 #s-tipo p{
-    border: 2px blue solid;
+    border: 2px rgb(93, 7, 206) solid;
 }
 
 #s-tipo-clase p.info{
-    border: 1px solid gold;
-    box-shadow: 5px 5px 5px gold;
+    border: 1px solid rgb(141, 2, 60);
+    box-shadow: 5px 5px 5px rgb(141, 2, 60);
 }
 
 #s-lista div,#s-lista h3{

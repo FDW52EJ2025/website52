@@ -1,0 +1,155 @@
+/* Selector de Tipo */
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Selector de Clase */
+.destacado {
+    font-weight: bold;
+    color: #e74c3c;
+    background-color: #f8f8f8;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Selector de ID */
+#especial {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Selector Descendiente */
+article p {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Selector de Hermano Adyacente */
+h2 + p {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* Selector de Hermano General */
+h2 ~ p {
+    color: #8e44ad;
+}
+
+img {
+    width: 300px;  
+    height: auto; 
+}
+/* Estilos generales */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.encabezado {
+    background: linear-gradient(135deg, #34495e, #2c3e50);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #1a252f;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navegación */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+}
+
+/* Contenido principal */
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #f39c12;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Imagen */
+.imagen-pequena {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen-pequena:hover {
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    background-color: #1a252f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Enlaces en el pie de página */
+address a {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+address a:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+}
+
+/* Enlace en el aside */
+aside a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a252f;
+    transition: color 0.3s, transform 0.2s;
+}
+
+aside a:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+}

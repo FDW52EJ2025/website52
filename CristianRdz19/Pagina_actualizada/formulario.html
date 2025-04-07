@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <link rel="stylesheet" href="estilos_selectores.css">
 </head>
 <body>
     <header style="text-align: center;" >
         <h1 style="background-color: cadetblue; border: 40px;"><i>Deportes</i></h1>
-        <h2><nav style="background-color: rgb(0, 0, 0); border: 40px;">
+        <h2><nav>
             <a href="index_actualizado.html">Inicio</a>
             <a href="deportes_actualizado.html">Deportes</a>
             <a href="videojuegos_actualizado.html">Videojuegos</a>
@@ -18,69 +19,77 @@
         </nav></h2>
     </header>
     <header style="text-align: center; background-color: rgb(171, 168, 168);border-radius: 10px; margin-left: 400px; margin-right: 400px;">
-        <h1>Formulario</h1>
-        <form action="">
-            <h3>DATOS PERSONALES</h3>
-            <div>
-                <label for="nombre">Nombre completo</label>
-                <input type="text" name="Nombre" id="nombre">
-            </div>
-            <div>
-                <label for="fecha">Fecha Nacimiento</label>
-                <input type="date" name="fecha" id="fecha">
-            </div>
-            <div>
-                <label for="edad">Edad</label>
-                <input type="number" name="edad" id="edad">
-            </div>
-            <div>
-                <label for="genero">Genero</label>
-                <select name="genero" id="genero">
-                    <option value="1">Hombre</option>
-                    <option value="2">Mujer</option>
-                    <option value="3">Prefiero no contestar</option>
-                </select>
-            </div>
-            <h3>GUSTOS</h3>
-            <div>
-                <label for="colorfav">Color favorito</label>
-                <input type="color" name="colorfav" id="colorfav">
-            </div>
-            <div>
-                <label for="redsocialfav">Red social favorita</label>
-                <select name="redsocialfav" id="redsocialfav">
-                    <option value="1">Facebook</option>
-                    <option value="2">TikTok</option>
-                    <option value="3">instagram</option>
-                    <option value="">Twitter (X)</option>
-                </select>
-            </div>
-            <div>
-                <label for="equipofavorito">Equipo Favorito</label>
-                <select name="equipofavorito" id="eqfav">
-                    <option value="1">Rayados</option>
-                    <option value="2">Tigres</option>
-                    <option value="3">America</option>
-                    <option value="">Otro</option>
-                </select>
-            </div>
-            <h3>INFORMACION PRIVADA</h3>
-            <div>
-                <label for="foto">Foto Personal</label>
-                <input type="file" name="foto" id="foto">
-            </div>
-            <div>
-                <label for="correo">Correo electronico:</label>
-                <input type="email" name="correo" id="correo">
-            </div>
-            <div>
-                <label for="clave">Crea una contraseña</label>
-                <input type="password" name="clave" id="clave">
-            </div>
-            <div>
-                <input type="submit" value="Guardar">
-            </div>
-        </form>
+        <section id="s-hijos-directos">
+            <form action="">
+                <h1>Formulario</h1>
+                <h3>DATOS PERSONALES</h3>
+                <div>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" name="Nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="fecha">Fecha Nacimiento</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id="edad">
+                </div>
+                <div>
+                    <label for="genero">Genero</label>
+                    <select name="genero" id="genero">
+                        <option value="1">Hombre</option>
+                        <option value="2">Mujer</option>
+                        <option value="3">Prefiero no contestar</option>
+                    </select>
+                </div>
+                <h3>GUSTOS</h3>
+                <div>
+                    <label for="colorfav">Color favorito</label>
+                    <input type="color" name="colorfav" id="colorfav">
+                </div>
+                <div>
+                    <label for="redsocialfav">Red social favorita</label>
+                    <select name="redsocialfav" id="redsocialfav">
+                        <option value="1">Facebook</option>
+                        <option value="2">TikTok</option>
+                        <option value="3">instagram</option>
+                        <option value="">Twitter (X)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="equipofavorito">Equipo Favorito</label>
+                    <select name="equipofavorito" id="eqfav">
+                        <option value="1">Rayados</option>
+                        <option value="2">Tigres</option>
+                        <option value="3">America</option>
+                        <option value="">Otro</option>
+                    </select>
+                </div>
+                <h3>INFORMACION PRIVADA</h3>
+                <div>
+                    <label for="foto">Foto Personal</label>
+                    <input type="file" name="foto" id="foto">
+                </div>
+                <div>
+                    <label for="correo">Correo electronico:</label>
+                    <input type="email" name="correo" id="correo">
+                </div>
+                <div>
+                    <label for="clave">Crea una contraseña</label>
+                    <input type="password" name="clave" id="clave">
+                </div>
+                <div>
+                    <input type="submit" value="Guardar">
+                </div>
+            </form>
+        </section>
     </header>  
+    <br>
+    <br>
+    <footer class="pie">
+        <p>Sitio web desarrollado por: <br> <b>Cristian Omar Rodriguez Solis 2175529</b></p>
+        <p>Fundamentos de desarrollo WEB</p>
+    </footer>
 </body>
 </html>

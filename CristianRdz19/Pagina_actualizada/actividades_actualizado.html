@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina actualizada pasatiempos</title>
+    <link rel="stylesheet" href="estilos_selectores.css">
 </head>
 <body>
     <header style="text-align: center;" >
         <h1 style="background-color: cadetblue; border: 40px;"><i>Actividades</i></h1>
-        <h2><nav style="text-align: center; background-color: rgb(0, 0, 0); border: 40px;">
+        <h2><nav>
             <a href="index_actualizado.html">Inicio</a>
             <a href="deportes_actualizado.html">Deportes</a>
             <a href="videojuegos_actualizado.html">Videojuegos</a>
@@ -18,20 +19,20 @@
         </nav></h2>
     </header>
     <main>
-        <article>
-            <header>
-                <p style="text-align: center;">Uno de mis <em>pasatiempos</em> favoritos es salir a hacer actividades con mis amigos o solo, a continuacion te mostrare algunas de mis actividades que mas me gusta hacer.</p>
-            </header>
+        <header>
+            <p style="text-align: center;">Uno de mis <em>pasatiempos</em> favoritos es salir a hacer actividades con mis amigos o solo, a continuacion te mostrare algunas de mis actividades que mas me gusta hacer.</p>
+        </header>
 
-            <div style="text-align: center;">
-                <h1><p>Actividades favoritas🌄😎</p></h1>
-                <hr>
+        <div>
+            <p class="outline">Actividades favoritas🌄😎</p>
+        </div>
+        <article id="s-tipo">    
+            <div class="info">
+                <ul>
+                    <h2><li><mark>Salir de compras</mark></li></h2>
+                    <p>Me gusta mucho salir de compras a centros comerciales, me despejo un poco y disfruto comprar cosas que necesite y sean necesarias.</p>
+                </ul>
             </div>
-
-            <ul>
-                <h2><li><mark>Salir de compras</mark></li></h2>
-                <p style="text-align: center;">Me gusta mucho salir de compras a centros comerciales, me despejo un poco y disfruto comprar cosas que necesite y sean necesarias.</p>
-            </ul>
             <div style="text-align: center;">
                 <video controls width="400" src="https://videos.pexels.com/video-files/3318086/3318086-hd_1920_1080_25fps.mp4"></video>
                 <figcaption>Centro comercial Esfera City Monterrey</figcaption>
@@ -41,7 +42,7 @@
             
             <ul>
                 <h2><li><mark>Visitar lugares recreativos</mark></li></h2>
-                <p style="text-align: center;">Me gusta mucho salir a lugares recreativos ya que disfruto de la tranquilidad, el aire y los bonitos lugares y mas si voy con amigos para divertirnos un rato y despejarnos</p>
+                <p>Me gusta mucho salir a lugares recreativos ya que disfruto de la tranquilidad, el aire y los bonitos lugares y mas si voy con amigos para divertirnos un rato y despejarnos</p>
             </ul>
             <div style="text-align: center;">
                 <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/476618406_1138767634577556_3688539008521907323_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=1ZVHyDFLMTAQ7kNvgEJ7GTK&_nc_oc=Adh4ZYdiRwGDykfvuQeY4slxA8-Z9RiSjof9oLISWeW_HJo8rNX8-FntAsKv-Qu2yrm36qXP-OhMsF-ZHfD7I6DS&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gHCYmt1mm7J_Chlt-8O_UyfeaJw1S-GM6kURmSXOFy3Cw&oe=67CD0B2A" width="300px" alt="foto del centro recreativo">
@@ -53,7 +54,7 @@
 
             <ul>
                 <h2><li><mark>Ir al estadio de Rayados</mark></li></h2>
-                <p style="text-align: center;">Me gusta mucho ir al estadio de los rayados, ya que es mi equipo favorita y cada que tienen partido aqui en la ciudad, asisto a verlos y disfrutar un rato.</p>
+                <p>Me gusta mucho ir al estadio de los rayados, ya que es mi equipo favorita y cada que tienen partido aqui en la ciudad, asisto a verlos y disfrutar un rato.</p>
             </ul>
             <div style="text-align: center;">
                 <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/475003618_1887372328740670_4153697600796754147_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=nOzOGmjCKoQQ7kNvgHh7Jjl&_nc_oc=AdhWRZR4W-_fRpAdAuxPU1pt5-SXbFZfTCXJFoJxI2hP7VNa1kkp5y6-F-d5-cDAiKpOAXMKuaOm30e-KGdb3uqf&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gGgJ0cNXGVg0JlGYyRfpw6EB-xeO_QiasioJSKD4bh9bw&oe=67CD1875" width="300px" alt="foto del estadio de rayados">
@@ -64,19 +65,16 @@
 
             <ul>
                 <h2><li><mark>Tomar fotografias</mark></li></h2>
-                <p style="text-align: center;">Me gusta mucho tomar fotografias cada que el lugar al que voy este bonito o me guste como se vea, soy mucho de tomar fotos de atardeceres o lugares bonitos.</p>
+                <p>Me gusta mucho tomar fotografias cada que el lugar al que voy este bonito o me guste como se vea, soy mucho de tomar fotos de atardeceres o lugares bonitos.</p>
             </ul>
             <div style="text-align: center;">
                 <video controls width="400" src="https://videos.pexels.com/video-files/6943196/6943196-hd_1920_1080_25fps.mp4"></video>
                 <figcaption>Fotografia de un lugar bonito en San Pedro</figcaption>
             </div>
-            
-            <footer>
-                <hr>
-            </footer>
         </article>
         
     </main>
+    <hr>
     <aside>
         <small>
             <p>Lugares bonitos que tienes que visitar:</p>
@@ -86,5 +84,10 @@
             </ul>
         </small>
     </aside>
+    <hr>
+    <footer class="pie">
+        <p>Sitio web desarrollado por: <br> <b>Cristian Omar Rodriguez Solis 2175529</b></p>
+        <p>Fundamentos de desarrollo WEB</p>
+    </footer>
 </body>
 </html>

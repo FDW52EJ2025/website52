@@ -1,12 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evidencia 2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Selectores CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .selector-container {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .screenshot-container {
+      margin: 10px 0;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .screenshot-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    code {
+      background-color: #f8f8f8;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: monospace;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Evidencia 2</h1>
-    
+  <h1>Tipos de Selectores CSS</h1>
+
+  <div class="selector-container">
+    <h2>1. Selector Universal</h2>
+    <p>Selecciona todos los elementos de la página.</p>
+    <code>* { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-universal.png" alt="Screenshot del selector universal en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>2. Selector por Elemento</h2>
+    <p>Selecciona elementos HTML específicos.</p>
+    <code>body { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-elemento.png" alt="Screenshot del selector por elemento en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>3. Selector por Clase</h2>
+    <p>Selecciona elementos con una clase específica.</p>
+    <code>.header-principal { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-clase.png" alt="Screenshot del selector por clase en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>4. Selector por ID</h2>
+    <p>Selecciona un elemento con un ID específico.</p>
+    <code>#descripcion { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-id.png" alt="Screenshot del selector por ID en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>5. Selector Descendiente</h2>
+    <p>Selecciona elementos anidados dentro de otro elemento.</p>
+    <code>.menu-navegacion a { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-descendiente.png" alt="Screenshot del selector descendiente en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>6. Selector por Lista</h2>
+    <p>Selecciona elementos de lista específicos.</p>
+    <code>.lista-hobbies { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-lista.png" alt="Screenshot del selector por lista en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>7. Artículos Descendientes de un Elemento con Clase</h2>
+    <p>Selecciona artículos dentro de elementos con una clase específica.</p>
+    <code>.seccion-hobby article { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-articulos-descendientes.png" alt="Screenshot del selector de artículos descendientes en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>8. Hijos Directos</h2>
+    <p>Selecciona elementos que son hijos directos de otro elemento.</p>
+    <code>.contenido-principal > section { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-hijos-directos.png" alt="Screenshot del selector de hijos directos en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>9. Hermanos Adyacentes</h2>
+    <p>Selecciona elementos que son hermanos inmediatos de otro elemento.</p>
+    <code>h2 + article { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-hermanos-adyacentes.png" alt="Screenshot del selector de hermanos adyacentes en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>10. Hermanos Generales</h2>
+    <p>Selecciona elementos que son hermanos de otro elemento.</p>
+    <code>h2 ~ p { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-hermanos-generales.png" alt="Screenshot del selector de hermanos generales en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>11. Pseudoclase</h2>
+    <p>Selecciona elementos en un estado específico.</p>
+    <code>.enlace-red:hover { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-pseudoclase.png" alt="Screenshot del selector de pseudoclase en el código">
+    </div>
+  </div>
+
+  <div class="selector-container">
+    <h2>12. Pseudoelemento</h2>
+    <p>Selecciona una parte específica de un elemento.</p>
+    <code>h2::after { ... }</code>
+    <div class="screenshot-container">
+      <img src="images/selector-pseudoelemento.png" alt="Screenshot del selector de pseudoelemento en el código">
+    </div>
+  </div>
+
+  <footer style="background-color: #493e3e; color: white; text-align: center; padding: 20px; font-family: Arial, sans-serif; 
+    position: relative; bottom: 0; left: 0; width: 100%;">
+    <p>Hecho por Juan de Jesús Patricio Muñiz</p>
+    <div style="margin-top: 10px;">
+      <a href="https://wa.me/+528126435501" target="_blank" style="margin-right: 15px;">
+        <img src="https://static-00.iconduck.com/assets.00/whatsapp-icon-2038x2048-5zk5gj1j.png" alt="WhatsApp"
+          width="30">
+      </a>
+      <a href="https://open.spotify.com/artist/2eP33F4B2S0VL0ikoDNG6d" target="_blank">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png"
+          alt="Instagram" width="30">
+      </a>
+    </div>
+  </footer>
+
 </body>
+
 </html>

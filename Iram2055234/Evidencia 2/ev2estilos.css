@@ -1,0 +1,76 @@
+/* Selector de tipo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* Selector de clase*/
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Selector de clase*/
+.main-content {
+    flex: 2;
+    padding-right: 20px;
+}
+
+/* Selector de clase */
+.sidebar {
+    flex: 1;
+    background-color: #f80808;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Selector de clase*/
+.music-list img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Selector de clase*/
+.separator {
+    border-bottom: 1px solid rgb(8, 229, 67);
+    margin: 10px 0;
+}
+
+/* Selector de ID*/
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Selector descendiente */
+.container .main-content h2 {
+    color: rgb(213, 254, 8);
+}
+
+/* Selector de hermanos adyacentes */
+h2 + p {
+    font-style: italic;
+    color: aqua;
+}
+
+/* Selector de hermano general */
+h2 ~ p {
+    color: rgb(6, 47, 252);
+}
+
+/* Pseudo-clase  */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Pseudo-elemento */
+p::first-letter {
+    font-size: 150%;
+    color: rgb(251, 8, 235);
+}

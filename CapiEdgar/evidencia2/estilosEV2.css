@@ -1,0 +1,21 @@
+.title h1{
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+}
+
+.subtitles{
+    background-color:aquamarine;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.division{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    align-items: start;
+}

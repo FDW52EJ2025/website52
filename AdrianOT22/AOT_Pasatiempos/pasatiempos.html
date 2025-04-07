@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../evidencia2/estilos_ev2.css">
+    <link rel="stylesheet" href="../evidencia2/estilos_flex.css">
     <title>Pasatiempos</title>
 </head>
 <body>
@@ -22,19 +24,23 @@
         </nav>
     </header>
     <main>
+        <br>
         <article>
-            <header>
-                <h2>Sobre mi</h2>
-            </header>
-        
-        
-        <p>Me llamo Adrián Ontiveros Tello, nací el <time datetime="2004-01-22">22 de enero de 2004</time>, soy estudiante de la Facultad de Contaduría Pública y Administración. Me gusta aprender cosas nuevas y disfrutar de las experiencias, especialmente del proceso.
-
-            Mis pasatiempos son jugar videojuegos, ver videos, aprender más sobre informática y hacer mis tareas. Específicamente, disfruto jugar Marvel Rivals y Dragon Ball Legends, y mi juego de la infancia es Plants vs. Zombies. Me gusta ver videos de opiniones y teorías sobre películas de superhéroes o videojuegos, además de contenido relacionado con informática; lo más reciente que vi fueron los comandos de diskpart.
+            <article class="contenedor">
+                <header>
+                    <h2>Sobre mi</h2>
+                </header>
+                    <div class="contenido">
+                        <p>Me llamo Adrián Ontiveros Tello, nací el <time datetime="2004-01-22">22 de enero de 2004</time>, soy estudiante de la Facultad de Contaduría Pública y Administración. Me gusta aprender cosas nuevas y disfrutar de las experiencias, especialmente del proceso.
             
-            En la PC, me interesa aprender sobre errores de hardware y reparar mi equipo, pero también disfruto programar porque me resulta relajante. En la preparatoria aprendí lo básico de HTML, sobre todo en diseño, así que en esta materia me da curiosidad JavaScript y, por qué no admitirlo, repasar lo que ya aprendí.</p>
+                            Mis pasatiempos son jugar videojuegos, ver videos, aprender más sobre informática y hacer mis tareas. Específicamente, disfruto jugar Marvel Rivals y Dragon Ball Legends, y mi juego de la infancia es Plants vs. Zombies. Me gusta ver videos de opiniones y teorías sobre películas de superhéroes o videojuegos, además de contenido relacionado con informática; lo más reciente que vi fueron los comandos de diskpart.
+                        
+                            En la PC, me interesa aprender sobre errores de hardware y reparar mi equipo, pero también disfruto programar porque me resulta relajante. En la preparatoria aprendí lo básico de HTML, sobre todo en diseño, así que en esta materia me da curiosidad JavaScript y, por qué no admitirlo, repasar lo que ya aprendí.</p>
+                        <img src="../evidencia2/Recursos/Adrian.jpg" alt="" height="400px">
+                    </div>
+            </article>
 
-        <section>
+        <section id="s-id">
             <!-- Mis escuelas son... -->
             <h3>Escolaridad</h3>
                 <dl>
@@ -46,15 +52,15 @@
                         <br>&nbsp;&nbsp;&nbsp;En la secundaria me gustaba resolver ecuaciones con la fórmula general: x = (-b ± √(b<sup>2</sup> - 4ac)) / 2a
                         <br>&nbsp;&nbsp;&nbsp;La única fórmula de química que recuerdo es el H<sub>2</sub>O.
                     </dd>
-                    <dt><strong>Preparatoria 17 <abbr title="Universidad Autónoma De Nuevo León">UANL</abbr></strong></dt>
+                    <dt id="color_prepa"><strong>Preparatoria 17 <abbr title="Universidad Autónoma De Nuevo León">UANL</abbr></strong></dt>
                     <dd>Entré en <time datetime="2019">2019</time>. En la preparatoria tenía un grupo de tres amigos, ya que los que conocí en la secundaria tomaron caminos distintos o simplemente dejé de verlos. Lo que más valoro de esta etapa es el recuerdo de grandes maestros con los que me llevé muy bien. Además, fue aquí donde conocí el área de TI, de manera general, pero me permitió adentrarme en este mundo.</dd>
-                    <dt><strong>Facultad de Contaduría Pública y Administración UANL</strong></dt>
+                    <dt class="esc_act"><strong>Facultad de Contaduría Pública y Administración UANL</strong></dt>
                     <dd>Entré en <time datetime="2023">2023</time>. Antes de esta carrera, ingresé a FIME, pero solo duré un mes, ya que no me sentía cómodo con mi decisión y decidí salirme. Por eso, en enero de 2023, inicié esta nueva carrera, ya que muchas materias de la malla curricular tenían nombres similares a las que había visto en la prepa. Me sorprendió descubrir que la carrera tiene un enfoque en negocios y tecnología, con contenidos más avanzados; en la prepa solo aprendí lo más básico.
                         En cuanto a amigos, ahora tengo grandes compañeros que son una parte importante de mi motivación para seguir adelante. <abbr title="Facultad de Contaduría Pública y Administración UANL">FACPYA</abbr> es mi facultad y será en la que me graduaré.                        
                         </dd>
                 </dl>
             <figure>
-                <table align="center" cellpadding="10">
+                <table cellpadding="10">
                     <tr>
                         <td align="center">
                             <img src="Recursos/logo_prepa.png" alt="Logo de la Preparatoria 17" width="100" height="100">
@@ -70,7 +76,7 @@
             </figure>
         </section>
 
-        <section>
+        <section id="s-universal">
             <h3>Frases que han marcado mi vida</h3>
             <dl>
                 <dt><strong>Goku, Dragon Ball</strong></dt>

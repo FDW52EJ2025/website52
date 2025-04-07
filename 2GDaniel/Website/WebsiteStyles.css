@@ -1,8 +1,11 @@
+*{
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Arial, sans-serif;
+}
+
 header{
     color:whitesmoke;
     background-color: brown;
     text-align:center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav {
@@ -24,7 +27,6 @@ p{
 aside-principal{
     position:fixed;
     bottom: 16%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #972626;
     color:whitesmoke;
     text-decoration: none; 
@@ -33,10 +35,9 @@ aside-principal{
 }
 
 .musica{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(250, 250, 250, 0);
 } 
-.pinkfloyd{
+#pinkfloyd{
     text-align: center;
 }
 
@@ -58,10 +59,6 @@ aside-principal{
     bottom: -10px;
 }
 
-.videojuegos{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 .img-juegos{
     width: 400px;
     border-radius: 10px;
@@ -75,7 +72,6 @@ aside-principal{
 
 .formulario{
     background-color:#ecececd2;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 20px;
     margin-left: 200px;
     margin-right: 200px;
@@ -93,4 +89,44 @@ aside-principal{
     border: 2px solid black;
     border-radius: 5px; 
     padding: 20px; 
+}
+
+p.Matricula {
+    color: #972626;
+} 
+
+a[href]:hover {
+    color: red;
+    font-size: 19px;
+} 
+
+footer a, aside a{
+    color: black;
+}
+
+div > dd, dt {
+    font-size: 20px;
+}
+
+main ~ aside {
+    color: red;
+}
+
+iframe + ul {
+    margin-top: 20px;
+    color: #333;
+}
+
+.Imagenes-Selectores {
+    border-radius: 10px;
+    border: brown 3px solid;
+    width: 700px;
+}
+
+.cajas {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
 }

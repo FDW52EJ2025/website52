@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(248, 245, 241);
+}
+header{
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px;
+    width: auto;
+}
+
+.tarjetas {
+    margin: 10px;
+    width: 450px;
+}
+
+.imagenes {
+    width: 100%;
+    height: auto;
+}
+
+.tarjetas-largas {
+    width: 1000px;
+    margin: 20px 10px 10px 10px;
+}
+
+.encabezado-tarjetas {
+    background-color: cadetblue;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 6px;
+
+}
+
+dl {
+    margin: 10px 20px 20px 20px;
+}
+
+p {
+    margin: 10px 5px 5px 10px;
+    padding: 10px;
+}
+
+a {
+    margin: 5px;
+    padding: 4px;
+}
+
+nav {
+    border: 1px rgba(71, 70, 70, 0.368) solid;
+}
+
+nav a {
+    text-decoration: none;
+    transition: background-color 0.6s;
+}
+
+aside {
+    position: fixed;
+    width: 40px;
+    left: 5px;
+    top: 60%;
+}
+
+aside img {
+    width: 40px;
+}
+
+footer {
+    margin: 20px 0px 0px 0px;
+    background-color: #333f50f5;
+    padding: 1.2%;
+
+}
+
+footer article{
+    float: right;
+    margin: 20px 5px 5px 5px;
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer p {
+    width: 300px;
+}
+
+.tarjetas, .tarjetas-largas {
+    border: 2px black solid;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.tarjetas, .tarjetas-largas {
+    transition: box-shadow 0.4s;
+}
+
+
+header, .encabezado-tarjetas, a, footer{
+    color: white;
+}
+
+div, header, .encabezado-tarjetas, blockquote {
+    text-align: center;
+}
+
+.contenido, figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+nav a:hover {
+    background-color: rgb(75, 73, 73);
+}
+
+nav a:active {
+    background-color: burlywood;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+.tarjetas:hover, .tarjetas-info:hover {
+    box-shadow: 0 8px 10px rgba(32, 32, 32, 0.415);
+}
+
+.tarjetas-largas ul li:nth-child(odd){
+    background-color: rgba(255, 99, 71, 0.405);
+    
+}
+
+.tarjetas-largas ul li:nth-child(even){
+    background-color: rgba(255, 99, 71, 0.104);
+}
+
+.tarjetas-largas p::first-letter {
+    font-size: 25px;
+}
+
+#nav-principal a.inicio ~ a{
+    background-color: rgba(65, 39, 39, 0.564);
+}
+

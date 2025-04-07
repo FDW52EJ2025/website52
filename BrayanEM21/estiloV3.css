@@ -1,0 +1,147 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-bottom: 3px solid #ff5733;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff5733;
+}
+
+nav a:last-child {
+    border: 2px solid #ffcc00;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(255, 87, 51, 0.2);
+}
+
+h2::before {
+    content: "\ud83d\udccc ";
+    color: #ffcc00;
+}
+
+h2 ~ p {
+    color: lightgray;
+}
+
+section p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.destacado {
+    font-weight: bold;
+    color: #ffcc00;
+    font-size: 20px;
+}
+
+#favorito {
+    background-color: #333;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #ff5733;
+}
+
+#favorito p:last-child::after {
+    content: " 💪 ¡Sigue entrenando!";
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h2 ~ p {
+    font-style: italic;
+    color: gray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #292929;
+}
+
+tbody tr:first-child {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    margin-top: 20px;
+    border-top: 3px solid #ff5733;
+}

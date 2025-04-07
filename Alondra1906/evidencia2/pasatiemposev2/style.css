@@ -1,0 +1,264 @@
+/* Pagina principal */
+header {
+    text-align: center;
+    background-color:lightsalmon;
+}
+
+section {
+    font-size: 30px;
+}
+
+div {
+    display: block;
+    font-size: 30px;
+}
+
+.titulo {
+    color:black;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.musica {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.musica1 {
+    width: 200px;
+    height: auto;
+}
+
+.videojuegos {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.videojuegos1 {
+    width: 200px;
+    height: auto;
+}
+
+.peliculas {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.peliculas1 {
+    width: 200px;
+    height: auto;
+}
+
+.salir {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.salidas1 {
+    width: 200px;
+    height: auto;
+}
+
+.series {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.series1 {
+    width: 200px;
+    height: auto;
+}
+
+.fondo {
+    background-color:khaki;
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+button {
+    background-color: rgb(156, 51, 241);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+a[href*="facebook"] {
+    background-color: blueviolet;
+}
+
+header, footer {
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+address p {
+    background-color: dimgray;
+}
+
+/* Pagina musica */
+.header1 {
+    text-align: center;
+    background-color:rgb(156, 117, 160);
+}
+
+.fondomusica {
+    background-color:rgb(217, 125, 245);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+* {
+    color: rgb(0, 0, 0);
+}
+
+ol > li {
+    background-color: rgb(178, 90, 230);
+}
+
+/* Pagina videojuegos */
+.header2 {
+    text-align: center;
+    background-color:rgba(22, 167, 30, 0.671);
+}
+
+.fondovideojuegos {
+    background-color:rgba(139, 172, 22, 0.61);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+#texto {
+    color: chocolate;
+}
+
+p.link {
+    color: blue;
+}
+
+h1.principal {
+    color:darkgreen;
+}
+
+
+
+.primero + div {
+    background-color: rgb(87, 233, 131);
+}
+
+/* Pagina peliculas */
+.header3 {
+    text-align: center;
+    background-color:rgba(247, 165, 58, 0.671);
+}
+
+.fondopeliculas {
+    background-color:rgba(236, 223, 36, 0.61);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+/* Pagina salidas */
+.header4 {
+    text-align: center;
+    background-color:rgba(77, 58, 247, 0.671);
+}
+
+.fondosalidas {
+    background-color:rgba(112, 103, 233, 0.61);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+/* Pagina series */
+.header5 {
+    text-align: center;
+    background-color:rgba(223, 69, 22, 0.432);
+}
+
+.fondoseries {
+    background-color:rgba(243, 171, 37, 0.911);
+    color:black; 
+    padding: 20px; 
+}
+
+.contenedor5 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
+}
+
+/* página formulario */
+input {
+    border: 2px dotted rgba(151, 86, 236, 0.877);
+    border-radius: 5px;
+}
+
+/* Selectores */
+
+.titulo:hover {
+    background-color: rgb(143, 36, 230);
+    border: 1px solid rgb(34, 5, 71);
+    border-radius: 5px;
+}
+
+#s1 > article:nth-child(3) {
+    background-color: darkgray;
+    color: darkblue;
+}
+
+#s1 > article:first-child {
+    background-color: cornflowerblue;
+}
+
+#s1 > article:last-child {
+    background-color: pink;
+}
+
+#s1 ul li:nth-child(odd) {
+    background-color: yellow;
+}
+
+#s1 ul li:nth-child(even) {
+    background-color: hotpink;
+}
+
+#s1 p::first-line {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}

@@ -1,0 +1,35 @@
+
+.color{
+    color: red;
+}
+.color + p {
+    border: 2px solid orange;
+}
+
+h2 ~ audio {
+    border: 2px solid green;
+}
+
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: gray;
+}
+
+h1::after {
+    content: " 🎶"; 
+    font-size: 30px;
+}
+
+
+h1::before {
+    content: "📀 ";  
+    font-size: 20px;
+}

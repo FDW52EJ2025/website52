@@ -1,0 +1,88 @@
+/* Girly Aesthetic CSS */
+
+body {
+  font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f6; /* fondo rosa super suave */
+  color: #5e4b56; /* un tono entre rosado y café */
+}
+
+nav {
+  background-color: #ffd6ec; /* rosita pastel */
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #a64b7c;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #ffe6f2;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #fcd4ea;
+  color: #822c59;
+}
+
+.container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fffafa;
+  border-radius: 20px;
+  box-shadow: 0 6px 16px rgba(255, 192, 203, 0.25);
+  display: grid;
+  gap: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #c76094;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+section {
+  padding: 1.5rem;
+  border-left: 6px solid #f4a6c1;
+  background-color: #fff0f6;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(250, 198, 221, 0.2);
+}
+
+h2 {
+  color: #d1558c;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+pre {
+  background-color: #ffeaf3;
+  color: #6e3950;
+  padding: 1rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  overflow-x: auto;
+  border: 1px solid #ffc6dd;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95rem;
+  color: #b34d75;
+}

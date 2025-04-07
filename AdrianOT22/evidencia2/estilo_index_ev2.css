@@ -1,0 +1,12 @@
+table {
+    background-color: rgb(235, 230, 255);
+    color:rgb(93, 53, 255);
+    margin: auto;
+    border: rgb(255, 255, 255);
+}
+table>thead {
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+    text-align: center;
+    background-color: rgb(177, 158, 255);;
+}

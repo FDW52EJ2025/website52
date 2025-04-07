@@ -1,0 +1,43 @@
+.contenedor {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#s-universal * {
+    color: pink;
+}
+
+#s-clase .grande {
+    font-size: 30px;
+}
+
+#s-id #div1{
+    color: green;
+}
+
+#s-tipo p{
+    border: 2px blue solid;
+}
+
+#s-tipo-clase p.info{
+    border: 1px solid gold;
+    box-shadow: 5px 5px 5px gold;
+}
+
+#s-lista div, #s-lista h3 {
+    text-transform: uppercase;
+}
+
+#s-descendientes article * {
+    border-bottom: 2px dotted blueviolet;
+}
+
+#s-hijos article > p{
+    background-color: yellow;
+}
+
+#s-hermano-ad article h2+p {
+    color: aqua;
+}
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Deportes Favoritos</title>
+    <style>
+        /* Selector de tipo:<body> */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Selector descendiente: Aplica a los elementos <a> dentro de <nav> */
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Selector de clase: Aplica a elementos con la clase "destacado" */
+        .destacado {
+            background-color: #ffcc00;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /* Selector de ID: Aplica al elemento con ID "principal" */
+        #principal {
+            border: 2px solid #003366;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #003366;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        /* Selector de tipo: Aplica a todos los elementos <th> */
+        th {
+            background-color: #003366;
+            color: white;
+        }
+        /* Selector hermano adyacente: Aplica al <p> que sigue inmediatamente a un <h2> */
+        h2 + p {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis Deportes Favoritos</h1>
+        <nav>
+            <a href="index.html">Regresar a Principal</a>
+        </nav>
+    </header>
+    <main id="principal"> <!-- Selector de ID -->
+        <article>
+            <h2>Fútbol</h2>
+            <p class="destacado">El fútbol es mi deporte favorito.</p> <!-- Selector de clase -->
+            <img src="https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                 alt="Fútbol" 
+                 style="width: 500px; height: auto;">
+            <p><strong>Descripción:</strong> El fútbol es un deporte de equipo jugado entre dos conjuntos de once jugadores cada uno. Es el deporte más popular del mundo.</p>
+            <p><strong>Equipos favoritos:</strong> Real Madrid y Rayados de Monterrey.</p>
+            <p><strong>¿Por qué me gusta?:</strong> Me encanta la emoción de los partidos, la estrategia y la pasión de los aficionados.</p>
+            <h3>Información Adicional</h3>
+            <table>
+                <tr>
+                    <th>Competición</th>
+                    <th>Fecha de Fundación</th>
+                    <th>Lugar</th>
+                </tr>
+                <tr>
+                    <td>Liga MX</td>
+                    <td>1943</td>
+                    <td>México</td>
+                </tr>
+                <tr>
+                    <td>Champions League</td>
+                    <td>1955</td>
+                    <td>Europa</td>
+                </tr>
+                <tr>
+                    <td>Copa Mundial</td>
+                    <td>1930</td>
+                    <td>Internacional</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Fórmula 1</h2>
+            <p class="destacado">La Fórmula 1 me gusta porque mi hermano la ve todos los fines de semanana cualquier hora.</p> <!-- Selector de clase-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2010_Malaysian_GP_opening_lap.jpg/640px-2010_Malaysian_GP_opening_lap.jpg" alt="Fórmula 1">
+            <p><strong>Descripción:</strong> La Fórmula 1 es la categoría más alta de automovilismo deportivo. Los pilotos compiten en monoplazas de alta tecnología.</p>
+            <p><strong>Equipos favoritos:</strong> Ferrari y Red Bull Racing.</p>
+            <p><strong>¿Por qué me gusta?:</strong> Me gusta la velocidad, la tecnología y la estrategia detrás de cada carrera.</p>
+        </article>
+        <article>
+            <h2>Baloncesto</h2>
+            <p class="destacado">El baloncesto me gusta porque fue un deporte que practique de pequeño pero yo me quede pequeño.</p> <!-- Selector de clase -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Steph_Curry_%2851916394046%29.jpg/640px-Steph_Curry_%2851916394046%29.jpg" alt="Baloncesto">
+            <p><strong>Descripción:</strong> El baloncesto es un deporte de equipo en el que dos conjuntos de cinco jugadores compiten por anotar puntos lanzando un balón a un aro.</p>
+            <p><strong>Equipos favoritos:</strong> Los Angeles Lakers y Golden State Warriors.</p>
+            <p><strong>¿Por qué me gusta?:</strong> Me gusta la intensidad del juego, los tiros de tres puntos y las jugadas espectaculares.</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 Adrian Hiram Martínez Valero</p>
+    </footer>
+</body>
+</html>

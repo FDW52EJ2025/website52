@@ -1,0 +1,39 @@
+#si article.segunda_practica ~ article{
+    border: 2px dotted blue;
+}
+
+.titulo:hover {
+    background-color: gold;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+#si > article:nth-child(3){
+    background-color: black;
+    color: white;
+}
+
+#si > article:first-child{
+    background-color: chocolate;
+}
+
+#si > article:last-child{
+    background-color: pink;
+}
+
+#si ul li:nth-child(odd){
+    background-color: gray;
+}
+
+#si ul li:nth-child(even){
+    background-color: red;
+}
+
+#si ul li::first-line{
+    background-color: yellow;
+}
+
+#si p::first-letter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial';
+    font-size: 30px;
+}
