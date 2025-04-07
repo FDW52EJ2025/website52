@@ -1,0 +1,36 @@
+.alinear {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a {
+    margin: 5px;
+    color: dodgerblue;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+}
+
+.s2 {
+    text-align: center;
+}
+
+.texto {
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    margin-top: 20px; 
+}

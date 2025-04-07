@@ -1,0 +1,40 @@
+.color1 {
+    background-color: rgb(240, 15, 15);
+}
+.color2 {
+    background-color: rgb(0, 26, 255);
+}
+.color3 {
+    background-color: rgb(255, 238, 0);
+}
+.color4 {
+    background-color: rgb(255, 0, 170);
+}
+.color5 {
+    background-color: rgb(0, 255, 34);
+}
+
+#s20 {
+    display: grid;
+    grid-template-areas: "e e"
+                         "m a"
+                         "p p";
+}
+
+#s20 header{
+    grid-area: e;
+}
+
+#s20 main{
+    grid-area: m;
+}
+
+#s20 aside{
+    grid-area: a;
+}
+
+#s20 footer{
+    grid-area: p;
+}
+
+/*Flexbox y grid va a venir en el exámen y temas posteriores*/

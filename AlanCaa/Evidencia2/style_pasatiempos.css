@@ -130,7 +130,6 @@ footer a:hover {
 
 .tarjetas-largas ul li:nth-child(odd){
     background-color: rgba(255, 99, 71, 0.405);
-    
 }
 
 .tarjetas-largas ul li:nth-child(even){
@@ -145,3 +144,42 @@ footer a:hover {
     background-color: rgba(65, 39, 39, 0.564);
 }
 
+#nav-principal {
+    border: .5px black solid;
+}
+
+.tarjetas-largas * {
+    color:rgba(0, 0, 0, 0.532);
+}
+
+.tarjetas-largas > p {
+    color: red;
+}
+
+.encabezado-tarjetas + p {
+    color:blueviolet;
+}
+
+.codigoImg, .ejemploImg {
+    width: 600px;
+}
+
+#selectores {
+    margin: 20px;
+}
+
+#selectores thead {
+    margin: 10px;   
+}
+
+
+#selectores tr:nth-child(odd){
+    background-color: rgba(255, 99, 71, 0.205);
+}
+
+#selectores tr:nth-child(even){
+    background-color: rgba(255, 99, 71, 0);
+}
+#selectores {
+    border: 1px black solid;
+}
