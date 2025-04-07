@@ -153,3 +153,19 @@ aside a:hover {
     color: #f39c12;
     transform: scale(1.1);
 }
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+
+  p::first-letter {
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+  }
+
+  p::after {
+    content: " 👀";
+  }
+  
