@@ -2,12 +2,19 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+main {
+    display: grid;
+    grid-template-columns: ;
+    gir
+}
+
 body {
     background: radial-gradient(circle at center, #1a1a2e, #16213e, #0f3460);
 }
 
 h1 {
     color: white;
+    font-style: italic;
     text-align: center;
     text-transform: uppercase;
 }
@@ -70,6 +77,11 @@ table {
     margin: 10px;
 }
 
+th {
+    font-style: italic;
+
+}
+
 th, td {
     border: 1px solid white;
     padding: 8px;
@@ -81,7 +93,7 @@ th, td {
     color: white;
     border-radius: 5px;
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .img {
