@@ -4,9 +4,10 @@ body {
 }
 
 h1 {
-    color: #A463F2;
+    color: #fdfdfd;
     border-radius: 5px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {

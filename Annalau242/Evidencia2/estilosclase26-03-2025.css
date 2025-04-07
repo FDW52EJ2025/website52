@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.top-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.top-section div {
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-column div {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+}
+.main-content {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main-content .inner-box {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+}
+
+
+
+
+#s8{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#s7 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+#s6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    flex-flow: column nowrap;
+
+
+    width: 200px;
+
+}
+
+
+.color1 {
+    background-color: #8b4c7b;
+}
+.color2 {
+    background-color: #4ea75a;
+}
+.color3 {
+    background-color: #5a0816;
+}
+.color4 {
+    background-color: #0ea1db;
+}
+
+.color5 {
+    background-color: #db480e;
+}
+
+
+
+
+
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+#s5 {
+    background-color: gray;
+   
+}
+
+#s5 article{
+    float: left;
+    width: 25%;
+}
+
+/* #s5 article:first-child {
+    background-color: chartreuse;
+
+} */
+
+
+
+#s5 article:nth-child(2) {
+    background-color: firebrick;
+}
+#s5 article:nth-child(3) {
+    background-color: indianred;
+}
+#s5 article:nth-child(4) {
+    background-color: darkorchid;
+}
+
+#s4{
+    background-color: #5f8b4c;
+}
+
+#s4{
+    float: right;
+}
+
+#s3{
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+
+#s2 blockquote {
+    background-color: salmon;
+
+}
+
+
+#s2 div {
+    background-color: #5f8b4c;
+}
+
+#s2 h2 {
+    background-color: rgb(52, 52, 8);
+}
+
+#s2 article {
+    background-color: hs1(300, 50%, 90%);
+}
+
+#s1 {
+    background-color: blueviolet;
+    height: 100vh;
+    width: 50vw;
+}
+

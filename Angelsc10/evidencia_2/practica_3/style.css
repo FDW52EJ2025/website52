@@ -1,0 +1,289 @@
+/* index */
+.titulo {
+    text-align: center;
+    background-color: #60B5FF;
+    font-size: 40px;
+    margin: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #AFDDFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 0;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.py {
+    grid-area: py;
+}
+
+.cmas {
+    grid-area: cmas;
+}
+
+.java {
+    grid-area: java;
+}
+
+.c {
+    grid-area: c;
+}
+
+.chsarp {
+    grid-area: csharp;
+}
+
+.js {
+    grid-area: js;
+}
+
+#container {
+    display: grid;
+    grid-template-areas: "py cmas java"
+                         "c csharp js"  ;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+#container2 {
+    text-align: left;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* python */
+.titulo_py {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    margin: 0;
+    font-size: 40px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.py_section {
+    display: flex;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    grid-gap: 1em;
+}
+
+.python_pag {
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #4194e1;
+}
+
+.hola_pyy p {
+    text-align: center;
+    font-size: 32.5px;
+}
+
+.hola_pyy img {
+    vertical-align: middle;
+}
+
+/* c++ */
+.titulo_cmas {
+    display: flex;
+    justify-content: center;
+    background-color: #0065c3;
+    margin: 0;
+    font-size: 40px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.cmas_section {
+    display: flex;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    grid-gap: 1em;
+}
+
+.cmas_pag {
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    border: 2px solid #0065c3;
+    border-radius: 10px;
+}
+
+.hola_cmass p {
+    text-align: center;
+    font-size: 32.5px;
+}
+
+.hola_cmass img {
+    vertical-align: middle;
+}
+
+/* Java */
+.titulo_java {
+    display: flex;
+    justify-content: center;
+    background-color: #ff3636;
+    margin: 0;
+    font-size: 40px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.java_section {
+    display: flex;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    grid-gap: 1em;
+}
+
+.java_pag {
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    border: 2px solid #ff3636;
+    border-radius: 10px;
+}
+
+.hola_javaa p {
+    text-align: center;
+    font-size: 32.5px;
+}
+
+.hola_javaa img {
+    vertical-align: middle;
+}
+
+/* C */
+.titulo_c {
+    display: flex;
+    justify-content: center;
+    background-color: #5544e0;
+    margin: 0;
+    font-size: 40px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.c_section {
+    display: flex;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    grid-gap: 1em;
+}
+
+.c_pag {
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    border: 2px solid #5544e0;
+    border-radius: 10px;
+}
+
+.hola_cc p {
+    text-align: center;
+    font-size: 32.5px;
+}
+
+.hola_cc img {
+    vertical-align: middle;
+}
+
+/* c# */
+.titulo_csharp {
+    display: flex;
+    justify-content: center;
+    background-color: #b15dff;
+    margin: 0;
+    font-size: 40px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.csharp_section {
+    display: flex;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    grid-gap: 1em;
+}
+
+.csharp_pag {
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    border: 2px solid #b15dff;
+    border-radius: 10px;
+}
+
+.hola_csharpp p {
+    text-align: center;
+    font-size: 32.5px;
+}
+
+.hola_csharpp img {
+    vertical-align: middle;
+}
+
+/* js */
+.titulo_js {
+    display: flex;
+    justify-content: center;
+    background-color: #f4d03f;
+    margin: 0;
+    font-size: 40px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.js_section {
+    display: flex;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    grid-gap: 1em;
+}
+
+.js_pag {
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+    border: 2px solid #f4d03f;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.hola_jss p {
+    text-align: center;
+    font-size: 32.5px;
+}
+
+.hola_jss img {
+    vertical-align: middle;
+}

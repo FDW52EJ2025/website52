@@ -1,0 +1,37 @@
+.contenedor, #s-id, #s-universal{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 2%;
+    max-width: 800px;
+    margin: 2% auto;
+}
+
+
+.contenedor .contenido{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor .contenido > p{
+    margin: 2%;
+    text-align: justify;
+}
+
+.contenedor .contenido p {
+    flex: 1;
+    min-width: 250px;
+}
+
+.contenedor .contenido img {
+    max-width: 300px; /* Controla el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto;
+}
+
+main table{
+    margin: 0 auto;
+}

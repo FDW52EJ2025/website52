@@ -1,0 +1,50 @@
+.contenedor{
+    justify-content: center;
+    display: grid;
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.caja{
+    background-color: #3b3768;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+body{
+    background-color:#100d36 ;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+}
+
+.encabezado{
+    font-size: 50px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+    width: 400px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:aqua
+}
+
+nav{
+    margin-top: 20px;
+    text-align: center;
+}

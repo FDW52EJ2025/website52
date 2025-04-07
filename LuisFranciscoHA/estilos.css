@@ -98,5 +98,5 @@ ul li a {
 
 ul li a:hover {
     /* Selector combinado con pseudo-clase (hover) */
-    color: #961309;
+    color: goldenrod;
 }
