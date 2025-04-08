@@ -16,6 +16,8 @@
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
 }
 .subtitulos{
     text-align: center;
