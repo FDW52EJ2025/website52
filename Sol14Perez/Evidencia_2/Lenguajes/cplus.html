@@ -11,7 +11,9 @@
         <h1 class="principal">Lenguajes de Programación</h1>
         <div class="navegar">
             <nav>
+                <a href="index.html">Inicio</a>
                 <a href="python.html">Python</a>
+                <a href="c.html">C</a>
                 <a href="csharp.html">C#</a>
                 <a href="java.html">Java</a>
                 <a href="javascript.html">Javascript</a>
@@ -44,6 +46,96 @@
                 <li><strong>Manejo manual de memoria:</strong> A diferencia de lenguajes como Python o Java, en C++ los programadores tienen que gestionar la memoria manualmente utilizando punteros y operaciones de asignación dinámica de memoria (como newy delete), lo que puede ofrecer un mayor control, pero también un riesgo de errores si no se maneja adecuadamente</li>
             </ul>
         </article>
+
+        <article>
+            <h2>Tipos de Datos</h2>
+            <div id="a2">
+                <section class="tipo">
+                    <h3 class="t3">Datos primitivos</h3>
+                    <p><span class="dato">int</span>  Números enteros, puede ser firmado (por defecto) o no firmado.</p>
+                    <p><span class="dato">char</span> Tipo de dato para caracteres, generalmente ocupa 1 byte.</p>
+                    <p><span class="dato">float</span>  Números de punto flotante con precisión simple.</p>
+                    <p><span class="dato">double</span>  Números de punto flotante con mayor precisión (doble).</p>
+                    <p><span class="dato">bool</span>  Valores booleanos, true o false.
+                    </p>
+                    <p><span class="dato">void</span>  Tipo que no tiene valor, usado en funciones que no devuelven nada.</p>
+                </section>
+
+                <section class="tipo">
+                    <h3 class="t3">Datos derivados</h3>
+                    <p><span class="dato">array</span> Una colección de elementos del mismo tipo.</p>
+                    <p><span class="dato">pointer</span> Variable que almacena la dirección de memoria de otra variable.
+                    </p>
+                    <p><span class="dato">reference</span> Alias de otra variable, similar a un puntero pero sin manipulación de memoria.
+                    </p>
+                    <p><span class="dato">function</span> En C++, las funciones pueden ser tratadas como objetos, permitiendo pasar y devolver funciones como valores.</p>
+                </section>
+            </div>
+            <div id="a3">
+                <section class="tipo">
+                    <h3 class="t3">Datos compuestos</h3>
+                    <p><span class="dato">struct</span>  Estructura que permite agrupar diferentes tipos de datos bajo un mismo nombre.</p>
+                    <p><span class="dato">union</span> Tipo que permite almacenar diferentes tipos de datos, pero solo uno a la vez.</p>
+                    <p><span class="dato">enum</span>  Tipo que permite definir un conjunto de valores posibles para una variable.</p>
+                    <p><span class="dato">class</span>  C++ es un lenguaje orientado a objetos, y las clases permiten la creación de tipos personalizados que agrupan datos y métodos.</p>
+                </section>
+
+                <section class="tipo">
+                    <h3 class="t3">Datos avanzados</h3>
+                    <p><span class="dato">template</span> Permite la creación de funciones y clases genéricas que trabajan con cualquier tipo de dato.
+                    </p>
+                    <p><span class="dato">std::string</span> Tipo de dato para cadenas de caracteres, parte de la biblioteca estándar de C++.
+                    </p>
+                </section>
+            </div>
+        </article>
+
+        <article>
+            <h2>Ventajas y Desventajas de C</h2>
+            <div id="a2">
+                <section id="ventaja">
+                    <h3 class="t3">Ventajas</h3>
+
+                    <p><span class="res1">Alto rendimiento</span> C++ es un lenguaje de alto rendimiento y eficiencia, ya que se compila a código máquina, lo que permite que las aplicaciones sean rápidas y utilicen los recursos del sistema de manera óptima.</p>
+
+                    <p><span class="res1">Control sobre el hardware</span> Ofrece un control preciso sobre la memoria y el hardware mediante punteros y manejo manual de la memoria (con new y delete), lo que es ideal para aplicaciones de sistemas y software embebido.
+                    </p>
+
+                    <p><span class="res1">Soporte para programación orientada a objetos (OOP)</span> C++ soporta completamente la programación orientada a objetos, permitiendo crear clases y objetos, lo que facilita la modularidad, la reutilización de código y la organización del software.</p>
+
+                    <p><span class="res1">Programación genérica</span> Con templates, C++ permite escribir código genérico, lo que hace posible crear funciones y clases que trabajen con diferentes tipos de datos sin necesidad de duplicar código.
+                    </p>
+
+                    <p><span class="res1">Biblioteca estándar (STL)</span> La Standard Template Library (STL) es una colección de clases y funciones genéricas que proporcionan estructuras de datos como listas, pilas, colas, mapas y algoritmos para facilitar el desarrollo.
+                    </p>
+                </section>
+                
+                <section id="desventaja">
+                    <h3 class="t3">Desventajas</h3>
+                    <p><span class="res2">Complejidad</span>  C++ es un lenguaje complejo, con muchas características y reglas de sintaxis que pueden resultar difíciles de aprender y manejar, especialmente para principiantes.
+                    </p>
+
+                    <p><span class="res2">Gestión manual de memoria</span> Aunque el control sobre la memoria es una ventaja, también puede ser una desventaja. El programador debe gestionar la memoria de forma explícita, lo que aumenta el riesgo de errores como fugas de memoria y punteros colgantes.</p>
+
+                    <p><span class="res2">Larga curva de aprendizaje</span> Debido a su sintaxis compleja, las características avanzadas como punteros, referencias, templates y herencia múltiple pueden ser complicadas para los nuevos programadores.
+                    </p>
+
+                    <p><span class="res2">Compilación más lenta</span> Aunque C++ es un lenguaje rápido, la compilación de programas grandes puede ser lenta, especialmente cuando se usan plantillas (templates) y otros mecanismos avanzados.</p>
+                </section>
+            </div>
+        </article>
+        
+        <article style="text-align: center;">
+            <h2>Ejemplo: Hola, mundo</h2>
+            <pre class="progra">
+#include <iostream>
+
+    int main() {
+        std::cout << "Hola, mundo" << std::endl;
+        return 0;
+    }                                        
+            </pre>
+        </article>
     </main>
 
     <aside>
@@ -58,7 +150,7 @@
     <footer>
         <address>
             <p>Sitio web creado por: Sol Perez</p>
-            <p>Actualización: <time datetime="2025-04-04">04 de abril del 2025</time></p>
+            <p>Actualización: <time datetime="2025-04-07">07 de abril del 2025</time></p>
         </address>
     </footer>
 </body>

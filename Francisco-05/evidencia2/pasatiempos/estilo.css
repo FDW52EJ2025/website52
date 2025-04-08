@@ -1,11 +1,9 @@
-/* Selector de tipo - Selecciona todos los <h1> */
 h1 {
     color: #333;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
-/* Selector de clase - Aplica estilo a la clase "contenido" */
 .contenido {
     font-size: 18px;
     line-height: 1.5;
@@ -13,63 +11,53 @@ h1 {
     color: #555;
 }
 
-/* Selector de ID - Selecciona el elemento con id "logo" */
 #logo {
     display: block;
     margin: 20px auto;
     width: 150px;
 }
 
-/* Selector descendiente - Aplica a los <li> dentro de <ol> */
 ol li {
     font-size: 16px;
     margin: 5px 0;
 }
 
-/* Selector hermano adyacente - Aplica a <p> que sigue inmediatamente a un <h1> */
 h1 + p {
     font-size: 14px;
     color: #777;
 }
 
-/* Selector hermano general - Aplica a todos los <p> que siguen a un <h1> */
 h1 ~ p {
     font-size: 14px;
     color: #777;
 }
 
-/* Pseudo-clase hover - Cambia el color cuando se pasa el mouse por encima de los <li> */
 li:hover {
     color: #1a8d99;
     cursor: pointer;
 }
 
-/* Pseudo-elemento ::first-letter - Aplica estilo a la primera letra de <p> */
 p::first-letter {
     font-size: 2em;
     font-weight: bold;
     color: #1a8d99;
 }
 
-/* Pseudo-elemento ::before - Añade contenido antes de los <h1> */
 h1::before {
     content: "🔹 ";
     font-size: 1.5em;
 }
 
-/* Pseudo-clase focus - Aplica cuando el elemento tiene el foco (para accesibilidad) */
 input:focus {
     outline: 2px solid #1a8d99;
     background-color: #f0f8f8;
 }
 
-/* Estilos generales para el fondo de la página */
 .body-dormir {
     background-color: #edf084;
     font-family: 'Arial', sans-serif;
 }
 
-/* Estilo para el encabezado principal */
 .header-dormir {
     text-align: center;
     padding: 20px 0;
@@ -80,7 +68,6 @@ input:focus {
     font-size: 2.5em;
 }
 
-/* Estilo para el artículo */
 .main-dormir {
     padding: 30px;
 }
@@ -92,7 +79,6 @@ input:focus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para el encabezado del artículo */
 .header-article-dormir {
     text-align: center;
 }
@@ -103,7 +89,6 @@ input:focus {
     margin-bottom: 20px;
 }
 
-/* Estilo para la lista ordenada */
 .lista-dormir {
     font-size: 1.2em;
     color: #444;
@@ -114,7 +99,6 @@ input:focus {
     margin-bottom: 10px;
 }
 
-/* Estilo para la figura */
 .figure-dormir {
     text-align: center;
     margin-top: 20px;
@@ -132,13 +116,11 @@ input:focus {
     margin-top: 10px;
 }
 
-/* Diseño para la página de Fútbol */
 .body-futbol {
     background-color: #ce87dc;
     font-family: 'Arial', sans-serif;
 }
 
-/* Estilo para el encabezado principal */
 .header-futbol {
     text-align: center;
     padding: 20px 0;
@@ -150,7 +132,6 @@ input:focus {
     text-transform: uppercase;
 }
 
-/* Estilo para el artículo */
 .main-futbol {
     padding: 30px;
 }
@@ -162,14 +143,12 @@ input:focus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Títulos del artículo */
 .titulo-article-futbol {
     text-align: center;
     font-size: 1.8em;
     color: #2e2e2e;
 }
 
-/* Estilo para la lista ordenada */
 .lista-futbol {
     font-size: 1.2em;
     color: #333;
@@ -180,7 +159,6 @@ input:focus {
     margin-bottom: 12px;
 }
 
-/* Estilo para la figura */
 .figure-futbol {
     text-align: center;
     margin-top: 20px;
@@ -198,29 +176,24 @@ input:focus {
     margin-top: 10px;
 }
 
-/* Estilo para el video */
 .video-futbol {
     margin-top: 20px;
 }
 
-/* Estilo para el párrafo */
 .p-futbol {
     text-align: center;
 }
 
-/* Estilo para el segundo título */
 .h2-futbol {
     font-size: 1.6em;
     color: #444;
 }
 
-/* Diseño para la página de Gimnasio */
 .body-gimnasio {
     background-color: #7b5794;
     font-family: 'Helvetica', sans-serif;
 }
 
-/* Estilo para el encabezado principal */
 .header-gimnasio {
     text-align: center;
     padding: 30px 0;
@@ -232,7 +205,6 @@ input:focus {
     text-transform: uppercase;
 }
 
-/* Estilo para el artículo */
 .main-gimnasio {
     padding: 40px;
 }
@@ -244,14 +216,12 @@ input:focus {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Títulos del artículo */
 .titulo-article-gimnasio {
     text-align: center;
     font-size: 2em;
     color: #2a2a2a;
 }
 
-/* Estilo para la lista ordenada */
 .lista-gimnasio {
     font-size: 1.3em;
     color: #444;
@@ -262,7 +232,6 @@ input:focus {
     margin-bottom: 15px;
 }
 
-/* Estilo para la figura */
 .figure-gimnasio {
     text-align: center;
     margin-top: 20px;
@@ -280,12 +249,10 @@ input:focus {
     margin-top: 10px;
 }
 
-/* Estilo para el audio */
 .audio-gimnasio {
     margin-top: 20px;
 }
 
-/* Estilo para el formulario */
 .form-gimnasio {
     margin-top: 30px;
     display: flex;
@@ -322,13 +289,11 @@ input:focus {
     background-color: #7b4c9c;
 }
 
-/* Diseño para la página de Series */
 .body-series {
     background-color: #343759b7;
     font-family: 'Verdana', sans-serif;
 }
 
-/* Estilo para el encabezado principal */
 .header-series {
     text-align: center;
     padding: 25px 0;
@@ -340,7 +305,6 @@ input:focus {
     text-transform: uppercase;
 }
 
-/* Estilo para el artículo */
 .main-series {
     padding: 30px;
 }
@@ -352,14 +316,12 @@ input:focus {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Títulos del artículo */
 .titulo-article-series {
     text-align: center;
     font-size: 1.8em;
     color: #333;
 }
 
-/* Estilo para la lista ordenada */
 .lista-series {
     font-size: 1.2em;
     color: #444;
@@ -370,7 +332,6 @@ input:focus {
     margin-bottom: 12px;
 }
 
-/* Estilo para la figura */
 .figure-series {
     text-align: center;
     margin-top: 20px;
@@ -388,13 +349,11 @@ input:focus {
     margin-top: 8px;
 }
 
-/* Diseño para la página de Videojuegos */
 .body-videojuegos {
     background-color: #e6acac;
     font-family: 'Tahoma', sans-serif;
 }
 
-/* Estilo para el encabezado principal */
 .header-videojuegos {
     text-align: center;
     padding: 25px 0;
@@ -406,7 +365,6 @@ input:focus {
     text-transform: uppercase;
 }
 
-/* Estilo para el artículo */
 .main-videojuegos {
     padding: 40px;
 }
@@ -418,14 +376,12 @@ input:focus {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Títulos del artículo */
 .titulo-article-videojuegos {
     text-align: center;
     font-size: 1.8em;
     color: #333;
 }
 
-/* Estilo para la lista ordenada */
 .lista-videojuegos {
     font-size: 1.3em;
     color: #444;
@@ -436,7 +392,6 @@ input:focus {
     margin-bottom: 12px;
 }
 
-/* Estilo para la figura */
 .figure-videojuegos {
     text-align: center;
     margin-top: 20px;
