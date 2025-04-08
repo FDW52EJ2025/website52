@@ -7,27 +7,29 @@
     <link rel="stylesheet" href="stylesp3.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Lenguajes de Programación</h1>
-        <nav class="nav">
+        <nav>
             <a href="lenguaje.html" class="inicio">Inicio</a>
             <a href="python.html">Python</a>
-            <a href="c.html">C</a>
+            <a href="csharp.html">C#</a>
             <a href="cpp.html">C++</a>
             <a href="java.html">Java</a>
             <a href="javascript.html">JavaScript</a> 
         </nav>
     </header>
 
-    <main>
-        <section>
+    <main class="index">
+        <section id="i1" class="section">
             <h2>¿Qué es C?</h2>
             <p>El lenguaje C es un lenguaje de programación de propósito general, estructurado y compilado, creado a principios de los años 70 por Dennis Ritchie en los laboratorios Bell. Es uno de los lenguajes más influyentes de la historia, y muchas tecnologías modernas, sistemas operativos y lenguajes (como C++, C#, Java) están basados o inspirados en él.</p>
         </section>
-        <section>
-            <img width="300" height="300" src="imgp3/clogo.png" alt="">
+
+        <section id="i2" class="img">
+            <img width="230" height="230" src="imgp3/clogo.png" alt="">
         </section>
-        <section>
+
+        <section id="i3" class="section">
             <h2>Características principales</h2>
             <ul>
                 <li><strong>Lenguaje de bajo nivel:</strong> Permite trabajar directamente con memoria y hardware.</li>
@@ -36,9 +38,10 @@
                 <li><strong>Portabilidad:</strong> Los programas en C pueden compilarse en distintos sistemas con mínimas modificaciones.</li>
             </ul>
         </section>
-        <section>
+
+        <section id="i4" class="section">
             <h2>Tipos de datos comunes</h2>
-            <table border="1">
+            <table>
                 <tr><th>Tipo</th><th>Descripción</th></tr>
                 <tr><td><strong>int</strong></td><td>Números enteros</td></tr>
                 <tr><td><strong>float</strong></td><td>Números decimales de precisión simple</td></tr>
@@ -48,7 +51,8 @@
                 <tr><td><strong>void</strong></td><td>Sin valor (uso en funciones)</td></tr>
             </table>
         </section>
-        <section>
+
+        <section id="i5" class="section">
             <h2>Ventajas</h2>
             <ul>
                 <li>Alto rendimiento y velocidad de ejecución.</li>
@@ -57,7 +61,8 @@
                 <li>Ideal para desarrollar sistemas operativos, controladores y software embebido.</li>
             </ul>
         </section>
-        <section>
+
+        <section id="i6" class="section">
             <h2>Desventajas</h2>
             <ul>
                 <li>No tiene manejo automático de memoria (como Python o Java).</li>
@@ -65,19 +70,32 @@
                 <li>La sintaxis puede ser más compleja para principiantes.</li>
             </ul>
         </section>
-        <section>
+
+        <section id="i7" class="section">
             <h2>Ejemplo: Hola Mundo en C</h2>
-            <pre><code>#include &lt;stdio.h&gt;
+<pre><code>
+#include &lt;stdio.h&gt;
         
-            int main() {
-            printf("Hola, mundo\n");
-            return 0;
-            }</code></pre>
+int main() {
+    printf("Hola, mundo\n");
+    return 0;
+}
+</code></pre>
             <p>Este código imprime <strong>Hola, mundo</strong>. <code>#include &lt;stdio.h&gt;</code> importa la biblioteca estándar de entrada/salida. <code>printf()</code> muestra el texto, y <code>return 0;</code> indica que el programa terminó correctamente.</p>
+        </section>
+
+        <section id="i8" class="section">
+            <h3>Recursos para aprender más</h3>
+            <ul id="m1">
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+                <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+                <li><a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs (Mozilla)</a></li>
+            </ul>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <h4>Desarrollo Web</h4>
         <p>Sitio web desarrollado por: Janetzy-GS18.</p>
         <p><small><small>Este sitio web fue creado por fines educativos</small></small></p>

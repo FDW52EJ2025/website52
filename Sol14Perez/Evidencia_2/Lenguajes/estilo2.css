@@ -78,6 +78,17 @@ body footer {
     gap: 20px;
 }
 
+#a3 {display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#a4 {display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 15px;
+}
+
 img {max-width: 100%;
     height: auto;
     display: block;
@@ -175,3 +186,11 @@ img {max-width: 100%;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     display: inline-block;
 }
+
+iframe {max-width: 90%;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);}

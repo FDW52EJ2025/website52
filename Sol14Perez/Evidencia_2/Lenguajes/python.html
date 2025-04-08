@@ -11,6 +11,8 @@
         <h1 class="principal">Lenguajes de Programación</h1>
         <div class="navegar">
             <nav>
+                <a href="index.html">Inicio</a>
+                <a href="c.html">C</a>
                 <a href="cplus.html">C++</a>
                 <a href="csharp.html">C#</a>
                 <a href="java.html">Java</a>
@@ -44,12 +46,79 @@
                 <li><strong>Gestión automática de memoria: </strong>Python tiene un recolector de basura que gestiona automáticamente la memoria, lo que facilita la programación y reduce los errores relacionados con la memoria.</li>
             </ul>
         </article>
+
+        <article>
+            <h2>Tipos de Datos</h2>
+            <div id="a2">
+                <section class="tipo">
+                    <h3 class="t3">Datos primitivos</h3>
+                    <p><span class="dato">int</span>  Representa números enteros (positivos y negativos).</p>
+                    <p><span class="dato">float</span>  Representa números decimales o de punto flotante.</p>
+                    <p><span class="dato">str</span>  Representa cadenas de texto.</p>
+                    <p><span class="dato">bool</span> Representa valores booleanos (True o False).</p>
+                    <p><span class="dato">None</span>  Representa un valor nulo o vacío (similar a null en otros lenguajes).</p>
+                </section>
+
+                <section class="tipo">
+                    <h3 class="t3">Datos compuestos</h3>
+                    <p><span class="dato">list</span> Lista, que es una colección ordenada y mutable de elementos (pueden ser de diferentes tipos).</p>
+                    <p><span class="dato">tuple</span> Tupla, similar a una lista, pero inmutable.</p>
+                    <p><span class="dato">set</span> Conjunto, colección no ordenada y sin elementos duplicados.</p>
+                    <p><span class="dato">dict</span> Diccionario, colección de pares clave-valor.</p>
+                </section>
+            </div>
+
+            <div id="a3">
+                <section class="tipo">
+                    <h3 class="t3">Datos adicionales</h3>
+                    <p><span class="dato">frozenset</span> Conjunto inmutable.</p>
+                    <p><span class="dato">byte y bytearray</span> Representan datos binarios, donde byte es inmutable y bytearray es mutable.</p>
+                </section>
+            </div>
+        </article>
+
+        <article>
+            <h2>Ventajas y Desventajas de C</h2>
+            <div id="a2">
+                <section id="ventaja">
+                    <h3 class="t3">Ventajas</h3>
+
+                    <p><span class="res1">Sintaxis sencilla y clara</span> Python tiene una sintaxis limpia y legible, lo que hace que el código sea fácil de entender y escribir, especialmente para los principiantes.</p>
+
+                    <p><span class="res1">Alta productividad y rapidez de desarrollo</span> Su enfoque en la simplicidad y la claridad permite a los desarrolladores ser más productivos, escribiendo menos código para hacer más cosas.</p>
+
+                    <p><span class="res1">Ampliamente utilizado y popular</span> Python es uno de los lenguajes más populares y utilizados, lo que significa que tiene una gran comunidad, muchas bibliotecas, frameworks y documentación, lo que facilita el desarrollo de aplicaciones complejas</p>
+
+                    <p><span class="res1">Portabilidad</span> Python es muy portable y se puede ejecutar en casi cualquier sistema operativo, como Windows, macOS y Linux, sin modificaciones significativas en el código.</p>
+
+                    <p><span class="res1">Bibliotecas y frameworks</span> Tiene una amplia variedad de bibliotecas y frameworks para todo tipo de aplicaciones (como Django y Flask para desarrollo web, NumPy y Pandas para ciencia de datos, TensorFlow para inteligencia artificial, etc.).</p>
+                </section>
+                
+                <section id="desventaja">
+                    <h3 class="t3">Desventajas</h3>
+                    <p><span class="res2">Rendimiento</span> Python es más lento que lenguajes compilados como C, C++ o Java, debido a que es un lenguaje interpretado y dinámico. No es ideal para aplicaciones que requieren un rendimiento extremadamente alto o de baja latencia.</p>
+
+                    <p><span class="res2">Consumo de memoria</span> Python tiende a consumir más memoria en comparación con otros lenguajes debido a su naturaleza dinámica y la gestión de memoria automática.</p>
+
+                    <p><span class="res2">Limitaciones en programación móvil</span>Aunque existen frameworks como Kivy para desarrollar aplicaciones móviles en Python, no es tan común ni eficiente como otros lenguajes como Java para Android o Swift para iOS.</p>
+
+                    <p><span class="res2">Multihilo</span> Python tiene un Global Interpreter Lock (GIL), lo que significa que no puede ejecutar múltiples hilos de ejecución de manera paralela de manera efectiva en aplicaciones que necesitan procesamiento intensivo en múltiples núcleos de CPU.</p>
+                </section>
+            </div>
+        </article>
+        
+        <article style="text-align: center;">
+            <h2>Ejemplo: Hola, mundo</h2>
+            <pre class="progra">
+print("Hola, mundo")                    
+            </pre>
+        </article>
     </main>
 
     <aside>
         <h3 class="principal">Sitio oficial</h3>
         <div class="navegar">
-            <a href="https://www.python.org/psf-landing/">Python</a>
+            <a href="https://www.python.org/">Python</a>
         </div>
     </aside>
 
@@ -58,7 +127,7 @@
     <footer>
         <address>
             <p>Sitio web creado por: Sol Perez</p>
-            <p>Actualización: <time datetime="2025-04-04">04 de abril del 2025</time></p>
+            <p>Actualización: <time datetime="2025-04-07">07 de abril del 2025</time></p>
         </address>
     </footer>
 </body>

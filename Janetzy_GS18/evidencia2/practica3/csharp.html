@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="stylesp3.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Lenguajes de Programación</h1>
-        <nav class="nav">
+        <nav>
             <a href="lenguaje.html" class="inicio">Inicio</a>
             <a href="python.html">Python</a>
             <a href="c.html">C</a>
@@ -19,17 +19,17 @@
         </nav>
     </header>
 
-    <main>
-        <section class="section">
+    <main class="index">
+        <section id="i1" class="section">
             <h2>¿Qué es C#?</h2>
             <p>C# (se pronuncia "C Sharp") es un lenguaje de programación moderno, orientado a objetos, desarrollado por Microsoft como parte de su plataforma .NET. Fue creado por Anders Hejlsberg y lanzado en el año 2000. Es ideal para desarrollar aplicaciones de escritorio, web, móviles y videojuegos (especialmente con Unity).</p>
         </section>
 
-        <section class="img">
-            <img width="300" height="300" src="imgp3/csharp.png" alt="">
+        <section id="i2" class="img">
+            <img width="230" height="230" src="imgp3/csharp.png" alt="">
         </section>
 
-        <section class="section">
+        <section id="i3" class="section">
             <h2>Características principales</h2>
             <ul>
                 <li><strong>Orientado a objetos:</strong> Permite estructurar el código usando clases y objetos.</li>
@@ -39,7 +39,7 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section id="i4" class="section">
             <h2>Tipos de datos comunes</h2>
             <table>
                 <tr><th>Tipo</th><th>Descripción</th></tr>
@@ -52,17 +52,16 @@
             </table>
         </section>
 
-        <section class="section">
+        <section id="i5" class="section">
             <h2>Ventajas</h2>
             <ul>
                 <li>Lenguaje robusto, seguro y con herramientas modernas.</li>
                 <li>Excelente integración con Visual Studio y tecnologías de Microsoft.</li>
                 <li>Multiplataforma gracias a .NET Core (Windows, Linux, Mac).</li>
-                <li>Ideal para desarrollar videojuegos con Unity.</li>
             </ul>
         </section>
 
-        <section class="section">
+        <section id="i6" class="section">
             <h2>Desventajas</h2>
             <ul>
                 <li>Menor popularidad fuera del ecosistema Microsoft.</li>
@@ -71,22 +70,32 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section id="i7" class="section">
             <h2>Ejemplo: Hola Mundo en C#</h2>
-            <pre>
-                <code>using System;
+<pre><code>
+using System;
             
-                class Programa {
-                    static void Main() {
-                    Console.WriteLine("Hola, mundo");
-                    }
-                }</code>
-            </pre>
+class Programa {
+    static void Main() {
+    Console.WriteLine("Hola, mundo");
+    }
+}
+</code></pre>
             <p>Este programa muestra <strong>Hola, mundo</strong>. <code>using System;</code> importa la biblioteca estándar. <code>Main()</code> es el punto de entrada. <code>Console.WriteLine()</code> imprime el mensaje.</p>
+        </section>
+
+        <section id="i8" class="section">
+            <h3>Recursos para aprender más</h3>
+            <ul id="m1">
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+                <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+                <li><a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs (Mozilla)</a></li>
+            </ul>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <h4>Desarrollo Web</h4>
         <p>Sitio web desarrollado por: Janetzy-GS18.</p>
         <p><small><small>Este sitio web fue creado por fines educativos</small></small></p>
