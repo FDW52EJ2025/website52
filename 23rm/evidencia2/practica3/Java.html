@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <link rel="stylesheet" href="Java.css">
+</head>
+<body>
+    <section id="s1">
+        <header>
+            <h1>Programación en Java</h1>
+            <nav class="principal">
+                <a href="index.html">Pagina Lenguajes de Programación</a>
+            </nav>
+        </header>
+        <main>
+            <div class="centrarh2">
+                <h2>JAVA</h2>
+            </div>
+            <article id="articulo1">
+                <figure class="py">
+                    <img src="https://nattia.com/wp-content/uploads/2023/10/java_image-1.png" alt="C++">
+                </figure>
+                <div class="alineacion">
+                    <h3>Java: Lenguaje de Programación</h3>
+                    <p>Es un lenguaje de programación de propósito general, orientado a objetos y compilado, desarrollado por Sun Microsystems en 1995 (ahora propiedad de Oracle). Su lema "escribe una vez, ejecuta en cualquier lugar" resume su gran ventaja: el código Java puede ejecutarse en cualquier dispositivo que tenga la Java Virtual Machine (JVM) instalada.</p>
+                    <p>Java es ampliamente utilizado en aplicaciones empresariales, desarrollo móvil (especialmente Android), sistemas web y software de escritorio. Es uno de los lenguajes más enseñados y usados profesionalmente.</p>
+                </div>
+            </article>
+            <article class="centrado">
+                <h3>Características princiaples</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Característica</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Multiplataforma</td>
+                            <td>Gracias a la JVM, se puede ejecutar el mismo código en distintos sistemas operativos sin modificaciones.</td>
+                        </tr>
+                        <tr>
+                            <td>Orientado a objetos</td>
+                            <td>Todo en Java está basado en clases y objetos, lo que mejora la organización, reutilización y mantenimiento del código.</td>
+                        </tr>                        
+                        <tr>
+                            <td>Compilado e interpretado</td>
+                            <td>Se compila a bytecode y luego se ejecuta en la máquina virtual Java (JVM), lo que permite portabilidad y seguridad.</td>
+                        </tr>
+                        <tr>
+                            <td>Fuertemente tipado</td>
+                            <td>Las variables deben tener un tipo definido, lo que ayuda a evitar errores durante la ejecución.</td>
+                        </tr>
+                        <tr>
+                            <td>Gestión automática de memoria</td>
+                            <td>Incluye un recolector de basura que libera memoria no utilizada automáticamente.</td>
+                        </tr>
+                        <tr>
+                            <td>Seguridad</td>
+                            <td>Proporciona mecanismos de control de acceso y protección de datos para evitar errores y amenazas.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Tipos de datos en Java</h3>
+                <table id="t2">
+                    <thead>
+                        <tr>
+                            <th>Tipo de dato</th>
+                            <th>Ejemplo</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos básicos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">int</td>
+                            <td>int edad = 25;</td>
+                            <td>Entero de 32 bits, se usa comúnmente para contar o calcular</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">float</td>
+                            <td>float nota = 8.5f;</td>
+                            <td>Número decimal de precisión simple (32 bits), requiere sufijo <code>f</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">double</td>
+                            <td>double precio = 99.99;</td>
+                            <td>Decimal de doble precisión (64 bits), mayor precisión que <code>float</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">char</td>
+                            <td>char inicial = 'J';</td>
+                            <td>Representa un solo carácter unicode</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">boolean</td>
+                            <td>boolean activo = true;</td>
+                            <td>Solo puede contener <code>true</code> o <code>false</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">byte</td>
+                            <td>byte b = 100;</td>
+                            <td>Entero pequeño de 8 bits, útil para ahorrar memoria</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">short</td>
+                            <td>short s = 32000;</td>
+                            <td>Entero corto de 16 bits, entre <code>-32,768</code> y <code>32,767</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">long</td>
+                            <td>long poblacion = 8000000L;</td>
+                            <td>Entero largo de 64 bits, requiere sufijo <code>L</code></td>
+                        </tr>
+                
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos complejos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">String</td>
+                            <td>String nombre = "Ana";</td>
+                            <td>Cadena de texto, clase utilizada para manipular texto</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Array</td>
+                            <td>int[] edades = {18, 25, 30};</td>
+                            <td>Conjunto de elementos del mismo tipo</td>
+                        </tr>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos definidos por el usuario</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">class</td>
+                            <td>class Persona { String nombre; int edad; }</td>
+                            <td>Define objetos con atributos y métodos; base de la POO</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">enum</td>
+                            <td>enum Dia {LUNES, MARTES, MIERCOLES};</td>
+                            <td>Define un conjunto de constantes con nombre</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Wrapper</td>
+                            <td>Integer edad = 30;</td>
+                            <td>Clases que encapsulan tipos primitivos (como <code>int</code> o <code>double</code>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>📈 Ventajas</h3>
+                <ul id="v1">
+                    <li><mark>Altamente portable</mark>: El código funciona en distintos sistemas operativos gracias a la JVM.</li>
+                    <li><mark>Orientado a objetos</mark>: Facilita la organización y reutilización del código en proyectos grandes.</li>
+                    <li><mark>Amplia comunidad</mark>: Existe mucha documentación, soporte, foros y herramientas disponibles.</li>
+                    <li><mark>Seguridad integrada</mark>: Ofrece mecanismos que previenen errores comunes y vulnerabilidades.</li>
+                    <li><mark>Automatización de memoria</mark>: El recolector de basura gestiona la memoria sin intervención del programador.</li>
+                    <li><mark>Base de Android</mark>: Es el lenguaje principal para crear aplicaciones móviles en Android.</li>
+                </ul>
+
+                <h3>📉 Desventajas</h3>
+                <ul id="d1">
+                    <li><mark>Verboso</mark>: Se necesita escribir más líneas de código para tareas simples en comparación con otros lenguajes.</li>
+                    <li><mark>Alto consumo de memoria</mark>: La JVM requiere recursos que pueden ser excesivos para sistemas limitados.</li>
+                    <li><mark>Menor rendimiento que C++</mark>: Aunque es rápido, no alcanza el nivel de eficiencia de lenguajes de bajo nivel.</li>
+                    <li><mark>Requiere configuración</mark>: Es necesario instalar y configurar herramientas como JDK y JVM para poder ejecutar programas.</li>
+                </ul>
+                <h3>Ejemplo de código en C++</h3>
+                <figure id="Java1">
+                    <img src="https://lineadecodigo.com/wp-content/uploads/2023/12/hola-mundo.png" alt="hola mundo Java">
+                </figure>
+            </article>            
+        </main>
+        <aside>
+            <div class="centrarh2">
+                <h2>Recursos</h2>
+                <hr>
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/q_-mO8QJ4Ic?si=-mgw1kWj02czoO_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <hr>
+                <p>A continuación enlistare una serie de enlaces a cursos que puedan ser de utilidad</p>
+                <h4>Cursos en youtube</h4>
+                <nav>
+                    <ul id="r1">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=b0NHh8RNWK4&pp=ygULY3Vyc29zIGphdmE%3D" target="_blank">Aprende Java Ahora! curso completo desde cero para principiantes</a>
+                            <p>Canal de youtubue: Hola Mundo</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=RGSEnAzS4XY&list=PL5YuOOJ-FGGjjK8j50TkEcjCcZ8dRAiPy" target="_blank">JAVA Desde Cero: Primeros Pasos en una hora</a>
+                            <p>Canal de youtubue: MoureDev by Brais Moure</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=L1oMLsiMusQ&list=PLyvsggKtwbLX9LrDnl1-K6QtYo7m0yXWB" target="_blank">Curso Java desde cero #1 | Introducción e instalación de JDK</a>
+                            <p>Canal de youtube: La Geekipedia de Ernesto</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=Gfoj5RwHmeM&list=PL5YuOOJ-FGGhAhhWpkv0F5MNz10aTwKNw" target="_blank">🔥 Curso Maestro de JAVA 2025: De Cero a Experto Programador 🚀 #1</a>
+                            <p>Canal de youtube: Aprende a programar</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=qxXcI56NfnE" target="_blank">CURSO GRATIS JAVA PARA PRINCIPIANTES ☕👩🏻‍💻 | 2025</a>
+                            <p>Canal de youtube: TodoCode</p>
+                        </li>
+                    </ul>
+                </nav>
+                <hr>
+                <h4>Material extra</h4>
+                <nav>
+                    <ul id="r2">
+                        <li><a href="https://www.w3schools.com/java/" target="_blank">w3schools tutorial Java</a></li>
+                        <li><a href="https://www.codecademy.com/learn/learn-java" target="_blank">Codecademy curso Java</a></li>
+                        <li><a href="https://www.coursera.org/learn/introduccion-java" target="_blank">Coursera UNAM curso Java</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <footer>
+            <div class="centrarh2">
+                <h2>Información de contacto</h2>
+                    <address>
+                        <p>Sitio web desarrollado por: PRMM</p>
+                        <p><time datetime="2025-04-03T14:59">Al 3 de abril del 2025</time></p>
+                        <a href="Facebook">Facebook</a>
+                        <a href="Instagram">Instagram</a>
+                    </address>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>

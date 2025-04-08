@@ -70,65 +70,79 @@
     margin: 10px;
 }
 
-/* Pseudo-clase */
+/* Pseudo-clase (:hover) */
 #s-section_game header:hover {
     background-color: rgb(142, 221, 168);
     border: 2px solid rgb(113, 175, 134);
 }
 
+/* Pseudo-clase (:nth-child) aplicado a un elemento hijo */
 #section_hermano > article:nth-child(2) header{
     background-color: rgb(105, 218, 129);
 }
 
+/* Pseudo-clase (:first-child) aplicado a un elemento hijo */
 #section_hermano > article:first-child header{
     background-color: rgb(247, 160, 98);
 }
+
+/* Selector múltiple de tipo (elementos y/o combinadores) */
 #s-tabla th, #s-tabla tfoot td{
     background-color: rgb(107, 184, 255);
 }
 
+/* Pseudo-clase (:last-child) aplicado a un elemento hijo */
 #section_hermano > article:last-child header{
     background-color: pink;
 }
 
+/* Pseudo-clase (:nth-child) con función "odd" */
 #s-tabla tr:nth-child(odd){
     background-color: rgb(202, 240, 255);
 }
 
+/* Pseudo-clase (:nth-child) con función "even" */
 #s-tabla tr:nth-child(even){
     background-color: rgb(255, 243, 173);
 }
 
-/* Pseudo-elemento */
+/* Pseudo-elemento (::first-line) */
 #s-section_dv p::first-line {
     background-color: rgb(167, 223, 255);
 }
 
+/* Pseudo-elemento (::first-letter) */
 .contenedor p::first-letter{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
 
+/* Selector de atributo aplicado a img y td */
 img[src="Recursos/allmight.jpg"], td[colspan="2"] {
     border: solid rgb(107, 134, 255);
 }
 
+/* Selector de atributo aplicado a input */
 input[type="color"] {
     border: solid rgb(0, 71, 151);
 }
 
+/* Selector de atributo aplicado a enlace (a), contiene "adrian" */
 a[href*="adrian"] {
     color: rgb(125, 125, 255);
 }
 
+/* Selector de atributo aplicado a enlace (a), que empieza con "tel" */
 a[href^="tel"] {
     color: rgb(255, 111, 111);
 }
 
+/* Selector de atributo aplicado a embed, que termina con ".pdf" */
 embed[src$=".pdf"] {
     border: 2px solid rgb(255, 87, 87);
 }
 
+/* Selector de atributo aplicado a enlace (a), contiene "gob" */
 a[href*="gob"] {
     color: rgb(43, 151, 57);
 }

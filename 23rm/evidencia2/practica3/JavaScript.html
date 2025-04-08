@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="JavaScript.css">
+</head>
+<body>
+    <section id="s1">
+        <header>
+            <h1>Programación en JavaScript</h1>
+            <nav class="principal">
+                <a href="index.html">Pagina Lenguajes de Programación</a>
+            </nav>
+        </header>
+        <main>
+            <div class="centrarh2">
+                <h2>JavaScript</h2>
+            </div>
+            <article id="articulo1">
+                <figure class="py">
+                    <img src="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png" alt="JavaScript">
+                </figure>
+                <div class="alineacion">
+                    <h3>JavaScript: Lenguaje de Programación</h3>
+                    <p>JavaScript es un lenguaje de programación interpretado, dinámico y de alto nivel que se ejecuta principalmente en los navegadores web. Fue creado en 1995 por Brendan Eich mientras trabajaba en Netscape, y su objetivo original era dotar a las páginas web de interactividad.</p>
+                    <p>Con el paso del tiempo, JavaScript ha evolucionado de ser un simple lenguaje para crear alertas o validar formularios, a convertirse en un lenguaje completo y versátil, capaz de ejecutar código en el lado del cliente (frontend) y en el servidor (backend) gracias a tecnologías como Node.js.</p>
+                </div>
+            </article>
+            <article class="centrado">
+                <h3>Características principales</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Característica</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Interpretado</td>
+                            <td>No necesita ser compilado, el navegador ejecuta directamente el código.</td>
+                        </tr>
+                        <tr>
+                            <td>Multiplataforma</td>
+                            <td>Se puede ejecutar en casi cualquier navegador, sistema operativo y dispositivo.</td>
+                        </tr>
+                        <tr>
+                            <td>Orientado a objetos y funciones</td>
+                            <td>Soporta clases, objetos y funciones como ciudadanos de primera clase.</td>
+                        </tr>
+                        <tr>
+                            <td>Basado en eventos</td>
+                            <td>Responde a acciones del usuario (clics, teclas, etc.) de forma dinámica.</td>
+                        </tr>
+                        <tr>
+                            <td>Asincrónico y no bloqueante</td>
+                            <td>Permite operaciones en paralelo con callbacks, promesas y async/await.</td>
+                        </tr>
+                        <tr>
+                            <td>Gran ecosistema</td>
+                            <td>Millones de librerías y frameworks disponibles (React, Vue, Angular, etc.).</td>
+                        </tr>
+                        <tr>
+                            <td>Lenguaje del navegador</td>
+                            <td>Es el único lenguaje que los navegadores entienden de forma nativa.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Tipos de datos</h3>  
+                <table id="t2">
+                    <thead>
+                        <tr>
+                            <th>Tipo de dato</th>
+                            <th>Ejemplo</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos básicos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Number</td>
+                            <td>42, 3.14</td>
+                            <td>Números enteros o decimales</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">String</td>
+                            <td>"Hola"</td>
+                            <td>Texto</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Boolean</td>
+                            <td>true, false</td>
+                            <td>Valores lógicos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">null</td>
+                            <td>null</td>
+                            <td>Ausencia intencional de valor</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">undefined</td>
+                            <td>undefined</td>
+                            <td>Variable declarada pero sin valor asignado</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">BigInt</td>
+                            <td>12345678901234567890n</td>
+                            <td>Números enteros muy grandes, fuera del límite de <code>Number</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Symbol</td>
+                            <td>Symbol('id')</td>
+                            <td>Identificadores únicos, útiles como claves de propiedades</td>
+                        </tr>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos complejos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Object</td>
+                            <td>{nombre: "Ana"}</td>
+                            <td>Colección de pares clave-valor</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Array</td>
+                            <td>[1, 2, 3]</td>
+                            <td>Lista ordenada de elementos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdunir" colspan="3">Notas adicionales</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                En JavaScript, todos los tipos primitivos (como <code>Number</code>, <code>String</code> o <code>Boolean</code>) se tratan como <strong>tipos de valor</strong>, mientras que estructuras como <code>Object</code> y <code>Array</code> son <strong>tipos de referencia</strong>.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>✅ Ventajas de JavaScript</h3>  
+                <ul id="v1">
+                    <li><mark>Versatilidad</mark>: Se puede utilizar tanto en el desarrollo frontend (navegador) como backend (servidor) con tecnologías como Node.js.</li>
+                    <li><mark>Interactividad</mark>: Permite crear interfaces dinámicas, reactivas y amigables para el usuario.</li>
+                    <li><mark>Gran comunidad</mark>: Existen miles de recursos, tutoriales, foros y documentación accesible.</li>
+                    <li><mark>Compatible con todos los navegadores</mark>: Funciona correctamente en Chrome, Firefox, Edge, Safari, entre otros.</li>
+                    <li><mark>Gran ecosistema de herramientas</mark>: Dispone de muchas librerías y frameworks como React, Vue, Angular, entre otros.</li>
+                </ul>
+                <h3>⚠️ Desventajas de JavaScript</h3>
+                <ul id="d1">
+                    <li><mark>Problemas de seguridad</mark>: Al ejecutarse en el cliente, puede ser vulnerable a ataques como XSS o CSRF si no se implementan medidas adecuadas.</li>
+                    <li><mark>Inconsistencias entre navegadores</mark>: Algunas funciones pueden comportarse de forma distinta dependiendo del navegador.</li>
+                    <li><mark>Débil tipado</mark>: Al no definir estrictamente el tipo de datos, puede generar errores difíciles de detectar.</li>
+                    <li><mark>Difícil depuración</mark>: Errores en tiempo de ejecución pueden ser difíciles de rastrear, sobre todo en aplicaciones grandes.</li>
+                    <li><mark>Dependencia del navegador</mark>: Aunque se puede usar fuera del navegador con Node.js, su uso principal sigue estando ligado al entorno web.</li>
+                </ul>
+                <figure id="JavaScript1">
+                    <img src="https://lineadecodigo.com/wp-content/uploads/2023/02/hola-mundo-javascript-3.png" alt="hola mundo JavaScript">
+                </figure>
+            </article>
+        </main>
+        <aside>
+            <div class="centrarh2">
+                <h2>Recursos</h2>
+                <hr>
+                <iframe width="520" height="415" src="https://www.youtube.com/embed/FuCiNVP88pc?si=s85U9dTFU-LeCnRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <hr>
+                <p>A continuación enlistare una serie de enlaces a cursos que puedan ser de utilidad</p>
+                <h4>Cursos en youtube</h4>
+                <nav>
+                    <ul id="r1">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=QoC4RxNIs5M" target="_blank">Aprende JavaScript Ahora! curso completo desde cero para principiantes</a>
+                            <p>Canal de youtubue: HolMundo </p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=1glVfFxj8a48" target="_blank">JAVASCRIPT Desde Cero - CURSO Completo (Con ejercicios prácticos)</a>
+                            <p>Canal de youtubue: More by Brains Moure</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=EerdGm-ehJQ&t=121s" target="_blank">JavaScript Tutorial Full Course - Beginner to Pro</a>
+                            <p>Canal de youtube: SuperSimpleDev</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=ivdTnPl1ND0" target="_blank">Aprende JavaScript - Curso Completo desde Cero</a>
+                            <p>Canal de youtube: freecodecamp Español</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=N8Xt5rP_DUo" target="_blank">JAVASCRIPT desde cero | Curso tutorial completo gratis por Sergie Code</a>
+                            <p>Canal de youtube: Sergio Code</p>
+                        </li>
+                    </ul>
+                </nav>
+                <hr>
+                <h4>Material extra</h4>
+                <nav>
+                    <ul id="r2">
+                        <li><a href="https://devdocs.io/javascript/" target="_blank">Documentación del lenguaje JavaScript</a></li>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">Acercamiento a JavaScript.</a></li>
+                        <li><a href="https://es.javascript.info/" target="_blank">El Tutorial de JavaScript Moderno</a></li>
+                        <li><a href="https://www.aprendejavascript.dev/" target="_blank">Aprende JavaScript</a></li>
+                        <li><a href="https://developers.google.com/profile/badges/playlists/webdev/learn-javascript?hl=es-419" target="_blank">Aprende JavaScript (Google)</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <footer>
+            <div class="centrarh2">
+                <h2>Información de contacto</h2>
+                    <address>
+                        <p>Sitio web desarrollado por: PRMM</p>
+                        <p><time datetime="2025-04-03T14:59">Al 3 de abril del 2025</time></p>
+                        <a href="Facebook">Facebook</a>
+                        <a href="Instagram">Instagram</a>
+                    </address>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
