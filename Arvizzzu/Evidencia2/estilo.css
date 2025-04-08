@@ -1,9 +1,14 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    margin: 0;
-    padding: 0;
 }
 
 .main-container {
@@ -15,20 +20,12 @@ body {
     border-radius: 10px;
 }
 
-header {
+#principal-header {
     background-color: #2c3e50;
     color: white;
     padding: 20px;
     text-align: center;
     border-radius: 10px 10px 0 0;
-}
-
-.datos-personales, .sobre-mi, .pasatiempos, .contacto {
-    margin: 20px 0;
-}
-
-h2 {
-    color: #2c3e50;
 }
 
 .pasatiempos ul {
@@ -44,10 +41,64 @@ h2 {
     border-radius: 5px;
 }
 
-footer {
-    text-align: center;
-    background: #2c3e50;
-    color: white;
-    padding: 10px;
-    border-radius: 0 0 10px 10px;
+#edad {
+    font-weight: bold;
+    color: #d35400;
 }
+
+#facultad {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.footer-texto::after {
+    content: " - Derechos reservados";
+    font-style: italic;
+    color: #bdc3c7;
+}
+
+.titulo::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.subtitulo::before {
+    content: "🎓 ";
+}
+
+.descripcion::first-line {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.item:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+h2 + p {
+    font-style: italic;
+    color: #8e44ad;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.item:nth-child(2) {
+    background-color: #1abc9c;
+}
+
+h2 ~ p {
+    font-size: 0.95em;
+}
+
+ul > li {
+    border: 1px dashed #ccc;
+    padding: 5px;

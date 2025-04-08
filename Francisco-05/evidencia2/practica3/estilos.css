@@ -1,0 +1,270 @@
+.botonlenguajes {
+    display: inline-block;
+    width: 100px;
+    background-color: #6a89a1;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .botonlenguajes:hover {
+    background-color: #4f6b81;
+  }
+.botonlenguajes img {
+    display: block;
+    margin: 0 auto 5px auto; 
+  }
+
+  .contenedorLenguajes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+.Titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.s1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s1 p{
+    border: 2px solid #ce8e8e;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 400px;
+    resize: both;
+    overflow: auto;
+  }
+  .prog {
+    display: block;
+    margin-left: 300px;
+    width: 600px;         
+    max-width: 80%;     
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+  .s2 {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px;
+  }
+  
+  .info {
+    border: 2px solid #888;
+    padding: 15px;
+    border-radius: 10px;
+
+    width: 80%;
+    max-width: 600px;
+    resize: both;
+    overflow: auto;
+    text-align: left;
+    direction: ltr;
+  }
+
+  .s2-1 {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 20px;
+    margin-right: 180px;
+  }
+  
+
+  .prog2 {
+    width: 800px;        
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    float: left;          
+    margin-left: 300px;   
+  }
+  
+
+.body {
+    background-color: rgba(41, 89, 92, 0.712);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .h1 h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  footer hr {
+    border: 1px solid #fff;
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+
+  .s1-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin: 20px;
+  }
+  
+  .div {
+    flex: 1 1 45%; 
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .div h2, .div h3, .div h4 {
+    text-align: center;
+    color: #2a2a2a;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #2a2a2a;
+  }
+  
+
+  
+  .grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    grid-template-areas: 
+      "item1 item2"
+      "item3 item4";
+  }
+  
+  .grid-section .item1 {
+    grid-area: item1;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .grid-section .item2 {
+    grid-area: item2;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .grid-section .item3 {
+    grid-area: item3;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .grid-section .item4 {
+    grid-area: item4;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .grid-section {
+    align-items: center;
+    justify-items: center;
+  }
+  
+
+  
+  .h1 h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  footer hr {
+    border: 1px solid #333;
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .cuadro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: flex-start; 
+  }
+  
+
+  
+  .d1, .d2 {
+    flex: 1 1 45%; 
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .d1, .d2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+
+  
+  .t1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  h2, h3, h4 {
+    color: #333;
+    text-align: center;
+  }
+  
