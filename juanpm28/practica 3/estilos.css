@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #c8d1dbf1;
 }
 
 /* Estilos para títulos */
@@ -90,7 +90,7 @@ h2 {
 }
 
 .card-lenguaje {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.829);
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
@@ -113,7 +113,7 @@ h2 {
     margin-top: 1rem;
     padding: 0.8rem 1.5rem;
     background-color: #3498db;
-    color: white;
+    color: rgba(255, 255, 255, 0.63);
     text-decoration: none;
     border-radius: 5px;
     font-weight: 500;
