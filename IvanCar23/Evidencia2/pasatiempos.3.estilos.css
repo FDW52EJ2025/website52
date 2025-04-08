@@ -11,6 +11,25 @@ body{
     margin-bottom: 20px;
 }
 
+.inic *{
+    background-color: #006666;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.inic h1 {
+    margin-bottom: 10px; /* Espacio controlado entre el título y los enlaces */
+}
+
+
+.nav_a, .nav_a a:hover {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    text-decoration: underline ;
+    font-weight: bold;
+}
 
 #s-tipo p{
     background-color: blue;

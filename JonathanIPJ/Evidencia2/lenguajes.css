@@ -1,0 +1,55 @@
+#Nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img:hover{
+    outline: 5px solid red;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#cuerpo {
+    display: grid;
+    grid-template-areas: 
+        "descripcion descripcion"
+        "tipodatos Caracteristicas"
+        "ventajasydesventajas holamundo";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 50px;
+    padding: 20px;
+}
+
+#descripcion {
+    grid-area: descripcion;
+    text-align: justify;
+}
+
+#tipodatos {
+    grid-area: tipodatos;
+}
+
+#ventajasydesventajas{
+    grid-area:ventajasydesventajas;
+    background-color: rgba(47, 139, 109, 0.589);
+    border: 5px solid;
+
+}
+
+#holamundo{
+    grid-area: holamundo;
+    text-align: center;
+}
+
+#Caracteristicas {
+    grid-area: Caracteristicas;
+    background-color: rgba(47, 139, 109, 0.589);
+    border: 5px solid;
+}

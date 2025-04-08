@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++</title>
+    <link rel="stylesheet" href="C++.css">
+</head>
+<body>
+    <section id="s1">
+        <header>
+            <h1>Programación en C++</h1>
+            <nav class="principal">
+                <a href="index.html">Pagina Lenguajes de Programación</a>
+            </nav>
+        </header>
+        <main>
+            <div class="centrarh2">
+                <h2>C++</h2>
+            </div>
+            <article id="articulo1">
+                <figure class="py">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
+                </figure>
+                <div class="alineacion">
+                    <h3>C++: Lenguaje de Programación</h3>
+                    <p>Es un lenguaje de programación de propósito general, compilado y de alto rendimiento. Fue creado por Bjarne Stroustrup a principios de los años 80 como una extensión del lenguaje C, añadiendo características de programación orientada a objetos.
+                    <br>
+                    C++ es ampliamente utilizado en el desarrollo de software de sistemas, videojuegos, aplicaciones en tiempo real, sistemas embebidos y más. Es un lenguaje poderoso, pero con una curva de aprendizaje más exigente.</p>
+                </div>
+            </article>
+            <article class="centrado">
+                <h3>Características princiaples</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Característica</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Compilado</td>
+                            <td>Requiere ser traducido a lenguaje máquina antes de ejecutarse, lo que permite alto rendimiento.</td>
+                        </tr>
+                        <tr>
+                            <td>Orientado a objetos</td>
+                            <td>Permite organizar el código usando clases, objetos, herencia y encapsulamiento.</td>
+                        </tr>                        
+                        <tr>
+                            <td>Alto control de hardware</td>
+                            <td>Ofrece control detallado de la memoria, punteros y recursos del sistema.</td>
+                        </tr>
+                        <tr>
+                            <td>Multiplataforma</td>
+                            <td>Se puede ejecutar en diferentes sistemas operativos con mínimos ajustes.</td>
+                        </tr>
+                        <tr>
+                            <td>Lenguaje híbrido</td>
+                            <td>Combina programación estructurada (como C) y orientada a objetos.</td>
+                        </tr>
+                        <tr>
+                            <td>Estándar industrial</td>
+                            <td>Se usa en sistemas operativos, motores de videojuegos y software de misión crítica.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Tipos de datos en C++</h3>
+                <table id="t2">
+                    <thead>
+                    <tr>
+                        <th>Tipo de dato</th>
+                        <th>Ejemplo</th>
+                        <th>Descripción</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos básicos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">int</td>
+                            <td>5</td>
+                            <td>Entero (positivo o negativo)	</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">float</td>
+                            <td>3.14</td>
+                            <td>Números decimales</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">str (en C++ moderno)</td>
+                            <td>"Hola"</td>
+                            <td>Cadenas de texto</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">bool</td>
+                            <td>True, False</td>
+                            <td>Valores booleanos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">char</td>
+                            <td>"A", 9</td>
+                            <td>Un solo carácter</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">double</td>
+                            <td>3.1415926</td>
+                            <td>Similar a float pero más preciso</td>
+                        </tr>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos complejos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">array</td>
+                            <td>int nums[5] = {1,2,3,4,5};</td>
+                            <td>Conjunto de elementos del mismo tipo</td>
+                        </tr>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos definidos por el usuario</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">struct</td>
+                            <td>struct Persona {string, nombre:int edad; };</td>
+                            <td>Estructura definida por el usuario para agrupar datos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">class</td>
+                            <td>class Coche {public: string modelo; int año; };</td>
+                            <td>Define objetos con propiedades (atributos) y funciones (métodos)</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">enum</td>
+                            <td>enum Dia {Lunes, Martes, Miercoles};</td>
+                            <td>Conjunto de constantes enteras con nombre</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>📈 Ventajas</h3>
+                <ul id="v1">
+                    <li>Alto rendimiento: Muy eficiente en el uso de recursos y rápido en ejecución.</li>
+                    <li>Control total sobre memoria: Ideal para desarrollo de sistemas y drivers.</li>
+                    <li>Orientado a objetos: Mejora la organización y mantenimiento del código.</li>
+                    <li>Portabilidad: Se puede compilar para múltiples plataformas.</li>
+                    <li>Amplio uso profesional: Usado en la industria de videojuegos, sistemas operativos, motores de simulación, etc.</li>
+                </ul>
+                <h3>📉 Desventajas</h3>
+                <ul id="d1">
+                    <li>Complejidad alta: Es un lenguaje difícil para principiantes.</li>
+                    <li>Gestión manual de memoria: Puede causar errores graves si no se maneja correctamente (como fugas de memoria).</li>
+                    <li>Compilación lenta: Requiere tiempo y configuración para compilar grandes proyectos.</li>
+                    <li>Menor productividad: Comparado con lenguajes como Python o JavaScript, lleva más tiempo escribir y probar código.</li>
+                </ul>
+                <h3>Ejemplo de código en C++</h3>
+                <figure id="Chola1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIY7Wd_ldOGrrw_b6XK0vEB5JpkUq1ioMJZw&s" alt="hola mundo C++">
+                </figure>
+            </article>
+        </main>
+        <aside>
+            <div class="centrarh2">
+                <h2>Recursos</h2>
+                <hr>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/nNcYDDIHvcM?si=0_55NXvNgX_MA0Wb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <hr>
+                <p>A continuación enlistare una serie de enlaces a cursos que puedan ser de utilidad</p>
+                <nav>
+                    <ul id="r1">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=VQo6gj7-hw8" target="_blank">Curso Completo de C++ para Principiantes (2023)</a>
+                            <p>Canal de youtubue: ATL Academy (by Lucas Moy)</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=RGSEnAzS4XY&list=PL5YuOOJ-FGGjjK8j50TkEcjCcZ8dRAiPy" target="_blank">Curso Maestro de C++ De Cero a Programador Master 😎 #1</a>
+                            <p>Canal de youtubue: Aprende a programar</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=dJzLmjSJc2c&list=PLWtYZ2ejMVJlUu1rEHLC0i_oibctkl0Vh" target="_blank">CAprende Programación en C++</a>
+                            <p>Canal de youtube: Programación ATS</p>
+                        </li>
+                    </ul>
+                </nav>
+                <hr>
+                <h4>Material extra</h4>
+                <nav>
+                    <ul id="r2"> 
+                        <li><a href="https://learn.microsoft.com/es-es/cpp/cpp/?view=msvc-170" target="_blank">Documentación C++</a></li>
+                        <li><a href="https://www.edx.org/es/aprende/lenguaje-c-plus" target="_blank">Edx curso de C++</a></li>
+                        <li><a href="https://www.w3schools.com/cpp/" target="_blank">w3schools C++</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <footer>
+            <div class="centrarh2">
+                <h2>Información de contacto</h2>
+                    <address>
+                        <p>Sitio web desarrollado por: PRMM</p>
+                        <p><time datetime="2025-04-03T14:59">Al 3 de abril del 2025</time></p>
+                        <a href="Facebook">Facebook</a>
+                        <a href="Instagram">Instagram</a>
+                    </address>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>

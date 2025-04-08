@@ -16,6 +16,8 @@
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
 }
 .subtitulos{
     text-align: center;
@@ -47,4 +49,11 @@ img{
     gap: 20px;
     text-align: center;
     align-items: start;
+}
+.practica{
+    text-align: center;
+    background-color: rgb(45, 27, 62);
+    color: blanchedalmond;
+    border-radius: 5px;
+    border: solid black;
 }

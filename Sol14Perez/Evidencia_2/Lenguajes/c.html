@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguajes de programación</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <header>
+        <h1 class="principal">Lenguajes de Programación</h1>
+        <div class="navegar">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="python.html">Python</a>
+                <a href="cplus.html">C++</a>
+                <a href="csharp.html">C#</a>
+                <a href="java.html">Java</a>
+                <a href="javascript.html">Javascript</a>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <h2>¿Qué es C?</h2>
+            <div id="a1">
+                <p class="text">C es un lenguaje de programación de propósito general, creado en 1972 por Dennis Ritchie en los laboratorios Bell. Es uno de los lenguajes más influyentes y ampliamente utilizados debido a su simplicidad, eficiencia y flexibilidad. C es conocido por ofrecer un control preciso sobre la memoria y el hardware, lo que lo hace ideal para desarrollar sistemas operativos, controladores de dispositivos, software embebido y aplicaciones que requieren alto rendimiento. Aunque su sintaxis es relativamente simple, su capacidad para manipular punteros y trabajar con estructuras de bajo nivel le otorgan gran potencia, aunque a costa de ser más propenso a errores si no se maneja adecuadamente</p>
+                <img src="imagenes/C_Logo.png" alt="Logo de C">
+            </div>
+        </article>
+
+        <article>
+            <h2>Características de C</h2>
+            <ul class="list">
+                <li><strong>Lenguaje de bajo nivel:</strong> Aunque se considera un lenguaje de alto nivel, C tiene características de lenguajes de bajo nivel que permiten un control más directo sobre el hardware.</li>
+
+                <li><strong>Lenguaje estructurado:</strong> C permite una programación estructurada y modular, facilitando la organización y mantenimiento del código.</li>
+
+                <li><strong>Portabilidad: </strong>C es un lenguaje muy portátil, lo que significa que el código escrito en C puede ser ejecutado en diferentes tipos de sistemas y plataformas con poca o ninguna modificación.</li>
+
+                <li><strong>Control sobre el hardware:</strong> Ofrece una gran flexibilidad para manipular direcciones de memoria y trabajar con punteros, lo que permite optimizar el uso de los recursos del sistema.</li>
+
+                <li><strong>Compilado:</strong> C es un lenguaje compilado, lo que significa que el código fuente es transformado a código máquina antes de ser ejecutado.</li>
+
+                <li><strong>Sintaxis simple: </strong>La sintaxis del lenguaje es simple y directa, lo que facilita su aprendizaje y uso.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Tipos de Datos</h2>
+            <div id="a2">
+                <section class="tipo">
+                    <h3 class="t3">Datos primitivos</h3>
+                    <p><span class="dato">int</span>  Tipo de dato entero, puede ser firmado (por defecto) o no firmado.</p>
+                    <p><span class="dato">char</span>  Representa un carácter (generalmente almacenado en 1 byte.)</p>
+                    <p><span class="dato">float</span>  Tipo de dato para representar números con decimales de precisión simple.</p>
+                    <p><span class="dato">double</span>  Tipo de datos para números con decimales de precisión doble.</p>
+                    <p><span class="dato">void</span>  Específica una función que no devuelve valor o un puntero sin tipo.</p>
+                </section>
+
+                <section class="tipo">
+                    <h3 class="t3">Datos derivador</h3>
+                    <p><span class="dato">Arrays</span>  Estructuras de datos que contienen múltiples elementos del mismo tipo.</p>
+                    <p><span class="dato">Punteros</span> Variables que almacenan direcciones de memoria.</p>
+                    <p><span class="dato">structs</span> Permiten agrupar diferentes tipos de datos bajo un mismo nombre.</p>
+                    <p><span class="dato">unions</span> Permiten almacenar diferentes tipos de datos en la misma posición de memoria.</p>
+                    <p><span class="dato">enums</span>  Permiten crear tipos de datos con un conjunto específico de valores.</p>
+                </section>
+            </div>
+        </article>
+
+        <article>
+            <h2>Ventajas y Desventajas de C</h2>
+            <div id="a2">
+                <section id="ventaja">
+                    <h3 class="t3">Ventajas</h3>
+
+                    <p><span class="res1">Eficiencia</span> C es un lenguaje rápido, ya que permite un control preciso sobre la memoria y los recursos del sistema.</p>
+
+                    <p><span class="res1">Portabilidad</span> El código C es altamente portátil y puede ejecutarse en casi cualquier sistema operativo y plataforma con poca o ninguna modificación.</p>
+
+                    <p><span class="res1">Control de bajo nivel</span> C proporciona acceso directo a la memoria a través de punteros, lo que permite optimizar el rendimiento en aplicaciones que requieren alto rendimiento.</p>
+
+                    <p><span class="res1">Amplio uso y documentación</span> Es un lenguaje muy popular, con una extensa comunidad de usuarios, recursos educativos y bibliotecas disponibles</p>
+
+                    <p><span class="res1">Desarrollo de sistemas operativos y software embebido</span>  Debido a su bajo nivel y control sobre el hardware, es ampliamente utilizado en la creación de sistemas operativos y software embebido.</p>
+                </section>
+                
+                <section id="desventaja">
+                    <h3 class="t3">Desventajas</h3>
+                    <p><span class="res2">Gestión manual de memoria</span>  C no tiene recolección automática de basura, lo que significa que el programador debe gestionar manualmente la memoria (asignarla y liberarla). Esto puede llevar a errores como fugas de memoria o acceso a memoria no válida.</p>
+
+                    <p><span class="res2">Seguridad</span>Debido a la falta de controles automáticos en la manipulación de punteros, es más fácil cometer errores que pueden resultar en vulnerabilidades de seguridad, como desbordamientos de búfer.</p>
+
+                    <p><span class="res2">No es tan amigable con el desarrollador</span> La sintaxis de C es más compleja en comparación con lenguajes más modernos, y las herramientas de desarrollo no son tan avanzadas como las de lenguajes más recientes.</p>
+
+                    <p><span class="res2">Manejo de cadenas</span> En C, las cadenas de texto se gestionan como arreglos de caracteres, lo que puede ser propenso a errores, como la falta de terminación de cadenas con el carácter \0.</p>
+                </section>
+            </div>
+        </article>
+        
+        <article style="text-align: center;">
+            <h2>Ejemplo: Hola, mundo</h2>
+            <pre class="progra">
+#include <stdio.h>
+
+    int main() {
+        printf("Hola, mundo\n");
+        return 0;
+    }                    
+            </pre>
+        </article>
+
+    </main>
+
+    <aside>
+        <h3 class="principal">Sitio oficial</h3>
+        <div class="navegar">
+            <a href="https://code.visualstudio.com/docs/languages/cpp">C</a>
+        </div>
+    </aside>
+
+    
+
+    <footer>
+        <address>
+            <p>Sitio web creado por: Sol Perez</p>
+            <p>Actualización: <time datetime="2025-04-04">07 de abril del 2025</time></p>
+        </address>
+    </footer>
+</body>
+</html>

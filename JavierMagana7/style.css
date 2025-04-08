@@ -1,5 +1,7 @@
 #a30{
-    background-color: silver; ; border-radius: 10px;
+    background-color: rgb(52, 73, 94);
+    color: white;
+    border-radius: 10px;
 }
 
 #body body {
@@ -38,7 +40,7 @@ footer {
 
 #navP ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas iguales */
     gap: 0.6em;
     align-items: center;
     justify-content: center;
