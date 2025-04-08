@@ -1,0 +1,28 @@
+/* Estilo sencillitou */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Selector de tipo para todos los h1 */
+h1 {
+    color: #ff6347;
+    text-align: center;
+}
+
+h4 {
+    color: #2e8b57;
+    text-align: center;
+}
+
+/* Selector de tipo para figure */
+figure {
+    text-align: center;
+}
+
+
+/* Efecto hover para la imagen */
+figure.image-container img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+}
