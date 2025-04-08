@@ -115,3 +115,11 @@ h2{
     text-align: center;
     color: white;
 }
+
+img {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}

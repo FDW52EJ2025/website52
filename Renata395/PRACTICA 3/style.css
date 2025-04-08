@@ -1,0 +1,123 @@
+/*PAGINA PYTHON, C++ Y JAVA*/
+.h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cuadro {
+    grid-area: cuadro;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    padding: 15px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.seccion {
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px;
+}
+
+.t1 {
+    grid-area: cuadro;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    padding: 15px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.d1 {
+    grid-area: cuadro;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    padding: 15px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.d2 {
+    grid-area: cuadro;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    padding: 15px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-areas: "d1 d2";
+    gap: 20px;
+    padding: 20px;
+}
+
+.d1, .d2 {
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.d1 {
+    grid-area: d1;
+}
+
+.d2 {
+    grid-area: d2;
+}
+
+.divi {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    margin-top: 20px; 
+}
+
+/*C, C# Y JAVASCRIPT*/
+.s1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    margin: 20px 0;
+}
+
+.div {
+    width: 45%;
+    background-color: ghostwhite;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}

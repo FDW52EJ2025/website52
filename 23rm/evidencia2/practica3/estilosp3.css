@@ -1,0 +1,106 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background-color: rgb(84, 75, 75);
+    text-align: center;
+    border-radius: 10px;
+    color: azure;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+body{
+    background-color: beige;
+}
+.principal{
+    margin-top: 0px;
+    color: blueviolet;
+    background-color: rgb(126, 108, 136);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+#s1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+}
+#s1 header{
+    grid-column: 1 / -1;
+}
+#s1 main{
+    grid-column: 1 / 4;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: beige;
+    text-align: center;
+}
+#s1 aside{
+    grid-column: 4 / 5;
+    /*border: 5px solid black;*/
+    margin: 5px;
+    background-color: rgb(143, 109, 97);
+    border-radius: 5px;
+}
+#s1 footer{
+    grid-column: 1 / -1;
+    /*border: 5px solid black*/;
+    margin: 5px;
+    background-color: rgb(57, 62, 62);
+    color: azure;
+    border-radius: 5px;
+}
+h2{
+    gap: 15px;
+    padding: 10px;
+    background-color: rgb(68, 64, 70);
+    border-radius: 10px;
+    color: rgb(176, 214, 214);
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.centrarh2{
+    text-align: center;
+}
+#s1 aside img {
+    width: 200px !important;
+    height: 220px !important;
+}
+#s1 aside img:hover{
+    filter: brightness(0.5);
+}
+#s1 aside figcaption{
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.temas{
+    background-color:coral;
+    width: fit-content;
+}
+p{
+    margin-right: 20px;
+}
+h4{
+    color: rgb(34, 74, 66);
+}
+.Infografia img{
+    width: 400px;
+    height: 600px;
+}
+mark{
+    background-color: rgb(115, 199, 115);
+}
+
+.vsc img{
+    width: 100px;
+    height: 150px;
+}
+.GitHub a{
+    color: rgb(71, 47, 94);
+}
+a:hover, figcaption:hover{
+    color: rgb(65, 91, 92);
+}
