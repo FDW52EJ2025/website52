@@ -1,0 +1,119 @@
+h1 {
+    background-color: pink; 
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(iconos/fondo.jpg);
+}
+
+
+nav {
+    background: #A9B5DF;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    width: 15vw; 
+    position: sticky;
+    top: 120px;
+    height: 100vh;
+    box-sizing: border-box; 
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+ul {
+    list-style-type: none
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; /* Espacio entre los links */
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+}
+
+#s2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.boton {
+    background-color: #EABDE6;
+    padding: 5px;
+}
+
+.boton a {
+    color: black !important; 
+    display: block; 
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.contenido {
+    flex-grow: 1; 
+    padding: 20px;
+}
+
+li {
+    display: flex; 
+    align-items: center; 
+}
+  
+.boton {
+    margin-right: 10px; 
+}
+  
+.icon {
+    width: 50px; 
+    height: 50px; 
+}
+
+.icon2 {
+    width: 80px; 
+    height: 50px; 
+}
+
+.Lng {
+    width: 500px; 
+    height: 500px;
+     
+}
+
+.linea {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    gap: 100px; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Permite que se ajusten si no caben en una línea */
+}
+
+.linea h2 {
+    margin: 0;
+}

@@ -1,0 +1,124 @@
+*{
+    font-family: "SoDo Sans", Helvetica Neue, Arial, sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "header header"
+                         "main aside"
+                         "footer footer";
+    gap: 15px;
+}
+
+body header {
+    grid-area: header;
+}
+body main {
+    grid-area: main;
+    padding: 10px;
+    width: 1100px;
+}
+body aside {
+    background-color: rgb(233, 233, 233);
+    grid-area: aside;
+    padding: 10px;
+    width: 310px;
+    border-radius: 10px;
+    height: 300px;
+}
+body footer{
+    background-color: rgb(34, 62, 43);
+    grid-area: footer;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+ul li{
+    height: 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(34, 62, 43);
+    text-align: center;
+    border-radius: 30px;
+    height: 90px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    font-size: 15px;
+    padding: 10px;
+} 
+
+.img {
+    width: 40px;
+    display: block;
+}
+#java-img{
+    width: 60px;
+} 
+
+h1{
+    color: rgb(34, 62, 43);
+}
+
+main h1{
+    text-align: center;
+}
+
+footer p{
+    color: #F7F7F7;
+    margin: 0px;
+    text-align: center;
+    font-size: 13px;
+}
+
+main ul li{
+    text-align: left;
+    margin: -15px;
+}
+
+section{
+    display: flexbox;
+}
+
+#ventajas{
+    color:#27b11d;
+}
+
+#desventajas{
+    color:#b11d1d;
+}
+
+.container-imghola{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 700px;
+    background-color: #e9e9e9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.img-hola{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px rgb(224, 224, 224);
+} 
+
+#principalEvidencias{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: rgb(34, 62, 43);
+    text-decoration: none;
+}

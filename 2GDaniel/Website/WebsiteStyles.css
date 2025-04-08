@@ -117,6 +117,14 @@ iframe + ul {
     color: #333;
 }
 
+#intro::first-letter{
+    font-size: 20px;
+    background-color: white;
+    color: brown;
+    padding: 2px;
+    margin: 3px;
+}
+
 .Imagenes-Selectores {
     border-radius: 10px;
     border: brown 3px solid;
@@ -130,3 +138,4 @@ iframe + ul {
     background-color: whitesmoke;
     text-align: center;
 }
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body bgcolor="f5d4da">
+    <h1 class="titC">ℂ</h1>
+    <br>
+    <section class="c">
+        <article class="caracteristicasC">
+            <h2>Características</h2>
+            La filosofía de C se basa en proporcionar acceso directo a los recursos del sistema con abstracción mínima. A diferencia de lenguajes modernos que priorizan seguridad o productividad, C ofrece al programador control absoluto sobre la memoria y el procesador, exigiendo a cambio plena conciencia de cada operación. Este enfoque "lo que escribes es lo que obtienes" lo hace predecible y transparente, cualidades esenciales para programación de sistemas.<br>Su sistema de tipos estático pero flexible permite manipulaciones de bajo nivel mediante punteros y aritmética de memoria. La ausencia de recolector de basura, orientación a objetos nativa o manejo automático de excepciones no son omisiones, sino decisiones de diseño que preservan el rendimiento y control característicos del lenguaje.
+        </article>
+        <br>
+        <article class="tiposC">
+            <h2>Tipos básicos:</h2>
+            Los tipos en C son básicos pero potentes: caracteres (char), enteros de varios tamaños (int, short, long), números flotantes (float, double) y sus variantes unsigned. Las estructuras (struct) permiten agrupar datos heterogéneos, mientras las uniones (union) comparten espacio de memoria entre tipos. Los punteros (*) constituyen el concepto más poderoso - y peligroso - permitiendo manipulación directa de memoria y estructuras dinámicas.<br>El manejo de memoria es manual: malloc/free controlan la asignación dinámica, requiriendo disciplina para evitar fugas o corrupción. Arrays y cadenas son meros bloques de memoria contigua, con terminación nul para strings. Este enfoque crudo proporciona eficiencia máxima a costa de mayor responsabilidad del programador.
+
+        </article>
+        <br>
+        <article class="ventajasC">
+            <h2>Ventajas</h2>
+            <ul>
+                <li> Lenguaje muy rápido y eficiente</li>
+                <li> Te da control total sobre el hardware y la memoria</li>
+                <li> Ampliamente usado y probado en la industria</li>
+                <li> Ideal para programación de sistemas y dispositivos embebidos</li>
+                <li> Base para aprender otros lenguajes</li>
+            </ul>
+
+        </article>
+        <br>
+        <article class="desventajasC">
+            <h2>Desventajas</h2>
+            <ul>
+                <li> No tiene soporte para programación orientada a objetos</li>
+                <li> No tiene recolección automática de basura (memoria debe gestionarse manualmente)</li>
+                <li> Propenso a errores difíciles (ej. errores con punteros o desbordamientos)</li>
+                <li> Sintaxis menos intuitiva que lenguajes modernos</li>
+            </ul>
+
+        </article>
+        <br>
+    </section>
+    <div class="holamundoC">
+        <img width="140px" src="imagenes/C.png" alt="">
+        <h2>EJEMPLO DE HOLA MUNDO:</h2>
+        <pre>#include <stdio.h>
+
+            int main() {
+                printf("Hola Mundo\n");
+                return 0;
+            }
+            
+            </pre>
+    </div>
+</body>
+</html>

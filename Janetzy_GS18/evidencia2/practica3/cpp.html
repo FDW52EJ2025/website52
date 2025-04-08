@@ -3,68 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>C++</title>
+    <link rel="stylesheet" href="stylesp3.css">
 </head>
 <body>
-    <h1>Lenguajes de programación</h1>
+    <header class="header">
+        <h1>Lenguajes de Programación</h1>
+        <nav class="nav">
+            <a href="lenguaje.html" class="inicio">Inicio</a>
+            <a href="python.html">Python</a>
+            <a href="c.html">C</a>
+            <a href="csharp.html">C#</a>
+            <a href="cpp.html">C++</a>
+            <a href="java.html">Java</a>
+            <a href="javascript.html">JavaScript</a> 
+        </nav>
+    </header>
 
-    <section>
-        <h2>¿Qué es C++?</h2>
-        <p>C++ es un lenguaje de programación de propósito general que fue creado por Bjarne Stroustrup a principios de los años 80 como una extensión del lenguaje C. Introduce características de programación orientada a objetos, manteniendo la eficiencia y flexibilidad del C original.</p>
-    </section>
+    <main>
+        <section class="section">
+            <h2>¿Qué es C++?</h2>
+            <p>C++ es un lenguaje de programación de propósito general que fue creado por Bjarne Stroustrup a principios de los años 80 como una extensión del lenguaje C. Introduce características de programación orientada a objetos, manteniendo la eficiencia y flexibilidad del C original.</p>
+        </section>
 
-    <section>
-        <h2>Características principales</h2>
-        <ul>
-            <li><strong>Orientado a objetos:</strong> Permite usar clases, herencia, encapsulamiento y polimorfismo.</li>
-            <li><strong>Lenguaje compilado:</strong> Convierte el código fuente en código máquina para una ejecución rápida.</li>
-            <li><strong>Soporte de programación genérica:</strong> Permite crear funciones y clases reutilizables con plantillas.</li>
-            <li><strong>Compatible con C:</strong> Se puede usar código C dentro de programas en C++.</li>
-        </ul>
-    </section>
+        <section class="img">
+            <img width="300" height="300" src="imgp3/cpplogo.png" alt="">
+        </section>
 
-    <section>
-        <h2>Tipos de datos comunes</h2>
-        <table border="1"
-            <tr><th>Tipo</th><th>Descripción</th></tr>
-            <tr><td><strong>int</strong></td><td>Enteros</td></tr>
-            <tr><td><strong>float</strong></td><td>Decimales de precisión simple</td></tr>
-            <tr><td><strong>double</strong></td><td>Decimales de doble precisión</td></tr>
-            <tr><td><strong>char</strong></td><td>Carácter</td></tr>
-            <tr><td><strong>bool</strong></td><td>Booleano</td></tr>
-            <tr><td><strong>string</strong></td><td>Cadena de texto (de la STL, <code>#include &lt;string&gt;</code>)</td></tr>
-        </table>
-    </section>
+        <section class="section">
+            <h2>Características principales</h2>
+            <ul>
+                <li><strong>Orientado a objetos:</strong> Permite usar clases, herencia, encapsulamiento y polimorfismo.</li>
+                <li><strong>Lenguaje compilado:</strong> Convierte el código fuente en código máquina para una ejecución rápida.</li>
+                <li><strong>Soporte de programación genérica:</strong> Permite crear funciones y clases reutilizables con plantillas.</li>
+                <li><strong>Compatible con C:</strong> Se puede usar código C dentro de programas en C++.</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Ventajas</h2>
-        <ul>
-            <li>Alto rendimiento en ejecución.</li>
-            <li>Muy flexible para trabajar tanto a bajo como a alto nivel.</li>
-            <li>Amplio soporte para estructuras de datos y algoritmos complejos.</li>
-            <li>Gran comunidad y abundantes recursos de aprendizaje.</li>
-        </ul>
-    </section>
+        <section class="section">
+            <h2>Tipos de datos comunes</h2>
+            <table>
+                <tr><th>Tipo</th><th>Descripción</th></tr>
+                <tr><td><strong>int</strong></td><td>Enteros</td></tr>
+                <tr><td><strong>float</strong></td><td>Decimales de precisión simple</td></tr>
+                <tr><td><strong>double</strong></td><td>Decimales de doble precisión</td></tr>
+                <tr><td><strong>char</strong></td><td>Carácter</td></tr>
+                <tr><td><strong>bool</strong></td><td>Booleano</td></tr>
+                <tr><td><strong>string</strong></td><td>Cadena de texto (de la STL, <code>#include &lt;string&gt;</code>)</td></tr>
+            </table>
+        </section>
 
-    <section>
-        <h2>Desventajas</h2>
-        <ul>
-            <li>Puede ser más complejo de aprender para principiantes.</li>
-            <li>No tiene recolección automática de basura como Java o C#.</li>
-            <li>Errores de memoria pueden ser difíciles de depurar.</li>
-        </ul>
-    </section>
+        <section class="section">
+            <h2>Ventajas</h2>
+            <ul>
+                <li>Alto rendimiento en ejecución.</li>
+                <li>Muy flexible para trabajar tanto a bajo como a alto nivel.</li>
+                <li>Amplio soporte para estructuras de datos y algoritmos complejos.</li>
+                <li>Gran comunidad y abundantes recursos de aprendizaje.</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Ejemplo: Hola Mundo en C++</h2>
-        <pre><code>#include &lt;iostream&gt;
+        <section class="section">
+            <h2>Desventajas</h2>
+            <ul>
+                <li>Puede ser más complejo de aprender para principiantes.</li>
+                <li>No tiene recolección automática de basura como Java o C#.</li>
+                <li>Errores de memoria pueden ser difíciles de depurar.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Ejemplo: Hola Mundo en C++</h2>
+            <pre>
+                <code>#include &lt;iostream&gt;
         
-        int main() {
-        std::cout &lt;&lt; "Hola, mundo" &lt;&lt; std::endl;
-        return 0;
-        }</code></pre>
-        <p>Este programa muestra <strong>Hola, mundo</strong>. <code>#include &lt;iostream&gt;</code> permite usar entrada y salida estándar. <code>std::cout</code> imprime texto en pantalla. <code>return 0;</code> indica que el programa terminó correctamente.</p>
-    </section>
+                int main() {
+                    std::cout &lt;&lt; "Hola, mundo" &lt;&lt; std::endl;
+                    return 0;
+                }</code>
+            </pre>
+            <p>Este programa muestra <strong>Hola, mundo</strong>. <code>#include &lt;iostream&gt;</code> permite usar entrada y salida estándar. <code>std::cout</code> imprime texto en pantalla. <code>return 0;</code> indica que el programa terminó correctamente.</p>
+        </section>
+    </main>
 
+    <footer class="footer">
+        <h4>Desarrollo Web</h4>
+        <p>Sitio web desarrollado por: Janetzy-GS18.</p>
+        <p><small><small>Este sitio web fue creado por fines educativos</small></small></p>
+    </footer>
 </body>
 </html>
