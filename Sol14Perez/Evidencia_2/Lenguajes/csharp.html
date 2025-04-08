@@ -11,7 +11,9 @@
         <h1 class="principal">Lenguajes de Programación</h1>
         <div class="navegar">
             <nav>
+                <a href="index.html">Inicio</a>
                 <a href="python.html">Python</a>
+                <a href="c.html">C</a>
                 <a href="cplus.html">C++</a>
                 <a href="java.html">Java</a>
                 <a href="javascript.html">Javascript</a>
@@ -45,12 +47,107 @@
                 <li><strong>Multiplataforma (con .NET Core / .NET 5+): </strong>Originalmente era solo para Windows, pero ahora puede usarse en Linux, macOS, y otros sistemas operativos.</li>
             </ul>
         </article>
+
+        <article>
+            <h2>Tipos de Datos</h2>
+            <div id="a2">
+                <section class="tipo">
+                    <h3 class="t3">Datos primitivos</h3>
+                    <p><span class="dato">int</span>  Números enteros, puede ser firmado o no firmado (por defecto es firmado).
+                    </p>
+                    <p><span class="dato">long</span> Números enteros largos.</p>
+                    <p><span class="dato">short</span>  Números enteros cortos.</p>
+                    <p><span class="dato">byte</span>  Enteros pequeños sin signo (0 a 255).</p>
+                    <p><span class="dato">char</span>  Caracteres Unicode (almacena un solo carácter).
+                    </p>
+                    <p><span class="dato">bool</span>  Valores booleanos, true o false.
+                    </p>
+                    <p><span class="dato">float</span> Números de punto flotante de precisión simple.
+                    </p>
+                    <p><span class="dato">double</span> Números de punto flotante de precisión doble.
+                    </p>
+                    <p><span class="dato">decimal</span> Números decimales de alta precisión, usados comúnmente en cálculos financieros.
+                    </p>
+                    <p><span class="dato">string</span>  Cadenas de texto, que son secuencias de caracteres.
+                    </p>
+                </section>
+
+                <section class="tipo">
+                    <h3 class="t3">Datos de referencia</h3>
+                    <p><span class="dato">object</span> El tipo base de todos los tipos en C#, que puede contener cualquier tipo de dato.
+                    </p>
+                    <p><span class="dato">class</span>Definición de clases, que pueden contener tanto datos como métodos.
+                    </p>
+                    <p><span class="dato">interface</span> Define un contrato que las clases pueden implementar.</p>
+                    <p><span class="dato">delegate</span> Tipo que representa referencias a métodos con una firma específica.</p>
+                    <p><span class="dato">array</span> Colección de elementos del mismo tipo, con un tamaño fijo.</p>
+                    <p><span class="dato">dynamic</span> Tipo dinámico que puede cambiar su tipo en tiempo de ejecución, útil en situaciones donde no se puede conocer el tipo con anticipación.
+                    </p>
+                </section>
+            </div>
+            <div id="a3">
+                <section class="tipo">
+                    <h3 class="t3">Datos adicionales</h3>
+                    <p><span class="dato">enum</span>  Conjunto de valores constantes con nombre.
+                    </p>
+                    <p><span class="dato">struct</span> Estructura que agrupa tipos de datos diferentes bajo un mismo nombre y es un tipo de valor (en lugar de referencia).</p>
+                    <p><span class="dato">Nullable</span>Tipos como int?, que permiten que los tipos de valor acepten un valor nulo.</p>
+                </section>
+            </div>
+
+        </article>
+
+        <article>
+            <h2>Ventajas y Desventajas de C</h2>
+            <div id="a2">
+                <section id="ventaja">
+                    <h3 class="t3">Ventajas</h3>
+
+                    <p><span class="res1">Sintaxis moderna y sencilla</span>C# tiene una sintaxis que es fácil de aprender, especialmente para los programadores que ya están familiarizados con otros lenguajes como C, C++ o Java.</p>
+
+                    <p><span class="res1">Integración con el ecosistema de Microsoft</span> C# está diseñado para funcionar perfectamente con el .NET Framework y .NET Core, lo que facilita el desarrollo de aplicaciones para Windows, servicios web, aplicaciones móviles (a través de Xamarin) y aplicaciones en la nube.</p>
+
+                    <p><span class="res1">Gestión automática de memoria</span> C# tiene un sistema de recolección de basura que automáticamente maneja la memoria, reduciendo la posibilidad de errores como las fugas de memoria, que pueden ser comunes en lenguajes como C o C++.
+                    </p>
+
+                    <p><span class="res1">Orientación a objetos</span> C# es un lenguaje completamente orientado a objetos, lo que permite la creación de aplicaciones más modulares, reutilizables y fáciles de mantener.</p>
+
+                    <p><span class="res1">Soporte para LINQ</span>  LINQ (Language Integrated Query) permite realizar consultas de bases de datos y colecciones de datos de manera directa y eficiente dentro del lenguaje, lo que mejora la legibilidad y la productividad. </p>
+                </section>
+                
+                <section id="desventaja">
+                    <h3 class="t3">Desventajas</h3>
+                    <p><span class="res2">Dependencia de Microsoft y el ecosistema .NET</span>C# está muy vinculado al ecosistema de Microsoft, lo que puede ser un inconveniente si deseas desarrollar fuera de este entorno, aunque la llegada de .NET Core ha mejorado la portabilidad.
+                    </p>
+
+                    <p><span class="res2">Menos control sobre el sistema</span> Aunque C# es un lenguaje potente, no tiene el mismo control sobre el hardware y la memoria que lenguajes como C o C++, lo que lo hace menos adecuado para tareas de bajo nivel o programación de sistemas embebidos.</p>
+
+                    <p><span class="res2">Rendimiento</span> Aunque C# es rápido y eficiente en muchos casos, no es tan rápido como lenguajes compilados como C o C++ debido a su naturaleza gestionada (es decir, depende de un entorno de ejecución como el Common Language Runtime o CLR). Esto puede ser un problema en aplicaciones donde el rendimiento es crítico, como en videojuegos de alto rendimiento.
+                    </p>
+
+                    <p><span class="res2">Curva de aprendizaje para herramientas avanzadas</span> Aunque C# es accesible para principiantes, las herramientas avanzadas como LINQ, delegados, eventos y expresiones lambda pueden ser difíciles de entender y dominar al principio.
+                    </p>
+                </section>
+            </div>
+        </article>
+        
+        <article style="text-align: center;">
+            <h2>Ejemplo: Hola, mundo</h2>
+            <pre class="progra">
+using System;
+
+class Program {
+    static void Main() {
+        Console.WriteLine("Hola, mundo");
+    }
+}</pre>
+        </article>
     </main>
 
     <aside>
         <h3 class="principal">Sitio oficial</h3>
         <div class="navegar">
-            <a href="https://dotnet.microsoft.com/es-es/languages/csharp">C#</a>
+            <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">C#</a>
         </div>
     </aside>
 
@@ -59,7 +156,7 @@
     <footer>
         <address>
             <p>Sitio web creado por: Sol Perez</p>
-            <p>Actualización: <time datetime="2025-04-04">04 de abril del 2025</time></p>
+            <p>Actualización: <time datetime="2025-04-07">07 de abril del 2025</time></p>
         </address>
     </footer>
 </body>
