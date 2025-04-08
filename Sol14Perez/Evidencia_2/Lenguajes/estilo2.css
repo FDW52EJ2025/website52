@@ -186,3 +186,11 @@ img {max-width: 100%;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     display: inline-block;
 }
+
+iframe {max-width: 90%;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);}
