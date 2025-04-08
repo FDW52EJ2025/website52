@@ -1,5 +1,72 @@
 #a30{
-    background-color: silver; ; border-radius: 10px;
+    background-color: rgb(52, 73, 94);
+    color: white;
+    border-radius: 10px;
+}
+
+#body body {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "nav nav"
+        "main main"
+        "footer footer";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+header {
+    grid-area: header;
+    border-radius: 10px;
+    border: 2px solid #030303;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+nav {
+    grid-area: nav;
+
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(52, 73, 94);
+    color: white;
+    border: 2px solid #030303;
+}
+
+#navP ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columnas iguales */
+    gap: 0.6em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Quitar viñetas */
+}
+/* Estilo para cada elemento de lista */
+.nav {
+    background-color: #030303; /* Color de fondo individual */
+    text-align: center;
+    padding: 1em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.nav:hover {
+    background-color: #F7374F; /* Cambio de color al pasar el mouse */
+}
+/* Estilo para los enlaces */
+.nav a {
+    text-decoration: none; /* Quitar subrayado */
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
 }
 
 .titulopaginaperso{
@@ -42,6 +109,7 @@
     font-size: 20px;
     font-weight: bold;
 }
+
 
 .titulo3{
     text-align: center;
@@ -257,7 +325,7 @@ section ~ p {   /* Selector por hermano general */
 
 /* Pseudo Clases */
 a:hover {
-    background-color: rgb(231, 76, 60);
+    background-color: #F7374F;
     color: white;
 }
 

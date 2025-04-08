@@ -2,6 +2,7 @@
     text-align: center;
     background-color:cornflowerblue;
     border-radius: 10px;
+    border: 5px solid #000000;
 }
 
 .estilo-practica {
@@ -22,18 +23,57 @@
 }
 
 nav {
-    background-color: black; 
+    background-color: #97f081; 
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    border: 5px solid #000000;
+    font-size: 20px;
+    font-weight: bold;
   }
   
 nav a {
-    color: white;
     text-decoration: none; 
+    color: #000000;
     font-size: 20px;
     margin-left: 30px;
     padding: 5px;
-    background-color: gray;
     border-radius: 10px;
 } 
+
+nav a[href]:hover {
+  color: red;
+  font-size: 22px;
+}
+
+div nav {
+    display: grid;
+    grid-template-areas: "i spp spo"
+                         "e2p1 e2p2 e2p3";
+    width: auto;
+    gap: 1em;
+}
+
+nav .index{
+  grid-area: i;
+}
+
+nav .spp{
+  grid-area: spp;
+}
+
+nav .spo{
+  grid-area: spo;
+}
+
+nav .e2p1{
+  grid-area: e2p1;
+}
+
+nav .e2p2{
+  grid-area: e2p2;
+}
+
+nav .e2p3{
+  grid-area: e2p3;
+}

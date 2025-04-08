@@ -160,3 +160,102 @@ footer form input[type="submit"]:hover {
     background-color: #333;
     color: #f4f4f4;
 }
+
+/* Practica 3 */
+
+#n1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; 
+    background-color: #fff5f0;
+    padding: 25px 30px;
+    border-radius: 8px;
+    margin: 30px auto;
+    width: 80%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ff7f50;
+}
+
+#n1 a {
+    color: #ff7f50;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 2px solid #ff7f50;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-size: 1em;
+}
+
+#n1 a:hover {
+    background-color: #ff7f50;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+#n2 {
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #fff0eb;
+    border-left: 6px solid #ff7f50;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+#n2 p {
+    margin: 0;
+}
+
+#n5 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Ajuste de imagen encabezado */
+#imagen {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+#imagen img {
+    width: 60px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+/* Estilo para las secciones s1 */
+#s1 {
+    background-color: #fff5f0;
+    padding: 20px;
+    border-left: 6px solid #ff7f50;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+#s1 h2 {
+    color: #ff7f50;
+    margin-top: 0;
+}
+
+#s1 p, #s1 li {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+}
+

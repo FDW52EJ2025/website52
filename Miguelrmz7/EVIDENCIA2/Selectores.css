@@ -1,56 +1,36 @@
 #s1 table td{
     background-color: gray; 
 }
+
 #s2 p::first-letter{
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
 }
+
 #s3 p::first-line{
     background-color: gold;
 }
 
-
-header+h2 {
+header ~ h2 {
     color: brown;
 }
 
-.Hijos p{
-    color: green;
+.Hijos p {
+    color: green ;
 }
 
-section:first-child {
-    background-color: burlywood;
-    padding: 10px;
+ul li:nth-child(odd){
+    background-color: pink ;
 }
 
-article:last-child {
-    border-bottom: 2px solid black;
+ul li:nth-child(even){
+    background-color: yellowgreen ;
 }
 
-ul li:nth-child(odd) {
-    background-color: pink;
-}
-
-
-ul li:nth-child(even) {
-    background-color: yellowgreen;
-}
-
-ul li:first-child {
+ul li:first-of-type {
     font-weight: bold;
 }
 
-article h2:first-of-type {
-    color: #007bff;
-}
-
-p::first-letter {
-    font-size: 2em;
-    color: #ff6347;
-    font-weight: bold;
-}
-
-table tr:nth-last-child(2) {
-    background-color: #f2f2f2;
+table tr:nth-last-of-type(2) {
     font-style: italic;
 }
