@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    background-color: #e9f5fb;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado y pie de página */
+header#main-header, footer {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header#main-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilos de la sección de pasatiempos */
+h2.section-title {
+    color: #007acc;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+article.hobby {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article.hobby:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: #007acc;
+    transition: color 0.3s ease, transform 0.3s ease; 
+    font-weight: bold;
+    font-size: 1.2em; /* Tamaño base del texto */
+}
+
+a:hover {
+    color: #ff6347;
+    transform: scale(1.1); /* Aumenta el tamaño del texto al pasar el mouse */
+}
+
+/* Estilos del aside */
+aside {
+    text-align: center;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+aside img {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+aside img:hover {
+    transform: scale(1.1);
+}
+
+aside h4 {
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Estilos del pie de página */
+footer p {
+    margin: 5px 0;
+    color: #ffffff;
+}

@@ -1,43 +1,152 @@
+/* Selectores de tipo */
 body {
-    background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #barra-nav {
-    background-color: #333;  
-    color: white;  
-    padding: 15px 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0px 4px 8px rgba(149, 187, 241, 0.784); 
-  }
-  
-  #main {
-    padding: 80px 20px 20px; 
-  }
-  #aside {
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-    background-color: #fff;
-    border-top: 2px solid #ccc;
-  }
-  
-  #aside img {
-    width: 200px;
-  }
-  
-  #footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #e0e0e0;
-    font-size: 0.9em;
-  }
-  
+  background-color: #e9f5fb;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #52b5f6;
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: #ff6347;
+  transform: scale(1.1);
+}
+
+aside {
+  text-align: center;
+  margin: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Selectores de tipo y descendiente */
+header#main-header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+aside img {
+  width: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+aside img:hover {
+  transform: scale(1.1);
+}
+
+aside h4 {
+  color: #333;
+  margin: 10px 0;
+}
+
+footer p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+/* Selectores de tipo y hermanos adyacentes */
+h2.section-title + article.hobby {
+  border-top: 2px solid #007acc;
+}
+
+/* Selectores de clase y tipo */
+ul.hobby-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: #040043;
+  justify-content: center;
+}
+
+ul.hobby-nav li {
+  margin: 0 15px;
+}
+
+ul.hobby-nav li a {
+  text-decoration: none;
+  color: #52b5f6;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+ul.hobby-nav li a:hover {
+  color: #ff6347;
+}
+
+h2.section-title {
+  color: #007acc;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+article.hobby {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article.hobby:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Selectores de ID y tipo */
+header#main-header {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2.section-title ~ article.hobby {
+  background-color: #f0f8ff; /* Cambia el fondo de todos los artículos de pasatiempos que siguen a un título */
+}
+ul.hobby-nav li:first-child {
+  font-weight: bold; /* Hace que el primer elemento de la lista sea más grueso */
+}
+
+ul.hobby-nav li:last-child {
+  color: #ff6347; /* Cambia el color del último elemento de la lista a rojo */
+}
+
+ul.hobby-nav li:nth-child(2) {
+  text-decoration: underline; /* Subraya el segundo elemento de la lista */
+}
+h2.section-title::first-letter {
+  font-size: 3em; /* Hace que la primera letra del título sea mucho más grande */
+  color: #007acc; /* Cambia el color de la primera letra a azul */
+}
+
+article.hobby::after {
+  content: "¡Descubre más!"; /* Agrega un texto al final de cada artículo de pasatiempos */
+  display: block; /* Asegura que el texto aparezca en una nueva línea */
+  color: #52b5f6; /* Cambia el color del texto agregado */
+  margin-top: 10px; /* Agrega un espacio arriba del texto */
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de hochos</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <h1> Encuesta de hochos </h1>
+    <h2>¿Pan?</h2>
+    <form action="/submit" method="POST">
+        <label>
+            <input type="radio" name="pan" value="normal"> Normal
+        </label><br>
+        <label>
+            <input type="radio" name="pan" value="brioche"> Brioche
+        </label><br>
+        <br>
+        <h2>¿Que tipo de salchicha prefieres?</h2>
+        <label>
+            <input type="radio" name="salchicha" value="res"> Res
+        </label><br>
+        <label>
+            <input type="radio" name="salchicha" value="cerdo"> Cerdo
+        </label><br>
+
+        <br>
+        <h2>¿Quesillo?</h2>
+        <label>
+            <input type="radio" name="queso" value="si"> Sí
+        </label><br>
+        <label>
+            <input type="radio" name="queso" value="no"> No
+        </label><br>
+        <br>
+        <h2>¿Que tipo?</h2>
+        <label>
+            <input type="radio" name="queso_tipo" value="amarillo"> Amarillo
+        </label><br>
+        <label>
+            <input type="radio" name="queso_tipo" value="cheddar"> Cheddar
+        </label><br>
+        <label>
+            <input type="radio" name="queso_tipo" value="mozarella"> Mozarella
+        </label><br>
+        <br>
+        <h2>¿Que salsa?</h2>
+        <label>
+            <input type="checkbox" name="salsa" value="catsup"> Catsup
+        </label><br>
+        <label>
+            <input type="checkbox" name="salsa" value="mostaza"> Mostaza
+        </label><br>
+        <label>
+            <input type="checkbox" name="salsa" value="mayonesa"> Mayonesa
+        </label><br>
+        <label>
+            <input type="checkbox" name="salsa" value="bbq"> BBQ
+        </label><br>
+        <br>
+        <h2>¿Tocino?</h2>
+        <label>
+            <input type="radio" name="tocino" value="si"> Sí
+        </label><br>
+        <label>
+            <input type="radio" name="tocino" value="no"> No
+        </label><br>
+        <br>
+        <h2>¿Le pones jalapeños</h2>
+        <label>
+            <input type="radio" name="jalapenos" value="si"> Sí
+        </label><br>
+        <label>
+            <input type="radio" name="jalapenos" value="no"> No
+        </label><br>
+        <br>
+        <h2>¿Con que te lo pasas?</h2>
+        <label>
+            <input type="radio" name="bebida" value="Jugo"> Jugo
+        </label><br>
+        <label>
+            <input type="radio" name="bebida" value="agua"> Agua
+        </label><br>
+        <label>
+            <input type="radio" name="bebida" value="Coca"> Coca
+        </label><br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
