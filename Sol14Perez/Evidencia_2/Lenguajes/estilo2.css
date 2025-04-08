@@ -84,6 +84,11 @@ body footer {
     margin-top: 20px;
 }
 
+#a4 {display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 15px;
+}
+
 img {max-width: 100%;
     height: auto;
     display: block;
