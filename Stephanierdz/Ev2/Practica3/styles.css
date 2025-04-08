@@ -1,0 +1,97 @@
+/* Reset de márgenes y padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Color de fondo suave */
+    color: #333; /* Color de texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+header {
+    background-color: #e5acea; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+nav {
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+nav ul {
+    list-style-type: none; /* Sin viñetas */
+    display: flex; /* Usar flexbox para la navegación */
+    justify-content: center; /* Centrar elementos */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre elementos de la lista */
+}
+
+nav ul li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Color dorado al pasar el mouse */
+}
+
+main {
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Usar flexbox para el contenido */
+    justify-content: center; /* Centrar contenido */
+}
+
+section {
+    background-color: white; /* Fondo blanco para la sección */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo */
+    width: 100%; /* Ancho completo */
+}
+
+h2 {
+    color: #310030; /* Color del encabezado */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+h3 {
+    color: #555; /* Color de subtítulos */
+    margin-top: 15px; /* Margen superior */
+}
+
+ul {
+    margin: 10px 0; /* Margen superior e inferior */
+    padding-left: 20px; /* Espaciado a la izquierda */
+}
+
+pre {
+    background-color: #f4f4f4; /* Fondo gris claro para bloques de código */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    overflow-x: auto; /* Desplazamiento horizontal si es necesario */
+}
+
+code {
+    font-family: 'Courier New', monospace; /* Fuente monoespaciada para código */
+}
+
+footer {
+    text-align: center; /* Centrar texto */
+    padding: 10px 0; /* Espaciado interno */
+    background-color: #f1f1f1; /* Color de fondo del pie de página */
+    position: relative; /* Posición relativa */
+    bottom: 0; /* Alinear al fondo */
+    width: 100%; /* Ancho completo */
+    margin-top: 20px; /* Margen superior */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+}

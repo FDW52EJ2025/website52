@@ -1,52 +1,123 @@
+/* Selectores de tipo */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #header, #footer {
-    padding: 10px;
-    background-color: #e0e0e0;
-  }
-  
-  #contenido {
-    padding: 10px;
-  }
-  
-  section {
-    padding: 14px;
-    margin: 8px 0;
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0 0 4px rgba(0,0,0,0.1);
-  }
-  
-  h2, h3 {
-    color: #555;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #0077cc;
-  }
-  
-  #juegos {
-    background-color: #e0f7fa;  
-    border: 2px solid #4dd0e1;
-    border-radius: 8px;
-    padding: 20px;
-  }
-  
-  #chocolates {
-    background-color: #fff3e0;  
-    border: 2px solid #ffcc80;
-    border-radius: 8px;
-    padding: 20px;
-  }
+  font-family: 'Arial', sans-serif;
+  background-color: #ffeef8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
+section {
+  padding: 14px;
+  margin: 8px 0;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
 
+section:hover {
+  transform: scale(1.02);
+}
 
+h2, h3 {
+  color: #d5006d;
+}
 
+a {
+  text-decoration: none;
+  color: #ff1493;
+}
 
+/* Selectores de clase */
+.barra-navegacion {
+  background-color: #ff69b4;
+  padding: 10px;
+}
+
+.barra-navegacion ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.barra-navegacion ul li {
+  margin-right: 20px;
+}
+
+.barra-navegacion a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.barra-navegacion a:hover {
+  color: #ffcccb;
+}
+
+.pagina-comida header {
+  background-color: #D2691E;
+  color: #FFE4B5;
+  padding: 20px;
+  font-size: 24px;
+}
+
+.pagina-comida .contenedor {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.5);
+  border-radius: 10px;
+}
+
+.pagina-comida .comida {
+  margin-bottom: 20px;
+}
+
+.pagina-comida img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* Selectores de ID */
+#encabezado, #pie {
+  padding: 10px;
+  background-color: #ffb6c1;
+  text-align: center;
+}
+
+#contenido {
+  padding: 10px;
+}
+
+/* Selectores de atributos */
+a[href^="https:"] {
+  color: #8A2BE2;
+}
+
+a[target="_blank"] {
+  color: #FF4500;
+}
+
+/* Selectores de hermano general */
+h2 ~ p {
+  color: #555; 
+}
+
+/* Pseudo-clases */
+button:disabled {
+  background-color: #ccc; 
+}
+
+/* Pseudo-elementos */
+p::first-line {
+  font-weight: bold; 
+}
+
+h2::after {
+  content: " ✨"; 
+}

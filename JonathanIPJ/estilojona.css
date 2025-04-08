@@ -7,3 +7,68 @@
 * {
     color: red;
 }
+
+select:focus {
+    border-color: #ff4625;
+  }
+  
+  option:checked {
+    background-color: #4CAF50;
+    color: rgb(141, 201, 30);
+    font-weight: bold;
+  }
+
+/* Estilos base para los inputs */
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo cuando el input es válido */
+  input:valid, select:valid {
+    border-color: #4CAF50;
+    background-color: rgba(76, 175, 80, 0.1);
+  }
+  
+  /* Estilo cuando el input es inválido */
+  input:invalid, select:invalid {
+    border-color: #f44336;
+    background-color: rgba(244, 67, 54, 0.1);
+  }
+  
+  /* Estilo para los campos requeridos cuando están vacíos */
+  input:required:invalid, select:required:invalid {
+    box-shadow: none; /
+  }
+  
+  /* Mejora visual para los mensajes de error */
+  input:invalid + .error-message {
+    display: block;
+    color: #f44336;
+    font-size: 0.8em;
+  }
+  
+  /* Estilo para el foco */
+  input:focus, select:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+  }
+  
+  /* Estilo para el botón */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

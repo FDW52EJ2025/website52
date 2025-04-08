@@ -1,6 +1,15 @@
 body {
     background-color: rgb(21, 21, 53);
 }
+a {
+    color: #f075bf;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 18px;
+    background-color: #f9e8f1;
+
+}
 
 .s5 {
     display: flex;

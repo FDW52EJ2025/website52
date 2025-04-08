@@ -1,10 +1,9 @@
-.outline{
-    outline: 1px solid red;
-    text-align: center;
+.tabla{
+  outline: 1px solid red;
 }
 
-p.outline{
-    outline: 1px solid green;
+p{
+    color: blue;
 }
 
 header ~ h2,

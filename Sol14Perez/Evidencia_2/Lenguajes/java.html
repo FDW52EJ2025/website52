@@ -11,7 +11,9 @@
         <h1 class="principal">Lenguajes de Programación</h1>
         <div class="navegar">
             <nav>
+                <a href="index.html">Inicio</a>
                 <a href="python.html">Python</a>
+                <a href="c.html">C</a>
                 <a href="cplus.html">C++</a>
                 <a href="csharp.html">C#</a>
                 <a href="javascript.html">Javascript</a>
@@ -44,12 +46,109 @@
                 <li><strong>Compilado y ejecutado en la JVM:</strong> El código fuente de Java se compila en un bytecode intermedio, que es interpretado y ejecutado por la JVM en lugar de ser ejecutado directamente en el sistema operativo, lo que permite su ejecución en Múltiples plataformas.</li>
             </ul>
         </article>
+
+        <article>
+            <h2>Tipos de Datos</h2>
+            <div id="a2">
+                <section class="tipo">
+                    <h3 class="t3">Datos primitivos</h3>
+                    <p><span class="dato">byte</span> Tipo de dato entero de 8 bits con signo (rango de -128 a 127).
+                    </p>
+
+                    <p><span class="dato">short</span>  Tipo de dato entero de 16 bits con signo.
+                    </p>
+
+                    <p><span class="dato">int</span>  Tipo de dato entero de 32 bits con signo.</p>
+
+                    <p><span class="dato">long</span> Tipo de dato entero de 64 bits con signo.
+                    </p>
+
+                    <p><span class="dato">float</span>  Tipo de dato de punto flotante de 32 bits, utilizado para representar números decimales con precisión simple.</p>
+
+                    <p><span class="dato">double</span> Tipo de dato de punto flotante de 64 bits, utilizado para representar números decimales con precisión doble.
+                    </p>
+
+                    <p><span class="dato">char</span>Tipo de dato que almacena un solo carácter Unicode de 16 bits.
+                    </p>
+
+                    <p><span class="dato">boolean</span> Tipo de dato para valores lógicos, true o false.
+                    </p>
+                </section>
+
+                <section class="tipo">
+                    <h3 class="t3">Datos de referencia</h3>
+                    <p><span class="dato">String</span> Tipo de dato para cadenas de texto.
+                    </p>
+                    <p><span class="dato">array</span> Estructura de datos que almacena elementos del mismo tipo. En Java, los arreglos son objetos.
+                    </p>
+                    <p><span class="dato">Object</span> Tipo base de todos los objetos en Java. Todas las clases en Java heredan de Object.
+                    </p>
+                </section>
+            </div>
+            <div id="a3">
+                <section class="tipo">
+                    <h3 class="t3">Datos avanzados</h3>
+                    <p><span class="dato">enum</span>  Tipo que define un conjunto de constantes con nombre, útil para representar un conjunto de valores predefinidos.
+                    </p>
+                    <p><span class="dato">interface</span> Define un contrato que las clases pueden implementar.
+                    </p>
+                    <p><span class="dato">class</span> Define tipos de datos personalizados, que pueden contener tanto atributos (variables) como métodos.</p>
+                </section>
+            </div>
+        </article>
+
+        <article>
+            <h2>Ventajas y Desventajas de C</h2>
+            <div id="a2">
+                <section id="ventaja">
+                    <h3 class="t3">Ventajas</h3>
+
+                    <p><span class="res1">Portabilidad (WORA - Write Once, Run Anywhere)</span> Java se ejecuta en cualquier dispositivo o plataforma que tenga la Java Virtual Machine (JVM) instalada. El código compilado en bytecode puede ejecutarse en cualquier sistema operativo sin necesidad de recompilación.</p>
+
+                    <p><span class="res1">Gestión automática de memoria</span> Java cuenta con un sistema de recolección de basura, lo que significa que la memoria se maneja automáticamente, reduciendo la posibilidad de errores como fugas de memoria, que son comunes en otros lenguajes como C o C++.
+                    </p>
+
+                    <p><span class="res1">Seguridad</span> Java tiene un modelo de seguridad robusto, gracias a la JVM, que impide que los programas maliciosos puedan acceder a los recursos del sistema de forma no autorizada. Además, tiene características como la verificación de bytecode y la ejecución en un entorno aislado (sandboxing).</p>
+
+                    <p><span class="res1">Orientación a objetos</span> Java es completamente orientado a objetos, lo que facilita la organización del código, la reutilización y la modularidad. Los programas Java se componen de clases y objetos.
+                    </p>
+
+                    <p><span class="res1">Multihilo</span>  Java tiene soporte nativo para la programación multihilo, lo que permite ejecutar varias tareas simultáneamente, aprovechando los procesadores multi-core de manera eficiente.
+                    </p>
+                </section>
+                
+                <section id="desventaja">
+                    <h3 class="t3">Desventajas</h3>
+                    <p><span class="res2">Rendimiento</span> Aunque Java es generalmente rápido, el hecho de que sea un lenguaje interpretado (a través de la JVM) puede hacer que las aplicaciones Java sean más lentas que las compiladas directamente a código de máquina, como C o C++. La JVM introduce una capa adicional que puede afectar el rendimiento.
+                    </p>
+
+                    <p><span class="res2">Consumo de memoria</span> Las aplicaciones Java pueden consumir más memoria que las aplicaciones escritas en otros lenguajes como C debido a la necesidad de ejecutar la JVM y la recolección de basura.
+                    </p>
+
+                    <p><span class="res2">Curva de aprendizaje</span> Aunque Java tiene una sintaxis relativamente sencilla, su modelo de objetos y algunas de sus características más avanzadas (como la gestión de excepciones y multihilos) pueden ser difíciles de aprender para los principiantes.
+                    </p>
+
+                    <p><span class="res2">Código más verboso</span> Java tiende a ser más verboso que otros lenguajes modernos. Por ejemplo, muchas veces se necesita escribir más código que en lenguajes como Python o C# para lograr lo mismo, lo que puede afectar la productividad en ciertos contextos.</p>
+                </section>
+            </div>
+        </article>
+        
+        <article style="text-align: center;">
+            <h2>Ejemplo: Hola, mundo</h2>
+            <pre class="progra">
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola, mundo");
+    }
+}                                    
+            </pre>
+        </article>
     </main>
 
     <aside>
         <h3 class="principal">Sitio oficial</h3>
         <div class="navegar">
-            <a href="https://www.java.com/es/">Java</a>
+            <a href="https://www.oracle.com/java/">Java</a>
         </div>
     </aside>
 

@@ -1,0 +1,25 @@
+.tituloprincipal{
+    
+    display: flex;
+    justify-content: center;
+      
+}
+
+.botoninicio {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #626c77;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .boton {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #6ba6e5;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 5px 0 5px 10px; 
+}

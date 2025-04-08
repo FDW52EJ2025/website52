@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C</title>
+    <link rel="stylesheet" href="C.css">
+</head>
+<body>
+    <section id="s1">
+        <header>
+            <h1>Programación en C</h1>
+            <nav class="principal">
+                <a href="index.html">Pagina Lenguajes de Programación</a>
+            </nav>
+        </header>
+        <main>
+            <div class="centrarh2">
+                <h2>C</h2>
+            </div>
+            <article id="articulo1">
+                <figure class="py">
+                    <img src="https://www.ingenioempresa.com/wp-content/uploads/2022/09/C-Language.png" alt="C">
+                </figure>
+                <div class="alineacion">
+                    <h3>C: Lenguaje de Programación</h3>
+                    <p>Es uno de los más influyentes y fundamentales en la historia del desarrollo de software. Fue creado entre 1969 y 1972 por Dennis Ritchie en los Laboratorios Bell con el propósito inicial de reescribir el sistema operativo UNIX, permitiendo así un código más eficiente, portable y con acceso directo al hardware sin depender del lenguaje ensamblador</p>
+                    <p>C se considera un lenguaje de nivel medio porque combina características de los lenguajes de bajo nivel (como manipulación de memoria y punteros) con estructuras típicas de lenguajes de alto nivel (como funciones y estructuras de control). Este equilibrio lo convierte en una herramienta poderosa tanto para el desarrollo de sistemas como para aplicaciones más generales</p>
+                    <p>A lo largo del tiempo, C ha sido la base sobre la que se han desarrollado muchos otros lenguajes modernos, incluyendo C++, Java, C#, Objective-C, PHP y más. Incluso los compiladores e intérpretes de otros lenguajes suelen estar escritos en C.</p>
+                </div>
+            </article>
+            <article class="centrado">
+                <h3>Características principales</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Característica</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lenguaje compilado</td>
+                            <td>El código se traduce directamente a lenguaje máquina, lo que lo hace muy rápido en su ejecución.</td>
+                        </tr>
+                        <tr>
+                            <td>Procedimental</td>
+                            <td>Organiza el código en funciones y procedimientos, enfocándose en la lógica secuencial.</td>
+                        </tr>
+                        <tr>
+                            <td>Control directo del hardware</td>
+                            <td>Permite manipular memoria y recursos a bajo nivel mediante punteros y direcciones.</td>
+                        </tr>
+                        <tr>
+                            <td>Portabilidad</td>
+                            <td>Dependiendo del compilador, los programas pueden adaptarse a múltiples plataformas con mínimas modificaciones.</td>
+                        </tr>
+                        <tr>
+                            <td>Eficiencia</td>
+                            <td>Ideal para sistemas donde se requiere rapidez y bajo consumo de recursos como sistemas embebidos o sistemas operativos.</td>
+                        </tr>
+                        <tr>
+                            <td>Simplicidad en la sintaxis</td>
+                            <td>Su estructura es directa y lógica, aunque en proyectos grandes puede volverse compleja de gestionar.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Tipos de datos</h3>
+                <table id="t2">
+                    <thead>
+                        <tr>
+                            <th>Tipo de dato</th>
+                            <th>Ejemplo</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos básicos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">int</td>
+                            <td>int edad = 25;</td>
+                            <td>Entero de 32 bits, se usa comúnmente para contar o calcular</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">float</td>
+                            <td>float nota = 8.5f;</td>
+                            <td>Número decimal de precisión simple (32 bits), requiere sufijo <code>f</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">double</td>
+                            <td>double precio = 99.99;</td>
+                            <td>Decimal de doble precisión (64 bits), mayor precisión que <code>float</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">char</td>
+                            <td>char inicial = 'J';</td>
+                            <td>Representa un solo carácter (usualmente 1 byte) de tipo ASCII o Unicode</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">boolean</td>
+                            <td>_Bool activo = 1;</td>
+                            <td>Solo puede contener <code>1</code> (verdadero) o <code>0</code> (falso); en C no hay tipo <code>boolean</code> como tal, se utiliza <code>_Bool</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">byte</td>
+                            <td>char b = 100;</td>
+                            <td>En C no existe el tipo <code>byte</code>, pero se puede utilizar <code>char</code> para almacenar valores pequeños (8 bits)</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">short</td>
+                            <td>short s = 32000;</td>
+                            <td>Entero corto de 16 bits, entre <code>-32,768</code> y <code>32,767</code></td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">long</td>
+                            <td>long poblacion = 8000000L;</td>
+                            <td>Entero largo de 32 o 64 bits, requiere sufijo <code>L</code></td>
+                        </tr>
+                
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos complejos</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">String</td>
+                            <td>char nombre[] = "Ana";</td>
+                            <td>En C no existe el tipo <code>String</code>, pero se utiliza un arreglo de <code>char</code> para representar cadenas de texto</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Array</td>
+                            <td>int edades[] = {18, 25, 30};</td>
+                            <td>Conjunto de elementos del mismo tipo, accesibles por índice</td>
+                        </tr>
+                        <tr>
+                            <td class="tdunir" colspan="3">Datos definidos por el usuario</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">struct</td>
+                            <td>struct Persona { int edad; char nombre[20]; };</td>
+                            <td>Define un tipo de dato compuesto que agrupa diferentes tipos de datos bajo un mismo nombre</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">enum</td>
+                            <td>enum Dia {LUNES, MARTES, MIERCOLES};</td>
+                            <td>Define un conjunto de constantes con nombre, generalmente enteros</td>
+                        </tr>
+                        <tr>
+                            <td class="tdnegritas">Pointer</td>
+                            <td>int *ptr = &edad;</td>
+                            <td>Variable que almacena la dirección de memoria de otra variable (puntero)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>✅ Ventajas de C</h3>
+                <ul id="v1">
+                    <li><mark>Rápido y eficiente</mark>: Ideal para tareas que requieren rendimiento.</li>
+                    <li><mark>Portabilidad</mark>: Puede ejecutarse en distintas arquitecturas con pequeños cambios.</li>
+                    <li><mark>Control total del sistema</mark>: Manipulación directa de memoria, punteros y estructuras.</li>
+                    <li><mark>Lenguaje base</mark>: Muchos otros lenguajes están construidos sobre la sintaxis y filosofía de C.</li>
+                    <li><mark>Ideal para sistemas embebidos</mark>: Perfecto para aplicaciones en sistemas embebidos y firmware.</li>
+                </ul>
+
+                <h3>⚠️ Desventajas de C</h3>
+                <ul id="d1">
+                    <li><mark>No tiene manejo de objetos</mark>: No es orientado a objetos, lo que puede dificultar la modularidad.</li>
+                    <li><mark>Gestión manual de memoria</mark>: El programador debe liberar memoria, lo que puede causar errores como fugas.</li>
+                    <li><mark>Pocas herramientas de seguridad</mark>: No previene accesos indebidos o fallos como desbordamientos.</li>
+                    <li><mark>Curva de aprendizaje pronunciada</mark>: Especialmente al trabajar con punteros o estructuras complejas.</li>
+                </ul>  
+                <h3>Ejemplo de código en C++</h3>
+                <figure id="C1">
+                    <img src="https://miro.medium.com/v2/resize:fit:1358/1*kJBBSEv15vqpa4QrFi0lSA.png" alt="hola mundo C">
+                </figure>              
+            </article>
+        </main>
+        <aside>
+            <div class="centrarh2">
+                <h2>Recursos</h2>
+                <hr>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oqZnrFqitpE?si=uD9aWa10niKvehB6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <hr>
+                <p>A continuación enlistare una serie de enlaces a cursos que puedan ser de utilidad</p>
+                <h4>Cursos en youtube</h4>
+                <nav>
+                    <ul id="r1">
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=1-qjMS6C960" target="_blank">Aprende C en 45 minutos (curso desde cero) 💻</a>
+                            <p>Canal de youtubue: Programadaor X</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=0OTpkPo__TY" target="_blank">Curso de Programación en C (Desde 0 actualizado a 2023)</a>
+                            <p>Canal de youtubue: ATL Academy</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=R9n7j-u9ijc&list=PLIygiKpYTC_6zHLTjI6cFIRZm1BCT3CuV" target="_blank">Instalación del compilador y entorno de desarrollo para el lenguaje C Code:: Blocks</a>
+                            <p>Canal de youtube: Diego Moisset de espanes</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=87SH2Cn0s9A" target="_blank">Curso completo de programación en C gratis ⚙️</a>
+                            <p>Canal de youtube: Brocode</p>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=L__aSBS-ftk" target="_blank">Curso de C para MICROCONTROLADORES desde CERO | Wels Theory</a>
+                            <p>Canal de youtube: Wels</p>
+                        </li>
+                    </ul>
+                </nav>
+                <hr>
+                <h4>Material extra</h4>
+                <nav>
+                    <ul id="r2">
+                        <li><a href="https://www.edx.org/es/aprende/programacion-en-c" target="_blank">Cursos de Programación en C</a></li>
+                        <li><a href="https://codigofacilito.com/cursos/c" target="_blank">Curso de C Básico Gratuito</a></li>
+                        <li><a href="https://www.freecodecamp.org/espanol/news/el-libro-para-principiantes-c-aprende-las-bases-del-lenguaje-de-programacion-c-en-solo-unas-horas/" target="_blank">Aprende las bases del lenguaje de programación C</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <footer>
+            <div class="centrarh2">
+                <h2>Información de contacto</h2>
+                    <address>
+                        <p>Sitio web desarrollado por: PRMM</p>
+                        <p><time datetime="2025-04-03T14:59">Al 3 de abril del 2025</time></p>
+                        <a href="Facebook">Facebook</a>
+                        <a href="Instagram">Instagram</a>
+                    </address>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI',sans-serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main-content {
+    flex: 2;
+    padding-right: 20px;
+}
+
+
+.sidebar {
+    flex: 1;
+    background-color: #f80808;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.lenguaje-list img {
+    width: 100px;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.separator {
+    border-bottom: 1px solid rgb(8, 229, 67);
+    margin: 10px 0;
+}
+
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+  }
+  
+  .card img {
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    float: right;
+  }
