@@ -11,7 +11,9 @@
         <h1 class="principal">Lenguajes de Programación</h1>
         <div class="navegar">
             <nav>
+                <a href="index.html">Inicio</a>
                 <a href="python.html">Python</a>
+                <a href="c.html">C</a>
                 <a href="cplus.html">C++</a>
                 <a href="csharp.html">C#</a>
                 <a href="java.html">Java</a>
@@ -44,12 +46,86 @@
                 <li><strong>Compatibilidad con todos los navegadores:</strong> JavaScript se ejecuta en todos los navegadores web modernos (Chrome, Firefox, Safari, Edge, etc.), lo que hace que las aplicaciones web sean accesibles a un público masivo sin importar el sistema operativo o dispositivo.</li>
             </ul>
         </article>
+
+        <article>
+            <h2>Tipos de Datos</h2>
+            <div id="a2">
+                <section class="tipo">
+                    <h3 class="t3">Datos primitivos</h3>
+                    <p><span class="dato">Number</span>  Representa tanto enteros como números de punto flotante. En JavaScript, no hay distinción entre enteros y flotantes, ambos son del tipo Number.
+                    </p>
+                    <p><span class="dato">String</span>  Representa secuencias de caracteres (cadenas de texto). Se pueden definir con comillas simples, dobles o backticks (template literals).
+                    </p>
+                    <p><span class="dato">Boolean</span>  Representa un valor lógico de true o false.
+                    </p>
+                    <p><span class="dato">undefined</span>Indica que una variable ha sido declarada pero no se le ha asignado valor.</p>
+                    <p><span class="dato">null</span>  Representa la ausencia deliberada de cualquier valor o objeto</p>
+                    <p><span class="dato">Symbol</span>  Introducido en ES6, es un valor único e inmutable, utilizado principalmente como identificadores de propiedades de objetos.
+                    </p>
+                    <p><span class="dato">BigInt</span>  Permite trabajar con números enteros de tamaño arbitrario (más grandes que los que pueden ser representados por el tipo Number).
+                    </p>
+                </section>
+
+                <section class="tipo">
+                    <h3 class="t3">Datos compuestos</h3>
+                    <p><span class="dato">Object</span>Colección de propiedades y métodos. Los objetos son estructuras clave-valor y pueden contener cualquier tipo de dato.
+                    </p>
+                    <p><span class="dato">Array</span> Es un tipo especial de objeto usado para almacenar colecciones ordenadas de datos.</p>
+                    <p><span class="dato">Function</span> En JavaScript, las funciones también son objetos, lo que significa que pueden ser asignadas a variables, pasadas como argumentos, etc.
+                    </p>
+                    
+                </section>
+            </div>
+        </article>
+
+        <article>
+            <h2>Ventajas y Desventajas de C</h2>
+            <div id="a2">
+                <section id="ventaja">
+                    <h3 class="t3">Ventajas</h3>
+
+                    <p><span class="res1">Lenguaje del lado del cliente</span> JavaScript es principalmente utilizado para el desarrollo web en el lado del cliente, lo que permite interactividad en las páginas web sin la necesidad de recargar la página.</p>
+
+                    <p><span class="res1">Asíncrono y no bloqueante</span>Gracias a características como promesas y async/await, JavaScript permite la ejecución de tareas asíncronas sin bloquear el hilo principal, lo que mejora la experiencia del usuario en aplicaciones web interactivas.</p>
+
+                    <p><span class="res1">Gran ecosistema</span> JavaScript tiene una vasta comunidad y una enorme cantidad de bibliotecas y frameworks que facilitan el desarrollo, como React, Vue.js, Node.js (para el lado del servidor), Express.js, Angular, entre otros.
+                    </p>
+
+                    <p><span class="res1">Ejecutado en todos los navegadores</span> : JavaScript es compatible con todos los navegadores web, lo que lo convierte en el lenguaje estándar para el desarrollo de aplicaciones web.
+                    </p>
+
+                    <p><span class="res1">Programación orientada a objetos y funcional</span>  JavaScript es flexible y permite programación tanto orientada a objetos como funcional, lo que brinda diferentes enfoques para resolver problemas.
+                    </p>
+                </section>
+                
+                <section id="desventaja">
+                    <h3 class="t3">Desventajas</h3>
+                    <p><span class="res2">Tipado débil y dinámico</span>  JavaScript es un lenguaje con tipado débil y dinámico, lo que significa que las variables no tienen un tipo fijo y pueden cambiar su valor durante la ejecución. Esto puede llevar a errores inesperados si no se tiene cuidado con el tipo de datos que se está manejando.
+                    </p>
+
+                    <p><span class="res2">Compatibilidad con navegadores</span> Aunque los navegadores modernos tienen un buen soporte para JavaScript, las diferencias entre navegadores más antiguos pueden generar problemas de compatibilidad, especialmente si no se utiliza un sistema de transpilación (como Babel) para convertir el código moderno a una versión más compatible.
+                    </p>
+
+                    <p><span class="res2">Dificultad con la depuración</span> Los errores en JavaScript, especialmente cuando se trata de variables indefinidas o de tipado inesperado, pueden ser difíciles de rastrear y solucionar, especialmente en aplicaciones grandes y complejas.
+                    </p>
+
+                    <p><span class="res2">Problemas de rendimiento en aplicaciones grandes</span> Aunque JavaScript es rápido, el hecho de que sea interpretado puede hacer que el rendimiento no sea tan óptimo como otros lenguajes compilados, especialmente en aplicaciones que requieren cálculos muy complejos o procesamiento intensivo.</p>
+                </section>
+            </div>
+        </article>
+        
+        <article style="text-align: center;">
+            <h2>Ejemplo: Hola, mundo</h2>
+            <pre class="progra">
+                console.log("Hola, mundo");                  
+            </pre>
+        </article>
     </main>
 
     <aside>
         <h3 class="principal">Sitio oficial</h3>
         <div class="navegar">
-            <a href="https://www.javascript.com/">JavaScript</a>
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a>
         </div>
     </aside>
 
@@ -58,7 +134,7 @@
     <footer>
         <address>
             <p>Sitio web creado por: Sol Perez</p>
-            <p>Actualización: <time datetime="2025-04-04">04 de abril del 2025</time></p>
+            <p>Actualización: <time datetime="2025-04-07">07 de abril del 2025</time></p>
         </address>
     </footer>
 </body>

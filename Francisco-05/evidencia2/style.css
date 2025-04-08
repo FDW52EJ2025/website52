@@ -1,0 +1,28 @@
+
+header{
+    text-align: center;
+
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 250px; 
+    text-align: center; 
+}
+
+nav a:hover {
+    background-color: #45a049;
+}
