@@ -3,9 +3,9 @@
 }
 
 main {
-    display: grid;
-    grid-template-columns: ;
-    gir
+    width: 900px;
+    margin: 0 auto;
+    overflow-x: auto;
 }
 
 body {
@@ -25,7 +25,6 @@ h2, h3 {
     text-align: center;
     border-radius: 5px;
     padding: 5px;
-
 }
 
 nav {
@@ -93,14 +92,17 @@ th, td {
     color: white;
     border-radius: 5px;
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
 }
 
 .img {
     background-color:rgba(200, 168, 236, 0.308);
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
+    display: flex;
+    justify-content: center;  /* centrado horizontal */
+    align-items: center;
 }
 
 li > strong {
@@ -121,7 +123,69 @@ a:hover {
 }
 
 /*Pseudo elementos*/
-main::selection {
+body::selection {
     background-color: rgb(145, 230, 230);
     color: black;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "s1 s5"
+        "s4 s3"
+        /*"s5 s5"*/;
+}
+
+#s1 {
+    grid-area: s1;
+}
+#s2 {
+    grid-area: s2;
+}
+#s3 {
+    grid-area: s3;
+}
+#s4 {
+    grid-area: s4;
+}
+
+.index {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 
+        "i1 i2"
+        "i5 i4"
+        "i6 i4"
+        "i7 i8"
+        "i3 i3";
+        align-items: center;
+}
+
+#i1 {
+    grid-area: i1;
+}
+#i2 {
+    grid-area: i2;
+}
+#i3 {
+    grid-area: i3;
+}
+#i4 {
+    grid-area: i4;
+}
+#i5 {
+    grid-area: i5;
+}
+#i6 {
+    grid-area: i6;
+}
+#i7 {
+    grid-area: i7;
+}
+#i8 {
+    grid-area: i8;
+}
+

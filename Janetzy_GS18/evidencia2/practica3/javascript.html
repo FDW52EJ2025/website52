@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="stylesp3.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Lenguajes de Programación</h1>
-        <nav class="nav">
+        <nav>
             <a href="lenguaje.html" class="inicio">Inicio</a>
             <a href="python.html">Python</a>
             <a href="c.html">C</a>
@@ -19,17 +19,17 @@
         </nav>
     </header>
 
-    <main>
-        <section class="section">
+    <main class="index">
+        <section id="i1" class="section">
             <h2>¿Qué es JavaScript?</h2>
             <p>JavaScript es un lenguaje de programación interpretado, orientado a objetos, que se utiliza principalmente en el desarrollo web para crear páginas dinámicas e interactivas. Fue desarrollado originalmente por Netscape en 1995 y es uno de los pilares del desarrollo frontend junto con HTML y CSS.</p>
         </section>
 
-        <section class="img">
-            <img width="300" height="300" src="imgp3/javascriptlogo.png" alt="">
+        <section id="i2" class="img">
+            <img width="230" height="230" src="imgp3/javascriptlogo.png" alt="">
         </section>
 
-        <section class="section">
+        <section id="i3" class="section">
             <h2>Características principales</h2>
             <ul>
                 <li><strong>Interpretado:</strong> No necesita compilación previa.</li>
@@ -39,7 +39,7 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section id="i4" class="section">
             <h2>Tipos de datos comunes</h2>
             <table>
                 <tr><th>Tipo</th><th>Descripción</th></tr>
@@ -47,14 +47,13 @@
                 <tr><td><strong>String</strong></td><td>Cadenas de texto</td></tr>
                 <tr><td><strong>Boolean</strong></td><td>Booleanos (true/false)</td></tr>
                 <tr><td><strong>Object</strong></td><td>Objeto genérico</td></tr>
-                <tr><td><strong>Array</strong></td><td>Lista ordenada (subtipo de objeto)</td></tr>
                 <tr><td><strong>Null</strong></td><td>Valor nulo intencionado</td></tr>
                 <tr><td><strong>Undefined</strong></td><td>Valor no definido</td></tr>
-                <tr><td><strong>Symbol</strong></td><td>Identificador único (desde ES6)</td></tr>
+                <tr><td><strong>Symbol</strong></td><td>Identificador único/td></tr>
             </table>
         </section>
 
-        <section class="section">
+        <section id="i5" class="section">
             <h2>Ventajas</h2>
             <ul>
                 <li>Ejecuta directamente en el navegador.</li>
@@ -64,7 +63,7 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section id="i6" class="section">
             <h2>Desventajas</h2>
             <ul>
                 <li>Menor seguridad, ya que el código es visible desde el navegador.</li>
@@ -73,18 +72,28 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section id="i7" class="section">
             <h2>Ejemplo: Hola Mundo en JavaScript</h2>
-            <pre>
-                <code>&lt;script&gt;
-                    console.log("Hola, mundo");
-                &lt;/script&gt;</code>
-            </pre>
+<pre><code>
+    &lt;script&gt;
+        console.log("Hola, mundo");
+    &lt;/script&gt;
+</code></pre>
             <p>Este fragmento muestra <strong>Hola, mundo</strong> en la consola del navegador. Se usa <code>console.log()</code> para imprimir mensajes.</p>
+        </section>
+
+        <section id="i8" class="section">
+            <h3>Recursos para aprender más</h3>
+            <ul id="m1">
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+                <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+                <li><a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs (Mozilla)</a></li>
+            </ul>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <h4>Desarrollo Web</h4>
         <p>Sitio web desarrollado por: Janetzy-GS18.</p>
         <p><small><small>Este sitio web fue creado por fines educativos</small></small></p>

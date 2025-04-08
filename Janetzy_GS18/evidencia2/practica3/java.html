@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="stylesp3.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Lenguajes de Programación</h1>
-        <nav class="nav">
+        <nav>
             <a href="lenguaje.html" class="inicio">Inicio</a>
             <a href="python.html">Python</a>
             <a href="c.html">C</a>
@@ -19,17 +19,17 @@
         </nav>
     </header>
 
-    <main>
-        <section class="section">
+    <main class="index">
+        <section id="i1" class="section">
             <h2>¿Qué es Java?</h2>
             <p>Java es un lenguaje de programación orientado a objetos, desarrollado por Sun Microsystems en 1995 (hoy propiedad de Oracle). Es conocido por su portabilidad entre plataformas gracias a su máquina virtual, la Java Virtual Machine (JVM), que permite ejecutar el mismo programa en diferentes sistemas operativos sin modificaciones.</p>
         </section>
 
-        <section class="img">
-            <img width="300" height="300" src="imgp3/javalogo.png" alt="">
+        <section id="i2" class="img">
+            <img width="230" height="230" src="imgp3/javalogo.png" alt="">
         </section>
 
-        <section class="section">
+        <section id="i3" class="section">
             <h2>Características principales</h2>
             <ul>
                 <li><strong>Orientado a objetos:</strong> Todo en Java está basado en clases y objetos.</li>
@@ -39,7 +39,7 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section id="i4" class="section">
             <h2>Tipos de datos comunes</h2>
             <table>
                 <tr><th>Tipo</th><th>Descripción</th></tr>
@@ -52,7 +52,7 @@
             </table>
         </section>
 
-        <section class="section">
+        <section id="i5" class="section">
             <h2>Ventajas</h2>
             <ul>
                 <li>Multiplataforma.</li>
@@ -62,7 +62,7 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section id="i6" class="section">
             <h2>Desventajas</h2>
             <ul>
                 <li>Puede ser más lento que lenguajes compilados directamente como C++.</li>
@@ -71,20 +71,30 @@
             </ul>
         </section>
 
-        <section class="section">
-            <h2>Ejemplo: Hola Mundo en Java</h2>
-            <pre>
-                <code>public class HolaMundo {
-                    public static void main(String[] args) {
-                    System.out.println("Hola, mundo");
-                    }
-                }</code>
-            </pre>
+        <section id="i7" class="section">
+            <h2>Ejemplo: Hola Mundo en JAVA</h2>
+<pre><code>
+public class HolaMundo {
+    public static void main(String[] args) {
+    System.out.println("Hola, mundo");
+    }
+}
+</code></pre>
             <p>Este programa imprime <strong>Hola, mundo</strong> en pantalla. <code>public static void main(String[] args)</code> es el método principal desde donde se ejecuta el programa. <code>System.out.println()</code> muestra el mensaje.</p>
+        </section>
+
+        <section id="i8" class="section">
+            <h3>Recursos para aprender más</h3>
+            <ul id="m1">
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+                <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+                <li><a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs (Mozilla)</a></li>
+            </ul>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <h4>Desarrollo Web</h4>
         <p>Sitio web desarrollado por: Janetzy-GS18.</p>
         <p><small><small>Este sitio web fue creado por fines educativos</small></small></p>
