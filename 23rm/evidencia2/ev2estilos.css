@@ -50,3 +50,10 @@ img{
     text-align: center;
     align-items: start;
 }
+.practica{
+    text-align: center;
+    background-color: rgb(45, 27, 62);
+    color: blanchedalmond;
+    border-radius: 5px;
+    border: solid black;
+}
