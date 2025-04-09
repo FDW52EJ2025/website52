@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tablas de Multiplicar</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <h1>Generador de Tablas de Multiplicar</h1>
+
+    <label for="tablaInicio">Tabla Inicial: </label>
+    <input type="number" id="tablaInicio" min="1" required>
+    
+    <br>
+
+    <label for="tablaFin">Tabla Final: </label>
+    <input type="number" id="tablaFin" min="1" required>
+    
+    <br>
+
+    <button onclick="generarTablas()">Generar Tablas</button>
+
+    <div id="tablas"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
