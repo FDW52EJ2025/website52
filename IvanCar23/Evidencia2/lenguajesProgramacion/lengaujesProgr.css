@@ -1,0 +1,59 @@
+body{
+    background-color: powderblue;
+}
+
+.contenedor{
+    background-color: rgb(98, 201, 214) ;
+    border: 1px solid #006666;
+    border-radius: 20px;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.inic *{
+    background-color: #006666;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.inic h1 {
+    margin-bottom: 10px; /* Espacio controlado entre el título y los enlaces */
+}
+
+
+.nav_a, .nav_a a:hover {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    text-decoration: underline ;
+    font-weight: bold;
+}
+
+#s-tipo p{
+    background-color: blue;
+    border: 2px blue solid;
+}
+
+#s-tipo-clase figcaption.info{
+    border: 1px solid gold;
+    box-shadow: 5px 5px 5px gold;
+}
+
+#s-hijos article > p{
+    background-color: yellow;
+}
+
+#s-id #div1{
+    color: rgb(1, 65, 1);
+}
+
+
+#s-universal {
+    color: beige;
+}
+
+#s-descendientes ol >li {
+    border-bottom: 2px dotted blueviolet;
+}
