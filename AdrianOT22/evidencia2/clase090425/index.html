@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicacion tabla de multiplicar</title>
+</head>
+<body>
+    <h2>Generador de tabla de multiplicar</h2>
+    <form action="">
+        <div>
+            <label for="tabla">Tabla Inicio: </label>
+            <input type="text" name="tabla" id="tabla">
+        </div>
+        <div>
+            <label for="tipo">Tipo Tabla: </label>
+            <select name="tipo" id="tipo">
+                <option value="1">Normal</option>
+                <option value="2">Invertida</option>
+            </select>
+            <button id="btnMostrar">Mostrar</button>
+        </div>
+        <div>
+            <label for="tablaFin">Tabla Fin: </label>
+            <input type="text" name="tablaFin" id="tablaFin">
+        </div>
+        <div>
+            <h3>Resultado:</h3>
+            <div id="ordenar">
+
+                <ul id="listaTabla"></ul>
+                
+
+            </div>
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
